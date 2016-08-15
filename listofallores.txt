@@ -1,0 +1,42 @@
+Iron_01
+Iron_02
+Nickel_01
+Cobalt_01
+Magnesium_01
+Silicon_01
+Silver_01
+Gold_01
+Platinum_01
+Uraninite_01
+Ice_01
+Ice_02
+Ice_03
+Hapkeite_01
+Heazlewoodite_01
+Porphyry_01
+Dolomite_01
+Cattierite_01
+Niggliite_01
+Carnotite_01
+Glaucodot_01
+Sinoite_01
+Pyrite_01
+Olivine_01
+Cooperite_01
+Quartz_01
+Galena_01
+Chlorargyrite_01
+Electrum_01
+Sperrylite_01
+Autunite_01
+Akimotoite_01
+Wadsleyite_01
+Taenite_01
+Cohenite_01
+            <Option Chance="0.02">
+              <Changes>
+                <Change From="Stone" To="" />
+                <Change From="Iron_01" To="" />
+                <Change From="Iron_02" To="" />
+              </Changes>
+            </Option>

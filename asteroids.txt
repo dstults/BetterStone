@@ -1,0 +1,136 @@
+
+From: http://nssdc.gsfc.nasa.gov/planetary/text/asteroids.txt
+
+Asteroids 
+
+(from the NEAR press kit)
+
+     Asteroids are metallic, rocky bodies without 
+atmospheres that orbit the Sun but are too small to be 
+classified as planets. Known as "minor planets," tens of 
+thousands of asteroids congregate in the so-called main 
+asteroid belt: a vast, doughnut-shaped ring located between 
+the orbits of Mars and Jupiter from approximately 2 to 4 AU 
+(186 million to 370 million miles/300 million to 600 million 
+kilometers). Gaspra and Ida are main belt asteroids.
+
+     Asteroids are thought to be primordial material 
+prevented by Jupiter's strong gravity from accreting into a 
+planet-sized body when the solar system was born 4.6 billion 
+years ago. It is estimated that the total mass of all 
+asteroids would comprise a body approximately 930 miles 
+(1,500 kilometers) in diameter -- less than half the size of 
+the Moon.
+
+     Known asteroids range in size from the largest -- 
+Ceres, the first discovered asteroid in 1801 -- at about 600 
+miles (1,000 kilometers) in diameter down to the size of 
+pebbles. Sixteen asteroids have diameters of 150 miles (240 
+kilometers) or greater. The majority of main belt asteroids 
+follow slightly elliptical, stable orbits, revolving in the 
+same direction as the Earth and taking from three to six 
+years to complete a full circuit of the Sun.
+
+     Our understanding of asteroids has been derived from 
+three main sources: Earth-based remote sensing, data from 
+the Galileo flybys, and laboratory analysis of meteorites. 
+Asteroids are classified into different types according to 
+their albedo, composition derived from spectral features in 
+their reflected sunlight, and inferred similarities to known 
+meteorite types. Albedo refers to an object's measure of 
+reflectivity, or intrinsic brightness. A white, perfectly 
+reflecting surface has an albedo of 1.0; a black, perfectly 
+absorbing surface has an albedo of 0.0.
+
+
+     The majority of asteroids fall into the following three 
+categories:
+
+     C-type (carbonaceous):  Includes more than 75 percent 
+of known asteroids. Very dark with an albedo of 0.03-0.09. 
+Composition is thought to be similar to the Sun, depleted in 
+hydrogen, helium, and other volatiles. C-type asteroids 
+inhabit the main belt's outer regions.
+
+     · S-type (silicaceous):  Accounts for about 17 percent 
+of known asteroids. Relatively bright with an albedo of 
+0.10-0.22. Composition is metallic iron mixed with iron- and 
+magnesium-silicates. S-type asteroids dominate the inner 
+asteroid belt.
+
+     · M-type (metallic):  Includes many of the rest of the 
+known asteroids. Relatively bright with an albedo of 0.10-
+0.18. Composition is apparently dominated by metallic iron. 
+M-type asteroids inhabit the main belt's middle region.
+
+     The relationship between asteroids and meteorites 
+remains a puzzle. The most common meteorites, known as 
+ordinary chondrites, are composed of small grains of rock 
+and appear to be relatively unchanged since the solar system 
+formed. Stony-iron meteorites, on the other hand, appear to 
+be remnants of larger bodies that were once melted so that 
+the heavier metals and lighter rocks separated into 
+different layers.
+
+     A long-standing scientific debate exists over whether 
+the most common asteroids -- the S-types -- are the source 
+of ordinary chondrites. Spectral evidence so far suggests 
+that the S-type asteroids may be geochemically processed 
+bodies akin to the stony-irons. If S-types are unrelated to 
+ordinary chondrites, then another parent source must be 
+found. If the two are related, then scientists need an 
+explanation for why they aren't spectrally similar.
+
+     Asteroids with orbits that bring them within 1.3 AU 
+(121 million miles/195 million kilometers) of the Sun are 
+known as Earth-approaching or near-Earth asteroids (NEAs). 
+It is believed that most NEAs are fragments jarred from the 
+main belt by a combination of asteroid collisions and the 
+gravitational influence of Jupiter. Some NEAs may be the 
+nuclei of dead, short-period comets. The NEA population 
+appears to be representative of most or all asteroid types 
+found in the main belt.
+
+     NEAs are grouped into three categories, named for 
+famous members of each: 1221 Amor, 1862 Apollo, and 2062 
+Aten.
+
+     Amors:  Asteroids which cross Mars' orbit but do not 
+quite reach the orbit of Earth. Eros -- target of the NEAR 
+mission -- is a typical Amor.
+     Apollos:  Asteroids which cross Earth's orbit with a 
+period greater than 1 year.  Geographos represents the 
+Apollos.
+     Atens:  Asteroids which cross Earth's orbit with a 
+period less than 1 year. Ra-Shalom is a typical Aten.
+
+     NEAs are a dynamically young population whose orbits 
+evolve on 100-million-year time scales because of collisions 
+and gravitational interactions with the Sun and the 
+terrestrial planets. Approximately 250 NEAs have been found 
+to date, probably only a few percent of their total 
+population. The largest presently known is 1036 Ganymed, 
+with an approximate diameter of 25.5 miles (41 kilometers). 
+Estimates suggest at least a thousand NEAs may be large 
+enough -- 0.6 mile (1 kilometer) or more in diameter -- to 
+threaten Earth. 
+
+     Many bodies have struck Earth and the Moon in the past, 
+and one widely accepted theory blames the impact 65 million 
+years ago of an asteroid or comet at least 6 miles (10 
+kilometers) in diameter for mass extinctions among many 
+lifeforms, including the dinosaurs. Other theories suggest 
+that the chemical building blocks of life and much of 
+Earth's water arrived on asteroids or comets that bombarded 
+the planet in its youth.
+
+     On June 30, 1908, a small asteroid 330 feet (100 
+meters) in diameter exploded over the remote region of 
+Tunguska in Siberia, devastating more than half a million 
+acres of forest. One of the most recent close calls occurred 
+on March 23, 1989, when an asteroid 0.25-mile (0.4-
+kilometer) wide came within 400,000 miles (640,000 
+kilometers) of Earth. Surprised scientists estimated that 
+Earth and the asteroid -- weighing 50 million tons and 
+traveling at 46,000 miles/hour (74,000 kilometers/hour) -- 
+had passed the same point in space just six hours apart.
