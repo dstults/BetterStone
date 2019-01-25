@@ -1,3 +1,8 @@
+Stone_01
+Stone_02
+Stone_03
+Stone_04
+Stone_05
 Iron_01
 Iron_02
 Nickel_01
@@ -33,6 +38,39 @@ Akimotoite_01
 Wadsleyite_01
 Taenite_01
 Cohenite_01
+Kamacite_01
+Uraniaurite_01
+Petzite_01
+
+[S] Icy Stone
+[CM] Icy Iron (Fe)
+[CM] Dense Iron (Fe+)
+[S] Hapkeite (Fe,Si)
+[CM] Heazlewoodite (Ni)
+[PM] Porphyry (Au)
+[S] Dolomite (Mg)
+[CM] Cattierite (Co)
+[PM] Niggliite (Pt)
+[EI] Carnotite (U)
+[CM] Glaucodot (Fe,Co)
+[S] Sinoite (Si)
+[CM] Pyrite (Fe,Au)
+[S] Olivine (Si,Mg)
+[PM] Cooperite (Ni,Pt)
+[S] Quartz (Si)
+[PM] Galena (Ag)
+[PM] Chlorargyrite (Ag)
+[PM] Electrum (Au,Ag)
+[EI] Autunite (U)
+[S] Akimotoite (Si,Mg)
+[S] Wadsleyite (Si,Mg)
+[CM] Taenite (Fe,Ni)
+[CM] Cohenite (Ni,Co)
+[CM] Kamacite (Fe,Ni,Co)
+[EI] Uraniaurite (U,Au)
+[PM] Petzite (Ag,Au)
+
+
             <Option Chance="0.02">
               <Changes>
                 <Change From="Stone" To="" />
@@ -40,3 +78,17 @@ Cohenite_01
                 <Change From="Iron_02" To="" />
               </Changes>
             </Option>
+
+      <!--QUICK AND DIRTY COPY AND PASTE-->
+
+      <Far3Distance>2000</Far3Distance>
+      <Far3Color>
+        <X>0.17</X>
+        <Y>0.19</Y>
+        <Z>0.20</Z>
+        <W>1.0</W>
+      </Far3Color>
+      
+      <ColorKey Hex="#DD9B28"/>
+	  <LandingEffect>Landing_Jet_Ground_Dust</LandingEffect> 
+

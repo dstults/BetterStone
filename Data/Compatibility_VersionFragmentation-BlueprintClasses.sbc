@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+
+	<!-- START Backwards compatibility for v7 release (needed for EVERYTHING, *sigh*) -->
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_IcyStoneOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_DenseIronOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_HapkeiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_HeazlewooditeOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_PorphyryOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_DolomiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_CattieriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_NiggliiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_CarnotiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_GlaucodotOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_SinoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_PyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_OlivineOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_CooperiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_QuartzOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_GalenaOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_ChlorargyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_ElectrumOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_SperryliteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_AutuniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_AkimotoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_WadsleyiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_TaeniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_CoheniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_KamaciteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_UraniauriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Old_PetziteOreToIngot" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_BS_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_HeazlewooditeOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_CattieriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_PyriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_TaeniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_CoheniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_KamaciteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Old_GlaucodotOreToIngot" />
+
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_ElectrumOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_PorphyryOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_SperryliteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_NiggliiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_GalenaOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_ChlorargyriteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_CooperiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Old_PetziteOreToIngot" />
+	
+    <Entry Class="Solids" BlueprintSubtypeId="Old_IcyStoneOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_HapkeiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_DolomiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_SinoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_OlivineOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_QuartzOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_AkimotoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Old_WadsleyiteOreToIngot" />
+
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Old_CarnotiteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Old_AutuniteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Old_UraniauriteOreToIngot" />
+    <!-- END -->
+
+	<!-- START Backwards compatibility for transition from NN version -->
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_HapkeiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_HeazlewooditeOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_PorphyryOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_DolomiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_CattieriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_NiggliiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_CarnotiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_GlaucodotOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_SinoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_PyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_OlivineOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_CooperiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_QuartzOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_GalenaOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_ChlorargyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_ElectrumOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_SperryliteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_AutuniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_AkimotoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_WadsleyiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_TaeniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_CoheniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_KamaciteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_UraniauriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="FF_PetziteOreToIngot" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_BS_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_HeazlewooditeOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_CattieriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_PyriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_TaeniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_CoheniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_KamaciteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="FF_GlaucodotOreToIngot" />
+
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_ElectrumOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_PorphyryOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_SperryliteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_NiggliiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_GalenaOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_ChlorargyriteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_CooperiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="FF_PetziteOreToIngot" />
+	
+    <Entry Class="Solids" BlueprintSubtypeId="FF_HapkeiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_DolomiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_SinoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_OlivineOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_QuartzOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_AkimotoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="FF_WadsleyiteOreToIngot" />
+
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="FF_CarnotiteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="FF_AutuniteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="FF_UraniauriteOreToIngot" />
+    <!-- END -->
+
+	<!-- START Backwards compatibility for transition from Rus version -->
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_IcyStoneOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_DenseIronOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_HapkeiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_HeazlewooditeOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_PorphyryOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_DolomiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_CattieriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_NiggliiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_CarnotiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_GlaucodotOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_SinoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_PyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_OlivineOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_CooperiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_QuartzOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_GalenaOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_ChlorargyriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_ElectrumOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_SperryliteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_AutuniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_AkimotoiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_WadsleyiteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_TaeniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_CoheniteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_KamaciteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_UraniauriteOreToIngot" />
+    <Entry Class="Ingots" BlueprintSubtypeId="Rus_PetziteOreToIngot" />
+
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_BS_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_HeazlewooditeOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_CattieriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_PyriteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_TaeniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_CoheniteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_KamaciteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="Rus_GlaucodotOreToIngot" />
+
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_ElectrumOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_PorphyryOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_SperryliteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_NiggliiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_GalenaOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_ChlorargyriteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_CooperiteOreToIngot" />
+    <Entry Class="PreciousMetals" BlueprintSubtypeId="Rus_PetziteOreToIngot" />
+	
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_IcyStoneOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_HapkeiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_DolomiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_SinoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_OlivineOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_QuartzOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_AkimotoiteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="Rus_WadsleyiteOreToIngot" />
+
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Rus_CarnotiteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Rus_AutuniteOreToIngot" />
+    <Entry Class="EnergeticIngots" BlueprintSubtypeId="Rus_UraniauriteOreToIngot" />
+    <!-- END -->
+	
+  </BlueprintClassEntries>
+</Definitions>

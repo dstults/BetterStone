@@ -1,3 +1,38 @@
-DranKof
-Fatsack
-G.E.W.P Wolfiy
+
+Core:
+  DranKof
+
+Names & Localization: „P„u„‚„u„r„€„t:
+  Russian - DrKirk
+  Chinese - DranKof
+  FateFighter
+
+Planet Ores & Deep Veins, Big Veins:
+  Fatsack
+  G.E.W.P Wolfiy
+  Jattenalle
+
+Special Thanks, in no special order, for your testing and feedback:
+  Incubus
+  Sharkeran
+  Nightfall301
+  Kujo Divinity
+  Kitsunay
+  Ulfsark
+  Neitronus
+  jb_aero
+  DieDae
+  SpaceGeek
+  MacQuarrie
+  LaGG-3-8
+  Bretcaneron
+  Tanis
+  DDRMANIAC007
+  Combat Rat
+  InsKill
+  BergeT
+  melelconquistador
+  d_valroth
+  LoneWolf
+  Zparadis
+  ... and many others!!

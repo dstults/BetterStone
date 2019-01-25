@@ -1,0 +1,75 @@
+﻿
+2018-10-01 -- 7.0.1 (SE 1.187.209):
+
+  Hotfix: Fixed plain iron game crash.
+
+2018-10-01 -- 7.0.0 (SE 1.187.2):
+
+ v7.0 Major features:
+ - Planet ores located (earthlikes=easy) 5x deeper / (everything else) 10x deeper!
+ - Planet ore veins 10x richer!
+ - Elements in the names!
+
+ Minor Updates:
+ - Vanilla asteroid stone now uses vanilla stone skin
+ - Optimized long distance viewing of mod voxels
+ - Added new/missing stones to planet ores
+ 
+ Sync-With-Game-Updates:
+ - Gravity was increased
+ - Voxel landing particles
+ - Planet mesher postprocessing
+ - Planet far layers
+ - Planet cloud layers
+
+ Compatibility enhancement:
+ - Dense Ores mod should no longer break this game's denes iron ore when you put it above this one on the mod list
+ - RUS version can be upgraded to this mod without breaking
+ - All other versions can be upgraded to this mod without breaking
+
+ Planned features:
+ - Waiting for feedback from Keen for localization purposes, planning on RUS and CN localization first
+ - Строящаяся российская локализация
+ - 中文本地化到时候可以发布，等Keen让模组能使用本地化技术
+
+
+2017-09-22 -- 6.9.2 (SE 1.186.4):
+- UPDATE: ore dark spots use new code (from 1.186.1; broken in 1.186.0) (thanks Darkfire)
+(Note: In vanilla, Mars and the moon don't have dark spots, so they don't here either.)
+
+2017-09-22 -- 6.9.1 (SE 1.184.1):
+- BUGFIX: Fixed two typos (thanks Tanis)
+- BUGFIX: Green textures less grassy (thanks melelconquistador)
+
+2017-08-21 -- 6.90 (SE 1.183.0):
+Thanks to everyone for your patience and testing.
+- CHANGE: Completely rebalanced ore distributions
+- NEW: 2 new ores, Petzite and Uraniaurite
+- BUGFIX: Voxel hand now properly shows preview again
+- EXTRA: Compatibility Patch for Doctor Octoganapus's dense ores
+
+6.86b (SE 1.180.5):
+Thanks to @jb_aero
+- Fixed typo causing dolomite to not load in planets.
+
+6.86 (SE01.179.1 Minor):
+- Icons fixed so that they don't have the blue backgrounds (since 1.179)
+
+6.85:
+Thanks to @Neitronus:
+- Textures broken (yay purple!) by update, massive revamp:
+- Textures now use the planetary resources so textures are way better.
+
+6.84:
+Mod-unrelated planetary changes updated in the mod's overwrite file.
+- Cyberhounds are now wolves
+- More stones should have other elements in them
+- The atmospheres of planets should have the recent graphic updates
+
+6.8:
+- Added particle effects to all the new textures.
+- Added FATSACK planet definitions for BS stone generation for Earthlikes.
+- Applied G.E.W.P Wolfiy's application of custom ores to all the other planets.
+- Updated said file changes to the "atmospheric music" patch.
+- Fixed some typos.
+- File to mod surface stones found, but no good results yet, more later!
