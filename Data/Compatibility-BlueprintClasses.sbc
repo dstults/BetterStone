@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+
+    <!-- START An addition to get Dense Iron Ore to work when people are using Doctor Octoganapus' dense ores. -->
+    <Entry Class="Ingots" BlueprintSubtypeId="DO_DenseIronOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="DO_DenseIronOreToIngot" />
+	<!-- END An addition to get Dense Iron Ore to work when people are using Doctor Octoganapus' dense ores. -->
+  
+    <!-- START An addition to the other energy ores work with the uranium spinner mod by Hex -->    
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="UraniumOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="CarnotiteOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="AutuniteOreToIngot" />
+    <Entry Class="Hex_UraniumCentrifuge" BlueprintSubtypeId="UraniauriteOreToIngot" />
+    <!-- END -->
+	
+	<!-- START An addition to make this work with the stone crusher mod by Hex -->
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="MagnesiumOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="SiliconOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="IcyStoneOreToIngot" />
+	<Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="HapkeiteOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="DolomiteOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="SinoiteOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="OlivineOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="QuartzOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="AkimotoiteOreToIngot" />
+    <Entry Class="Hex_StoneCrusher" BlueprintSubtypeId="WadsleyiteOreToIngot" />
+    <!-- END -->
+	
+  </BlueprintClassEntries>
+</Definitions>

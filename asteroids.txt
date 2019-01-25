@@ -1,9 +1,8 @@
 
 From: http://nssdc.gsfc.nasa.gov/planetary/text/asteroids.txt
+Date: 2015-MAR-14
 
 Asteroids 
-
-(from the NEAR press kit)
 
      Asteroids are metallic, rocky bodies without 
 atmospheres that orbit the Sun but are too small to be 

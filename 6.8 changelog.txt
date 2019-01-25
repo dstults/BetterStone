@@ -1,6 +1,0 @@
-- Added particle effects to all the new textures.
-- Added FATSACK planet definitions for BS stone generation for Earthlikes.
-- Applied G.E.W.P Wolfiy's application of custom ores to all the other planets.
-- Updated said file changes to the "atmospheric music" patch.
-- Fixed some typos.
-- File to mod surface stones found, but no good results yet, more later!
