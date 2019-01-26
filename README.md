@@ -2,11 +2,10 @@
 This is a Space Engineers mod that adds a lot of variety to the ore types in the game.
 It immensely adds to the overall immersiveness of the game.
 
-The main page is located at:
+- Check out the latest stats, it has over 11,000 subscriptions! The main page is located at:
 https://steamcommunity.com/sharedfiles/filedetails/?id=406244471
-- Check the latest stats here.
 
-There is a related guide that I wrong on how to make and convert DDS GUI icons for use in-game.
+- Here is also a related guide that I wrong on how to make and convert DDS GUI icons for use in-game:
 https://steamcommunity.com/sharedfiles/filedetails/?id=1116386590
 
 Fun history snippet:
