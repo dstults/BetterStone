@@ -4,7 +4,6 @@ Core:
 
 Names & Localization: „P„u„‚„u„r„€„t:
   Russian - DrKirk
-  Chinese - DranKof
   FateFighter
 
 Planet Ores & Deep Veins, Big Veins:
@@ -13,6 +12,9 @@ Planet Ores & Deep Veins, Big Veins:
   Jattenalle
 
 Special Thanks, in no special order, for your testing and feedback:
+  d_valroth
+  darknoddy
+  Juliusz Ave
   Incubus
   Sharkeran
   Nightfall301
