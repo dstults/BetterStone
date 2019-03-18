@@ -2,6 +2,11 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
 
+	<!-- START Old recipe to phase out -->
+	<Entry Class="Ingots" BlueprintSubtypeId="BS_IcyStoneOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="IcyStoneOreToIngot" />
+	<!-- END -->
+  
     <!-- START An addition to get Dense Iron Ore to work when people are using Doctor Octoganapus' dense ores. -->
     <Entry Class="Ingots" BlueprintSubtypeId="DO_DenseIronOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="DO_DenseIronOreToIngot" />

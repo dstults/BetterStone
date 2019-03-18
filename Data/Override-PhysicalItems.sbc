@@ -16,6 +16,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ni</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -33,6 +34,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -50,6 +52,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Mg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -67,6 +70,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Si</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -84,6 +88,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ag</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -101,6 +106,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Au</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -118,6 +124,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Pt</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -135,6 +142,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_U</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -152,6 +160,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Ice</IconSymbol>
     </PhysicalItem>
   </PhysicalItems>

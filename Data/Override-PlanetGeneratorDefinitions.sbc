@@ -31,7 +31,8 @@
       </PostprocessingSteps>
     </MesherPostprocessing>
 
-	
+
+
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
       <Size>384</Size>
@@ -1361,6 +1362,7 @@
       <OxygenDensity>0.9</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
 
     <!-- Earthlike Planet's Atmosphere settings -->
@@ -1386,6 +1388,16 @@
           <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
           <FogIntensity>1.0</FogIntensity>
           <Scale>1</Scale>
+          <SunColor>
+            <X>1</X>
+            <Y>1</Y>
+            <Z>1</Z>
+          </SunColor>
+          <SunSpecularColor>
+            <X>1</X>
+            <Y>0.97</Y>
+            <Z>0.611</Z>
+          </SunSpecularColor>
       </AtmosphereSettings>
 
     <!-- Earthlike Planet's Clouds settings-->
@@ -1477,25 +1489,28 @@
         <Animal Type="Wolf"/>
       </Animals>
       <SpawnDelayMin>60000</SpawnDelayMin>
-      <SpawnDelayMax>80000</SpawnDelayMax>
+      <SpawnDelayMax>3600000</SpawnDelayMax>
       <SpawnDistMin>100</SpawnDistMin>
-      <SpawnDistMax>140</SpawnDistMax>
-      <WaveCountMin>2</WaveCountMin>
+      <SpawnDistMax>1000</SpawnDistMax>
+
+      <WaveCountMin>1</WaveCountMin>
       <WaveCountMax>4</WaveCountMax>
     </AnimalSpawnInfo>
     <NightAnimalSpawnInfo>
       <Animals>
         <Animal Type="Wolf"/>
       </Animals>
-      <SpawnDelayMin>30000</SpawnDelayMin>
-      <SpawnDelayMax>60000</SpawnDelayMax>
+      <SpawnDelayMin>60000</SpawnDelayMin>
+      <SpawnDelayMax>1800000</SpawnDelayMax>
       <SpawnDistMin>100</SpawnDistMin>
-      <SpawnDistMax>140</SpawnDistMax>
-      <WaveCountMin>4</WaveCountMin>
-      <WaveCountMax>7</WaveCountMax>
-    </NightAnimalSpawnInfo>
+      <SpawnDistMax>300</SpawnDistMax>
 
+      <WaveCountMin>2</WaveCountMin>
+      <WaveCountMax>8</WaveCountMax>
+    </NightAnimalSpawnInfo>
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
+
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
@@ -2821,6 +2836,7 @@
       <OxygenDensity>0.1</OxygenDensity>
       <Density>1.2</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
 
     <!-- Alien Clouds layer -->
@@ -2913,6 +2929,7 @@
       </Animals>
     </AnimalSpawnInfo>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -3187,16 +3204,16 @@
       </RayleighScattering>
       <MieScattering>147.671082</MieScattering>
       <MieColorScattering>
-        <X>67</X>
-        <Y>80</Y>
-        <Z>150</Z>
+        <X>31</X>
+        <Y>48</Y>
+        <Z>112</Z>
       </MieColorScattering>
       <RayleighHeight>10</RayleighHeight>
       <RayleighHeightSpace>6</RayleighHeightSpace>
       <RayleighTransitionModifier>0.415</RayleighTransitionModifier>
       <MieHeight>200</MieHeight>
-      <MieG>0.999832332</MieG>
-      <SeaLevelModifier>0.98</SeaLevelModifier>
+      <MieG>0.999732332</MieG>
+      <SeaLevelModifier>0.982</SeaLevelModifier>
       <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
       <Intensity>6.0</Intensity>
       <FogIntensity>1.0</FogIntensity>
@@ -3207,6 +3224,7 @@
       <OxygenDensity>0</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
 
     <DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
@@ -3369,6 +3387,7 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.01" Max ="0.12"/>
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <!--Moons -->
@@ -3743,6 +3762,7 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.03" Max ="0.03"/>
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -3791,7 +3811,7 @@
     <CustomMaterialTable>
       <Material Material="Stone_04" Value ="190" MaxDepth ="5"/>
       <Material Material="Ice" Value ="174" MaxDepth ="5"/>
-      <Material Material="Ice_02" Value ="158" MaxDepth ="5"/>
+      <Material Material="IceEuropa2" Value ="158" MaxDepth ="5"/>
       <Material Material="Ice_01" Value ="142" MaxDepth ="5"/>
     </CustomMaterialTable>
 
@@ -3920,7 +3940,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="Ice_02" Depth="5"/>
+            <Layer Material="IceEuropa2" Depth="5"/>
           </Layers>
           <Height Min="0.1" Max="0.5"/>
           <Latitude Min="0" Max="90"/>
@@ -3942,7 +3962,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="Stone_05" Depth="5"/>
+            <Layer Material="IceEuropa2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -3951,7 +3971,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="Stone_05" Depth="5"/>
+            <Layer Material="IceEuropa2" Depth="5"/>
           </Layers>
           <Height Min="0.1" Max="3"/>
           <Latitude Min="0" Max="90"/>
@@ -3964,7 +3984,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="Stone_05" Depth="5"/>
+            <Layer Material="IceEuropa2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -3973,7 +3993,7 @@
 
         <Rule>
           <Layers>
-            <Layer Material="Stone_05" Depth="5"/>
+            <Layer Material="IceEuropa2" Depth="5"/>
           </Layers>
           <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
@@ -4037,7 +4057,9 @@
     <DefaultSubSurfaceMaterial Material="Ice_03"/>
 
     <HasAtmosphere>true</HasAtmosphere>
-
+    <Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
     <AtmosphereSettings>
       <RayleighScattering>
         <X>17.1</X>
@@ -4065,6 +4087,7 @@
 
     <HillParams Min = "-0.03" Max ="0.06"/>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -4457,7 +4480,9 @@
     <DefaultSubSurfaceMaterial Material="DesertRocks"/>
 
     <HasAtmosphere>true</HasAtmosphere>
-
+    <Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+    </Atmosphere>
     <!-- Titan Planet's Atmosphere settings-->
     <AtmosphereSettings>
       <RayleighScattering>
@@ -4473,7 +4498,7 @@
       </MieColorScattering>
       <RayleighHeight>9.386989</RayleighHeight>
       <MieHeight>45.1775055</MieHeight>
-      <MieG>0.999832332</MieG>
+      <MieG>0.999732332</MieG>
       <Intensity>6.00218773</Intensity>
       <FogIntensity>1</FogIntensity>
       <SeaLevelModifier>0.912886143</SeaLevelModifier>
@@ -4622,6 +4647,7 @@
       </Animals>
     </AnimalSpawnInfo>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <!--Tutorial Planets -->
@@ -5989,6 +6015,7 @@
       <OxygenDensity>0.9</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
 
     <!-- EarthLikeTutorial Planet's Atmosphere settings-->
@@ -6194,6 +6221,7 @@
 
     <HillParams Min = "-0.01" Max ="0.12"/>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -6571,6 +6599,8 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.03" Max ="0.03"/>
+    
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <Definition xsi:type="PlanetGeneratorDefinition">
@@ -6841,35 +6871,38 @@
 
     <!-- Mars Planet's Atmosphere settings-->
 
-      <AtmosphereSettings>
-          <RayleighScattering>
-              <X>2.51488018</X>
-              <Y>16.398098</Y>
-              <Z>100</Z>
-          </RayleighScattering>
-          <MieScattering>147.671082</MieScattering>
-          <MieColorScattering>
-              <X>67</X>
-              <Y>80</Y>
-              <Z>150</Z>
-          </MieColorScattering>
-          <RayleighHeight>10</RayleighHeight>
-          <RayleighHeightSpace>6</RayleighHeightSpace>
-          <RayleighTransitionModifier>0.415</RayleighTransitionModifier>
-          <MieHeight>200</MieHeight>
-          <MieG>0.999832332</MieG>
-          <SeaLevelModifier>0.98</SeaLevelModifier>
-          <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
-          <Intensity>6.0</Intensity>
-          <FogIntensity>1.0</FogIntensity>
-      </AtmosphereSettings>
+    <AtmosphereSettings>
+      <RayleighScattering>
+        <X>2.51488018</X>
+        <Y>16.398098</Y>
+        <Z>100</Z>
+      </RayleighScattering>
+      <MieScattering>147.671082</MieScattering>
+      <MieColorScattering>
 
+
+
+        <X>31</X>
+        <Y>48</Y>
+        <Z>112</Z>
+      </MieColorScattering>
+      <RayleighHeight>10</RayleighHeight>
+      <RayleighHeightSpace>6</RayleighHeightSpace>
+      <RayleighTransitionModifier>0.415</RayleighTransitionModifier>
+      <MieHeight>200</MieHeight>
+      <MieG>0.999732332</MieG>
+      <SeaLevelModifier>0.982</SeaLevelModifier>
+      <AtmosphereTopModifier>1.1</AtmosphereTopModifier>
+      <Intensity>6.0</Intensity>
+      <FogIntensity>1.0</FogIntensity>
+    </AtmosphereSettings>
     <Atmosphere>
       <Breathable>false</Breathable>
       <OxygenDensity>0</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
-    </Atmosphere>
+      <MaxWindSpeed>80</MaxWindSpeed>
+   </Atmosphere>
 
     <DefaultSurfaceMaterial Material="MarsSoil" MaxDepth="5"/>
     <DefaultSubSurfaceMaterial Material="MarsRocks"/>
@@ -7031,6 +7064,8 @@
     <MaterialsMinDepth Min="20" Max="20"/>
 
     <HillParams Min = "-0.01" Max ="0.12"/>
+    
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <!--Example Planet - EDIT this one first for testing/modding -->
@@ -7101,17 +7136,17 @@
 
       <!-- Tier 1-->
       <!-- Fe 1-->
-      <Ore Value="1" Type="Iron_02" Start="1" Depth="3" />
+      <Ore Value="1" Type="Iron_02" Start="10" Depth="3" />
 
       <!-- Ni 1-->
-      <Ore Value="24" Type="Nickel_01" Start="1" Depth="4" />
+      <Ore Value="24" Type="Nickel_01" Start="10" Depth="4" />
 
       <!-- Si 1-->
       <Ore Value="48" Type="Silicon_01" Start="9" Depth="4" />
 
       <!-- ORE Tier 2 -->
       <!-- Co 1-->
-      <Ore Value="72" Type="Cobalt_01" Start="2" Depth="3" />
+      <Ore Value="72" Type="Cobalt_01" Start="20" Depth="3" />
 
       <!-- Ag 1-->
       <Ore Value="96" Type="Silver_01" Start="21" Depth="3" />
@@ -7124,7 +7159,7 @@
       <Ore Value="144" Type="Uraninite_01" Start="32" Depth="2" />
 
       <!-- Au 1-->
-      <Ore Value="168" Type="Gold_01" Start="4" Depth="1" />
+      <Ore Value="168" Type="Gold_01" Start="40" Depth="1" />
     </OreMappings>
 
     <SoundRules>
@@ -7923,6 +7958,7 @@
       <OxygenDensity>0.9</OxygenDensity>
       <Density>1.0</Density>
       <LimitAltitude>2.0</LimitAltitude>
+      <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
 
     <!-- EarthLikeModExample Planet's Atmosphere settings-->
@@ -8122,6 +8158,7 @@
       </CloudLayer>
     </CloudLayers>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
   <!--Test Planets -->
@@ -8331,7 +8368,7 @@
       <Ore Value="1" Type="Hapkeite_01" Start="10" Depth="30" />
       <Ore Value="4" Type="Olivine_01" Start="120" Depth="30" />
       <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40" />
-	  
+
       <!-- Fe 2-->
       <Ore Value="12" Type="Taenite_01" Start="250" Depth="50" />
       <Ore Value="16" Type="Iron_02" Start="280" Depth="50" />
@@ -8357,7 +8394,7 @@
       <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70" />
       <Ore Value="68" Type="Silicon_01" Start="270" Depth="90" />
 
-	  
+
       <!-- ORE Tier 2 -->
       <!-- Co 1-->
       <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30" />
@@ -8429,1331 +8466,28 @@
 
       <!-- Biom foliage -->
       <!-- Biom foliage Earth -->
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="snow01" Density="0.03" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
 
       <Item>
         <Biomes>
-          <Biome>85</Biome>
+          <Biome>0</Biome>
         </Biomes>
         <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
 
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Woods_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="VoxelstoneStoneFe" ModifierId="snow01" Density="0.03" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Woods_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassFoliage" Density="0.15"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Rocks_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="VoxelstoneStoneFe" Density="0.01" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Rocks_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="40"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="VoxelstoneStoneFe" Density="0.01" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass_old</Material>
           <Material>Soil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
 
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass_old</Material>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestLarge" Density="0.65"/>
+          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestEdge" Density="0.6"/>
+          <!-- <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestLarge" Density="1"/> -->
         </Items>
         <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Sand_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
+          <Height Min="0" Max="1"/>
           <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Sand_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="90"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-      <!-- Biom foliage Earth end -->
-
-      <!-- Biom foliage Alien -->
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSnow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSnow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienOrangeGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienOrangeGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienYellowGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienYellowGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienGreenGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienGreenGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienRockGrass</Material>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienRockGrass</Material>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSand</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="10"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSand</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_smallstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_mediumstone" Density="0.001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="30"/>
-        </Rule>
-      </Item>
-      <!-- Biom foliage Alien end -->
-
-      <!-- Mars + Titan voxelstones -->
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_smallstone" Density="0.001" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_mediumstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrocks_largestone" Density="0.0001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MarsRocks</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_smallstone" Density="0.003" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_mediumstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrocks_largestone" Density="0.0001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <!-- Moon voxelstones -->
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MoonSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.003" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>MoonRocks</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.003" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0001" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <!-- Europa voxelstones -->
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Ice</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="ice_smallstone" Density="0.003" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="ice_mediumstone" Density="0.002" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="ice_largestone" Density="0.0001" />
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.03" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>85</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Ice_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.03" />
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="15"/>
-        </Rule>
-      </Item>
-      <!-- Biom foliage end -->
-
-      <!-- Biom woods edge -->
-      <!-- Earth Biom woods edge -->
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
           <Slope Min="0" Max="90"/>
         </Rule>
       </Item>
 
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.5"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Woods_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Rocks_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="RockGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass_old</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Sand_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SandForestEdge" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-      <!-- Earth Biom woods edge end -->
-      <!-- Alien Biom woods edge -->
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSnow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSnowForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.5"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienOrangeGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienOrangeGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienYellowGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienYellowGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienGreenGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienGreenGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienRockGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienRockGrassForestEdge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>113</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSand</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSandForestEdge" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestEdge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-      <!-- Alien Biom woods edge end -->
-
-      <!-- Biom woods edge end -->
-
-      <!-- Biom woods medium -->
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.7"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Woods_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Rocks_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="RockGrassForestMedium" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass_old</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Sand_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SandForestMedium" Density="0.3"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandBushForestMedium" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-      <!-- Earth Biom woods Medium end -->
-      <!-- Alien Biom woods Medium -->
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSnow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSnowForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.7"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienOrangeGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienOrangeGrassForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienYellowGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienYellowGrassForestMedium" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienGreenGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienGreenGrassForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienRockGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienRockGrassForestMedium" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassBushForestMedium" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>141</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSand</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSandForestMedium" Density="0.3"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestMedium" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-      <!-- Alien Biom woods Medium end -->
-      <!-- Biom woods medium end -->
-
-      <!-- Biom woods large -->
-      <!-- Earth Biom woods Large -->
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Snow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Woods_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Soil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.8"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Rocks_grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="RockGrassForestLarge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassBushForestLarge" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Grass_old</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="GrassOldForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>Sand_02</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SandForestLarge" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandBushForestLarge" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-      <!-- Earth Biom woods Large end -->
-
-      <!-- Alien Biom woods Large -->
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSnow</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSnowForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienOrangeGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienOrangeGrassForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSoil</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.8"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="80"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienYellowGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienYellowGrassForestLarge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassBushForestLarge" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienGreenGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienGreenGrassForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienRockGrass</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienRockGrassForestLarge" Density="0.6"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassBushForestLarge" Density="0.4"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
-
-      <Item>
-        <Biomes>
-          <Biome>198</Biome>
-        </Biomes>
-        <Materials>
-          <Material>AlienSand</Material>
-        </Materials>
-        <Items>
-          <Item TypeId="MyObjectBuilder_Trees" SubtypeId="AlienSandForestLarge" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandBushForestLarge" Density="0.2"/>
-        </Items>
-        <Rule>
-          <Height Min="0" Max="0.7"/>
-          <Latitude Min="0" Max="75"/>
-          <Slope Min="0" Max="90"/>
-        </Rule>
-      </Item>
       <!-- Alien Biom woods Large end -->
 
       <!-- Biom woods large end -->
@@ -9832,6 +8566,7 @@
 
     <HillParams Min = "-0.01" Max ="0.12"/>
 
+    <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
   </Definition>
 
 </Definitions>

@@ -4,22 +4,6 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>IcyStoneOreToIngot</SubtypeId>
-      </Id>
-      <DisplayName>Refine Icy Stone</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <Prerequisites>
-        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Icy Stone" />
-      </Prerequisites>
-      <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
-	    <Item Amount="0.500" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
-      <BaseProductionTimeInSeconds>0.08</BaseProductionTimeInSeconds>
-    </Blueprint>
-    <Blueprint>
-      <Id>
-        <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>BS_IcyIronOreToIngot</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_IronIngot</DisplayName>
@@ -30,7 +14,6 @@
       <Results>
 	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Iron" />
 	    <Item Amount="0.250" TypeId="Ore" SubtypeId="Ice" />
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -46,7 +29,6 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.875" TypeId="Ingot" SubtypeId="Iron" />
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -61,7 +43,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Hapkeite (Fe,Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Iron" />
 	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Silicon" />
 	  </Results>
@@ -78,7 +59,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.300" TypeId="Ingot" SubtypeId="Nickel" />
 	  </Results>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
@@ -94,7 +74,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Porphyry (Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.006" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
@@ -110,7 +89,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.004" TypeId="Ingot" SubtypeId="Magnesium" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.32</BaseProductionTimeInSeconds>
@@ -126,7 +104,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cattierite (Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.270" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>2.3</BaseProductionTimeInSeconds>
@@ -142,7 +119,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Niggliite (Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.003" TypeId="Ingot" SubtypeId="Platinum" />
 	  </Results>
       <BaseProductionTimeInSeconds>2.8</BaseProductionTimeInSeconds>
@@ -158,7 +134,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Uranium" />
 	    <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
@@ -175,7 +150,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Glaucodot (Fe,Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.234" TypeId="Ingot" SubtypeId="Iron" />
 	    <Item Amount="0.200" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
@@ -192,7 +166,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.550" TypeId="Ingot" SubtypeId="Silicon" />
 	    <Item Amount="0.220" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
@@ -209,7 +182,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Pyrite (Fe,Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.550" TypeId="Ingot" SubtypeId="Iron" />
 	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
@@ -226,7 +198,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.120" TypeId="Ingot" SubtypeId="Silicon" />
 	    <Item Amount="0.006" TypeId="Ingot" SubtypeId="Magnesium" />
 	    <Item Amount="0.170" TypeId="Ore" SubtypeId="Ice" />
@@ -244,7 +215,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Cooperite (Ni,Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.360" TypeId="Ingot" SubtypeId="Nickel" />
 	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Platinum" />
 	  </Results>
@@ -261,7 +231,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.440" TypeId="Ingot" SubtypeId="Silicon" />
 	    <Item Amount="0.560" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
@@ -278,7 +247,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Galena (Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.035" TypeId="Ingot" SubtypeId="Silver" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
@@ -294,7 +262,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Chlorargyrite (Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.064" TypeId="Ingot" SubtypeId="Silver" />
 	    <Item Amount="0.002" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
@@ -311,7 +278,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Electrum (Au,Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.045" TypeId="Ingot" SubtypeId="Silver" />
 	    <Item Amount="0.009" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
@@ -328,7 +294,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Sperrylite (Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.003" TypeId="Ingot" SubtypeId="Platinum" />
 	  </Results>
       <BaseProductionTimeInSeconds>3.6</BaseProductionTimeInSeconds>
@@ -344,7 +309,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Autunite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.004" TypeId="Ingot" SubtypeId="Uranium" />
 	  </Results>
       <BaseProductionTimeInSeconds>2.8</BaseProductionTimeInSeconds>
@@ -360,7 +324,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.200" TypeId="Ingot" SubtypeId="Silicon" />
 	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Magnesium" />
 	  </Results>
@@ -377,7 +340,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Wadsleyite (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.300" TypeId="Ingot" SubtypeId="Silicon" />
 	    <Item Amount="0.003" TypeId="Ingot" SubtypeId="Magnesium" />
 	  </Results>
@@ -394,7 +356,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Taenite (Fe,Ni)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Iron" />
 	    <Item Amount="0.200" TypeId="Ingot" SubtypeId="Nickel" />
 	  </Results>
@@ -411,7 +372,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 		<Item Amount="0.134" TypeId="Ingot" SubtypeId="Nickel" />
 		<Item Amount="0.100" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
@@ -428,7 +388,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 		<Item Amount="0.233" TypeId="Ingot" SubtypeId="Iron" />
 		<Item Amount="0.134" TypeId="Ingot" SubtypeId="Nickel" />
 		<Item Amount="0.100" TypeId="Ingot" SubtypeId="Cobalt" />
@@ -446,7 +405,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 		<Item Amount="0.006" TypeId="Ingot" SubtypeId="Gold" />
 		<Item Amount="0.004" TypeId="Ingot" SubtypeId="Uranium" />
 	  </Results>
@@ -463,7 +421,6 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Petzite (Ag,Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
 	    <Item Amount="0.045" TypeId="Ingot" SubtypeId="Silver" />
 	    <Item Amount="0.009" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
