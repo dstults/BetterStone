@@ -16,23 +16,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
-      <IconSymbol>IconSymbol_Stone</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Icy Stone</SubtypeId>
-      </Id>
-      <DisplayName>[S] Icy Stone</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_icy_rock.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Stone</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -50,6 +34,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Fe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -67,6 +52,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>IconSymbol_Fe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -84,6 +70,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe,Si</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -101,6 +88,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -118,6 +106,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -135,6 +124,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Mg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -152,6 +142,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -169,6 +160,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -186,6 +178,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -203,6 +196,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe,Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -220,6 +214,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -237,6 +232,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe,Au</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -254,6 +250,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si,Mg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -271,6 +268,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni,Pt</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -288,6 +286,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -305,6 +304,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -322,6 +322,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -339,6 +340,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au,Ag</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -356,6 +358,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -373,6 +376,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -390,6 +394,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si,Mg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -407,6 +412,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si,Mg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -424,6 +430,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe,Ni</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -441,6 +448,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni,Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -458,6 +466,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni,Co</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -475,6 +484,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U,Au</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
@@ -492,6 +502,7 @@
       <Mass>1</Mass>
       <Volume>0.37</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au,Ag</IconSymbol>
     </PhysicalItem>
   </PhysicalItems>

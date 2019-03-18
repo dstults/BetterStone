@@ -1,6 +1,22 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>IcyStoneOreToIngot</SubtypeId>
+      </Id>
+      <DisplayName>Refine Icy Stone</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Icy Stone" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.010" TypeId="Ingot" SubtypeId="Stone" />
+	    <Item Amount="0.500" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.08</BaseProductionTimeInSeconds>
+    </Blueprint>
 	<Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>

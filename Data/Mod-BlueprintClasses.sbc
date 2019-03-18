@@ -2,7 +2,6 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
 
-    <Entry Class="Ingots" BlueprintSubtypeId="IcyStoneOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="BS_IcyIronOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="BS_DenseIronOreToIngot" />
     <Entry Class="Ingots" BlueprintSubtypeId="HapkeiteOreToIngot" />
@@ -50,7 +49,7 @@
     <Entry Class="PreciousMetals" BlueprintSubtypeId="CooperiteOreToIngot" />
     <Entry Class="PreciousMetals" BlueprintSubtypeId="PetziteOreToIngot" />
 	
-    <Entry Class="Solids" BlueprintSubtypeId="IcyStoneOreToIngot" />
+	<Entry Class="Solids" BlueprintSubtypeId="StoneOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="HapkeiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="DolomiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="SinoiteOreToIngot" />

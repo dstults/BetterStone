@@ -1,7 +1,43 @@
 ﻿
+2018-03-06 -- 7.0.2b (SE 1.189.040):
+
+Synced mod to planet updates:
+	synced wildlife spawn data
+	synced specular data
+	synced MieColorScattering whatever that is
+	synced updated gravities
+	synced Europa has ice instead of stone
+	synced Mars had its atmosphere completely changed
+	synced remove biomes cause I guess they decided no biomes
+	synced a few other microchanges
+
+Synced new physical object data:
+	synced physic material
+	added physic material to mod ores
+
+Removed icy stone
+	- probably should have been removed when planets came out
+	- now totally outdated by new vanilla stone output
+'Cleaned' gravel byproduct out of ore
+	- hasn't been relevant for a long time
+	- now totally outdated by new vanilla stone output
+
+? Contemplating removing icy iron/dense iron
+	- vanilla regular iron now has a % chance to autoconvert to something else
+? Contemplating removing backwards compatibility with 1+ year old versions of game data
+	- this would clean up mod data
+
+
+2018-03-02 -- 7.0.2a (SE 1.189.040):
+
+Hotfix: Wind generators work again.
+Due to survival update and a need to redesign a few base aspects of this mod, removed ALL planetary data until determined to what extent this mod will modify plantary data in future.
+
+
 2018-10-01 -- 7.0.1 (SE 1.187.209):
 
   Hotfix: Fixed plain iron game crash.
+
 
 2018-10-01 -- 7.0.0 (SE 1.187.2):
 
@@ -37,9 +73,11 @@
 - UPDATE: ore dark spots use new code (from 1.186.1; broken in 1.186.0) (thanks Darkfire)
 (Note: In vanilla, Mars and the moon don't have dark spots, so they don't here either.)
 
+
 2017-09-22 -- 6.9.1 (SE 1.184.1):
 - BUGFIX: Fixed two typos (thanks Tanis)
 - BUGFIX: Green textures less grassy (thanks melelconquistador)
+
 
 2017-08-21 -- 6.90 (SE 1.183.0):
 Thanks to everyone for your patience and testing.
@@ -48,23 +86,28 @@ Thanks to everyone for your patience and testing.
 - BUGFIX: Voxel hand now properly shows preview again
 - EXTRA: Compatibility Patch for Doctor Octoganapus's dense ores
 
+
 6.86b (SE 1.180.5):
 Thanks to @jb_aero
 - Fixed typo causing dolomite to not load in planets.
 
+
 6.86 (SE01.179.1 Minor):
 - Icons fixed so that they don't have the blue backgrounds (since 1.179)
+
 
 6.85:
 Thanks to @Neitronus:
 - Textures broken (yay purple!) by update, massive revamp:
 - Textures now use the planetary resources so textures are way better.
 
+
 6.84:
 Mod-unrelated planetary changes updated in the mod's overwrite file.
 - Cyberhounds are now wolves
 - More stones should have other elements in them
 - The atmospheres of planets should have the recent graphic updates
+
 
 6.8:
 - Added particle effects to all the new textures.
