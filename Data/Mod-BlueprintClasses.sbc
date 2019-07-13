@@ -39,6 +39,15 @@
     <Entry Class="CommonMetals" BlueprintSubtypeId="CoheniteOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="KamaciteOreToIngot" />
     <Entry Class="CommonMetals" BlueprintSubtypeId="GlaucodotOreToIngot" />
+	<!-- START  [Survival Update] Keen merged CommonMetals and Solids; here are S as CM: -->
+    <Entry Class="CommonMetals" BlueprintSubtypeId="HapkeiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="DolomiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="SinoiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="OlivineOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="QuartzOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="AkimotoiteOreToIngot" />
+    <Entry Class="CommonMetals" BlueprintSubtypeId="WadsleyiteOreToIngot" />
+    <!-- END -->
 
     <Entry Class="PreciousMetals" BlueprintSubtypeId="ElectrumOreToIngot" />
     <Entry Class="PreciousMetals" BlueprintSubtypeId="PorphyryOreToIngot" />
@@ -49,7 +58,6 @@
     <Entry Class="PreciousMetals" BlueprintSubtypeId="CooperiteOreToIngot" />
     <Entry Class="PreciousMetals" BlueprintSubtypeId="PetziteOreToIngot" />
 	
-	<Entry Class="Solids" BlueprintSubtypeId="StoneOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="HapkeiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="DolomiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="SinoiteOreToIngot" />
@@ -57,6 +65,22 @@
     <Entry Class="Solids" BlueprintSubtypeId="QuartzOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="AkimotoiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="WadsleyiteOreToIngot" />
+	<!-- START  [Survival Update] Vanilla ore solids delcarations: -->
+	<Entry Class="Solids" BlueprintSubtypeId="StoneOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="MagnesiumOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="SiliconOreToIngot" />
+    <!-- END -->
+	<!-- START  [Survival Update] Keen merged Solids and CommonMetals; here are CM as S: -->
+    <Entry Class="Solids" BlueprintSubtypeId="BS_IcyIronOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="BS_DenseIronOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="HeazlewooditeOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="CattieriteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="PyriteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="TaeniteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="CoheniteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="KamaciteOreToIngot" />
+    <Entry Class="Solids" BlueprintSubtypeId="GlaucodotOreToIngot" />
+    <!-- END -->
 
     <Entry Class="EnergeticIngots" BlueprintSubtypeId="CarnotiteOreToIngot" />
     <Entry Class="EnergeticIngots" BlueprintSubtypeId="AutuniteOreToIngot" />

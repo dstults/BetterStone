@@ -37,4 +37,6 @@ Special Thanks, in no special order, for your testing and feedback:
   d_valroth
   LoneWolf
   Zparadis
+  bihlbo
+  Deadok
   ... and many others!!

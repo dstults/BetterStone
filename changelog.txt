@@ -1,4 +1,47 @@
-﻿
+﻿2019-05-25 -- 7.0.3b (SE 1.190.1):
+
+I found out that "Solids" and "CommonMetals" were merged in an earlier update, thus they are all CMs now. In other words, 4 tiers of ores became 3. (Thanks, Deadok!)
+
+As a result, the following ores should now process in the basic refinery:
+Hapkeite
+Dolomite
+Sinoite
+Olivine
+Quartz
+Akimotoite
+Wadsleyite
+
+Rebalancing Tweak:
+Dolomite contains 75% more magnesium.
+
+2019-05-19 -- 7.0.3 (SE 1.190.1):
+
+In response to lack of asteroid cores, rarer space ores, increased resources for vanilla stone, I have made the following tweaks to make mining tier 1 ores a little more worthwhile.
+
+Rebalancing Tweaks:
+Restored Icy Iron ore-spawn-per-volume-mined to default settings (formerly reduced when asteroid cores had so much of it)
+Icy Iron contains 10% more ice & iron
+Dense iron contains 5% more iron
+Hapkeite contains 25% more silicon
+Cohenite contains 60% more nickel
+Cohenite contains 50% more cobalt
+Kamacite contains 20% more iron
+Kamacite contains 30% more nickel
+Kamacite contains 20% more cobalt
+Sinoite contains 40% more silicon
+(Ice) Sinoite contains 100% more ice
+Olivine contains 50% more silicon
+Olivine contains 30% more magnesium
+(Ice) Olivine contains 100% more ice
+Heazelwoodite contains 30% more nickel
+(Ice) Heazelwoodite injected with ice (0.15 kg ice/kg ore, compared to 0.9 in vanilla ice)
+Quartz contains 20% more silicon
+(Ice) Quartz contains 100% more ice (it's now icier than ice)
+Quartz processes 30% slower (counterbalance, it has a lot of ice, now)
+Akimotoite contains 10% more silicon
+Akimotoite contains 100% more magnesium
+(Ice) Wadsleyite injected with ice (0.25 kg ice/kg ore)
+
 2018-03-06 -- 7.0.2b (SE 1.189.040):
 
 Synced mod to planet updates:
