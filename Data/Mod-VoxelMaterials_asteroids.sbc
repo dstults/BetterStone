@@ -9,11 +9,12 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[CM] Iron (Fe)</MinedOre>
-      <MinedOreRatio>2</MinedOreRatio>
+      <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>5</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.4</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
       <DiffuseXZ>Textures\Voxels\Iron_01_ForAxisXZ_de.dds</DiffuseXZ>
@@ -37,8 +38,9 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>3</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.4</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
       <DiffuseXZ>Textures\Voxels\Iron_02_ForAxisXZ_de.dds</DiffuseXZ>
@@ -70,10 +72,10 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -104,13 +106,13 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[CM] Heazlewoodite (Ni)</MinedOre>
-      <MinedOreRatio>7</MinedOreRatio>
+      <MinedOreRatio>6</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -145,7 +147,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -182,7 +183,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -219,7 +219,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -256,7 +255,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>9</SpecularPower>
       <SpecularShininess>1.435</SpecularShininess>
@@ -293,7 +291,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -327,10 +324,10 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -365,7 +362,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.2</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -399,10 +395,10 @@
       <MinedOreRatio>5.2</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -431,13 +427,12 @@
       </Id>    
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[S] Olivine (Si,Mg)</MinedOre>
-      <MinedOreRatio>4.2</MinedOreRatio>
+      <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>19</SpecularPower>
       <SpecularShininess>0.720</SpecularShininess>
@@ -474,7 +469,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -508,10 +502,10 @@
       <MinedOreRatio>4.1</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -546,7 +540,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -581,7 +574,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -618,7 +610,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>9</SpecularPower>
       <SpecularShininess>1.435</SpecularShininess>
@@ -653,7 +644,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>9</SpecularPower>
       <SpecularShininess>1.435</SpecularShininess>
@@ -688,7 +678,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.4</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.364</SpecularShininess>
@@ -717,13 +706,12 @@
       </Id>            
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[S] Akimotoite (Si,Mg)</MinedOre>
-      <MinedOreRatio>8.8</MinedOreRatio>
+      <MinedOreRatio>6.6</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -752,13 +740,12 @@
       </Id>            
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[S] Wadsleyite (Si,Mg)</MinedOre>
-      <MinedOreRatio>6.3</MinedOreRatio>
+      <MinedOreRatio>5.7</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>12</SpecularPower>
       <SpecularShininess>0.360</SpecularShininess>
@@ -790,10 +777,10 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>19</SpecularPower>
       <SpecularShininess>0.720</SpecularShininess>
@@ -828,7 +815,6 @@
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>9</SpecularPower>
       <SpecularShininess>1.435</SpecularShininess>
@@ -862,10 +848,10 @@
       <MinedOreRatio>5</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
+      <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
       <IsRare>true</IsRare>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.4</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>14</SpecularPower>
       <SpecularShininess>1.084</SpecularShininess>
@@ -900,7 +886,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>0.4</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
       <SpecularPower>21</SpecularPower>
@@ -940,7 +925,6 @@
       <CanBeHarvested>true</CanBeHarvested>
       <IsRare>true</IsRare>
       <IsIndestructible>false</IsIndestructible>
-      <DamageRatio>1</DamageRatio>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
       <DiffuseXZ>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</DiffuseXZ>

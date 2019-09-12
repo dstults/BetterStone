@@ -1,509 +1,693 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PhysicalItems>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>Stone</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Item_StoneOre</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>IconSymbol_Stone</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Iron (Fe)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Iron (Fe)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_icy_iron.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>IconSymbol_Fe</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Dense Iron (Fe+)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Dense Iron (Fe+)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>IconSymbol_Fe</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Hapkeite (Fe,Si)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Hapkeite (Fe,Si)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_hapkeite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe,Si</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Heazlewoodite (Ni)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Heazlewoodite (Ni)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_heazlewoodite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Porphyry (Au)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Porphyry (Au)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_porphyry.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Au</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Dolomite (Mg)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Dolomite (Mg)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_dolomite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Mg</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Cattierite (Co)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Cattierite (Co)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Co</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Niggliite (Pt)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Niggliite (Pt)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_niggliite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Pt</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[EI] Carnotite (U)</SubtypeId>
-      </Id>
-      <DisplayName>[EI] Carnotite (U)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>U</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Glaucodot (Fe,Co)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Glaucodot (Fe,Co)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_glaucodot.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe,Co</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Sinoite (Si)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Sinoite (Si)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_sinoite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Si</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Pyrite (Fe,Au)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Pyrite (Fe,Au)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_pyrite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe,Au</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Olivine (Si,Mg)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Olivine (Si,Mg)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_olivine.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Si,Mg</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Cooperite (Ni,Pt)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Cooperite (Ni,Pt)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cooperite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni,Pt</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Quartz (Si)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Quartz (Si)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Si</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Galena (Ag)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Galena (Ag)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_galena.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Chlorargyrite (Ag)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Chlorargyrite (Ag)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_chlorargyrite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Electrum (Au,Ag)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Electrum (Au,Ag)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Au,Ag</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Sperrylite (Pt)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Sperrylite (Pt)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Pt</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[EI] Autunite (U)</SubtypeId>
-      </Id>
-      <DisplayName>[EI] Autunite (U)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_autunite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>U</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Akimotoite (Si,Mg)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Akimotoite (Si,Mg)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_akimotoite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Si,Mg</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[S] Wadsleyite (Si,Mg)</SubtypeId>
-      </Id>
-      <DisplayName>[S] Wadsleyite (Si,Mg)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_wadsleyite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Si,Mg</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Taenite (Fe,Ni)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Taenite (Fe,Ni)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_taenite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe,Ni</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Cohenite (Ni,Co)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Cohenite (Ni,Co)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cohenite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni,Co</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[CM] Kamacite (Fe,Ni,Co)</SubtypeId>
-      </Id>
-      <DisplayName>[CM] Kamacite (Fe,Ni,Co)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_kamacite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni,Co</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[EI] Uraniaurite (U,Au)</SubtypeId>
-      </Id>
-      <DisplayName>[EI] Uraniaurite (U,Au)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_uraniaurite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>U,Au</IconSymbol>
-    </PhysicalItem>
-    <PhysicalItem>
-      <Id>
-        <TypeId>Ore</TypeId>
-        <SubtypeId>[PM] Petzite (Ag,Au)</SubtypeId>
-      </Id>
-      <DisplayName>[PM] Petzite (Ag,Au)</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_petzite.dds</Icon>
-      <Size>
-        <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
-      </Size>
-      <Mass>1</Mass>
-      <Volume>0.37</Volume>
-      <Model>Models\Components\Sphere.mwm</Model>
-      <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Au,Ag</IconSymbol>
-    </PhysicalItem>
-  </PhysicalItems>
+    <PhysicalItems>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>Stone</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Item_StoneOre</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_rock.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>IconSymbol_Stone</IconSymbol>
+            <MinimalPricePerUnit>10</MinimalPricePerUnit>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Iron (Fe)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Iron (Fe)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_icy_iron.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>IconSymbol_Fe</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Dense Iron (Fe+)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Dense Iron (Fe+)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_Fe_iron.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>IconSymbol_Fe</IconSymbol>
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Hapkeite (Fe,Si)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Hapkeite (Fe,Si)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_hapkeite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Fe,Si</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Heazlewoodite (Ni)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Heazlewoodite (Ni)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_heazlewoodite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ni</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Porphyry (Au)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Porphyry (Au)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_porphyry.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Au</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Dolomite (Mg)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Dolomite (Mg)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_dolomite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Mg</IconSymbol>
+            <MinimalPricePerUnit>300</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>9000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Cattierite (Co)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Cattierite (Co)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Co</IconSymbol>
+            <MinimalPricePerUnit>300</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>9000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Niggliite (Pt)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Niggliite (Pt)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_niggliite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Pt</IconSymbol>
+            <MinimalPricePerUnit>400</MinimalPricePerUnit>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[EI] Carnotite (U)</SubtypeId>
+            </Id>
+            <DisplayName>[EI] Carnotite (U)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>U</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Glaucodot (Fe,Co)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Glaucodot (Fe,Co)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_glaucodot.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Fe,Co</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Sinoite (Si)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Sinoite (Si)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_sinoite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Si</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Pyrite (Fe,Au)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Pyrite (Fe,Au)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_pyrite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Fe,Au</IconSymbol>
+            <MinimalPricePerUnit>150</MinimalPricePerUnit>
+            <MinimumOrderAmount>1250</MinimumOrderAmount>
+            <MaximumOrderAmount>17500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Olivine (Si,Mg)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Olivine (Si,Mg)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_olivine.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Si,Mg</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Cooperite (Ni,Pt)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Cooperite (Ni,Pt)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_cooperite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ni,Pt</IconSymbol>
+            <MinimalPricePerUnit>250</MinimalPricePerUnit>
+            <MinimumOrderAmount>600</MinimumOrderAmount>
+            <MaximumOrderAmount>6000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Quartz (Si)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Quartz (Si)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Si</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Galena (Ag)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Galena (Ag)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_galena.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ag</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Chlorargyrite (Ag)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Chlorargyrite (Ag)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_chlorargyrite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ag</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Electrum (Au,Ag)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Electrum (Au,Ag)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Au,Ag</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Sperrylite (Pt)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Sperrylite (Pt)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Pt</IconSymbol>
+            <MinimalPricePerUnit>400</MinimalPricePerUnit>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[EI] Autunite (U)</SubtypeId>
+            </Id>
+            <DisplayName>[EI] Autunite (U)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_autunite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>U</IconSymbol>
+            <MinimalPricePerUnit>500</MinimalPricePerUnit>
+            <MinimumOrderAmount>100</MinimumOrderAmount>
+            <MaximumOrderAmount>1000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Akimotoite (Si,Mg)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Akimotoite (Si,Mg)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_akimotoite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Si,Mg</IconSymbol>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[S] Wadsleyite (Si,Mg)</SubtypeId>
+            </Id>
+            <DisplayName>[S] Wadsleyite (Si,Mg)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_wadsleyite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Si,Mg</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Taenite (Fe,Ni)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Taenite (Fe,Ni)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_taenite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Fe,Ni</IconSymbol>
+            <MinimalPricePerUnit>100</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>20000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Cohenite (Ni,Co)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Cohenite (Ni,Co)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_cohenite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ni,Co</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>15000</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[CM] Kamacite (Fe,Ni,Co)</SubtypeId>
+            </Id>
+            <DisplayName>[CM] Kamacite (Fe,Ni,Co)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_kamacite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Ni,Co</IconSymbol>
+            <MinimalPricePerUnit>250</MinimalPricePerUnit>
+            <MinimumOrderAmount>1000</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[EI] Uraniaurite (U,Au)</SubtypeId>
+            </Id>
+            <DisplayName>[EI] Uraniaurite (U,Au)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_uraniaurite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>U,Au</IconSymbol>
+            <MinimalPricePerUnit>350</MinimalPricePerUnit>
+            <MinimumOrderAmount>600</MinimumOrderAmount>
+            <MaximumOrderAmount>4500</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+        <PhysicalItem>
+            <Id>
+                <TypeId>Ore</TypeId>
+                <SubtypeId>[PM] Petzite (Ag,Au)</SubtypeId>
+            </Id>
+            <DisplayName>[PM] Petzite (Ag,Au)</DisplayName>
+            <Icon>Textures\GUI\Icons\ore_petzite.dds</Icon>
+            <Size>
+                <X>0.07</X>
+                <Y>0.07</Y>
+                <Z>0.07</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>0.37</Volume>
+            <Model>Models\Components\Sphere.mwm</Model>
+            <PhysicalMaterial>Stone</PhysicalMaterial>
+            <IconSymbol>Au,Ag</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
+        </PhysicalItem>
+    </PhysicalItems>
 </Definitions>

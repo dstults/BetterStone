@@ -1,4 +1,10 @@
-﻿2019-05-25 -- 7.0.3b (SE 1.190.1):
+﻿
+2019-09-11 -- 7.0.3c (SE 1.192 - Economy Update)
+
+Updated to add ore values to be compatible with economics
+Added frequency settings that should make the more common (usu. iron-based or lower-tiered) ores more common
+
+2019-05-25 -- 7.0.3b (SE 1.190.1):
 
 I found out that "Solids" and "CommonMetals" were merged in an earlier update, thus they are all CMs now. In other words, 4 tiers of ores became 3. (Thanks, Deadok!)
 

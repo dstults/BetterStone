@@ -12,8 +12,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Iron (Fe)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Iron" />
-	    <Item Amount="0.250" TypeId="Ore" SubtypeId="Ice" />
+	    <Item Amount="0.40" TypeId="Ingot" SubtypeId="Iron" />
+	    <Item Amount="0.50" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -28,7 +28,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Dense Iron (Fe+)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.875" TypeId="Ingot" SubtypeId="Iron" />
+	    <Item Amount="0.9" TypeId="Ingot" SubtypeId="Iron" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -44,7 +44,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Iron" />
-	    <Item Amount="0.350" TypeId="Ingot" SubtypeId="Silicon" />
+	    <Item Amount="0.450" TypeId="Ingot" SubtypeId="Silicon" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.32</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -59,7 +59,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.300" TypeId="Ingot" SubtypeId="Nickel" />
+	    <Item Amount="0.400" TypeId="Ingot" SubtypeId="Nickel" />
+	    <Item Amount="0.150" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -89,7 +90,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.004" TypeId="Ingot" SubtypeId="Magnesium" />
+	    <Item Amount="0.007" TypeId="Ingot" SubtypeId="Magnesium" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.32</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -166,8 +167,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.550" TypeId="Ingot" SubtypeId="Silicon" />
-	    <Item Amount="0.220" TypeId="Ore" SubtypeId="Ice" />
+	    <Item Amount="0.620" TypeId="Ingot" SubtypeId="Silicon" />
+	    <Item Amount="0.440" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -198,9 +199,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.120" TypeId="Ingot" SubtypeId="Silicon" />
-	    <Item Amount="0.006" TypeId="Ingot" SubtypeId="Magnesium" />
-	    <Item Amount="0.170" TypeId="Ore" SubtypeId="Ice" />
+	    <Item Amount="0.180" TypeId="Ingot" SubtypeId="Silicon" />
+	    <Item Amount="0.008" TypeId="Ingot" SubtypeId="Magnesium" />
+	    <Item Amount="0.350" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>1.9</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -231,10 +232,10 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.440" TypeId="Ingot" SubtypeId="Silicon" />
-	    <Item Amount="0.560" TypeId="Ore" SubtypeId="Ice" />
+	    <Item Amount="0.490" TypeId="Ingot" SubtypeId="Silicon" />
+	    <Item Amount="1.120" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
-      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.9</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
@@ -324,8 +325,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.200" TypeId="Ingot" SubtypeId="Silicon" />
-	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Magnesium" />
+	    <Item Amount="0.220" TypeId="Ingot" SubtypeId="Silicon" />
+	    <Item Amount="0.005" TypeId="Ingot" SubtypeId="Magnesium" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.35</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -372,8 +373,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.134" TypeId="Ingot" SubtypeId="Nickel" />
-		<Item Amount="0.100" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="0.210" TypeId="Ingot" SubtypeId="Nickel" />
+		<Item Amount="0.130" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.672</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -388,8 +389,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.233" TypeId="Ingot" SubtypeId="Iron" />
-		<Item Amount="0.134" TypeId="Ingot" SubtypeId="Nickel" />
+		<Item Amount="0.284" TypeId="Ingot" SubtypeId="Iron" />
+		<Item Amount="0.174" TypeId="Ingot" SubtypeId="Nickel" />
 		<Item Amount="0.100" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.672</BaseProductionTimeInSeconds>
