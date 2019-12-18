@@ -32,7 +32,6 @@
     </MesherPostprocessing>
 
 
-
     <SurfaceDetail>
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
       <Size>384</Size>
@@ -132,14 +131,14 @@
 
       <!-- ORE Tier 3 -->
       <!-- U 1-->
-      <Ore Value="144" Type="Carnotite_01" Start="160" Depth="20" TargetColor="#616c83" ColorInfluence="15" />
-      <Ore Value="148" Type="Carnotite_01" Start="175" Depth="30" TargetColor="#616c83" ColorInfluence="15" />
-      <Ore Value="152" Type="Autunite_01" Start="190" Depth="50" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="144" Type="Petzite_01" Start="160" Depth="20" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="148" Type="Porphyry_01" Start="175" Depth="30" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="152" Type="Dolomite_01" Start="190" Depth="50" TargetColor="#616c83" ColorInfluence="15" />
 
       <!-- U 2-->
-      <Ore Value="156" Type="Autunite_01" Start="400" Depth="80" TargetColor="#616c83" ColorInfluence="15" />
-      <Ore Value="160" Type="Uraninite_01" Start="445" Depth="90" TargetColor="#616c83" ColorInfluence="15" />
-      <Ore Value="164" Type="Uraniaurite_01" Start="485" Depth="110" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="156" Type="Quartz_01" Start="400" Depth="80" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="160" Type="Glaucodot_01" Start="445" Depth="90" TargetColor="#616c83" ColorInfluence="15" />
+      <Ore Value="164" Type="Porphyry_01" Start="485" Depth="110" TargetColor="#616c83" ColorInfluence="15" />
 
       <!-- Au 1-->
       <Ore Value="168" Type="Pyrite_01" Start="200" Depth="10" TargetColor="#616c83" ColorInfluence="15" />
