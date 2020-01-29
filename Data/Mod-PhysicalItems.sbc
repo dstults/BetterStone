@@ -538,6 +538,13 @@
             <Model>Models\Components\Sphere.mwm</Model>
             <PhysicalMaterial>Stone</PhysicalMaterial>
             <IconSymbol>Si,Mg</IconSymbol>
+            <MinimalPricePerUnit>200</MinimalPricePerUnit>
+            <MinimumOrderAmount>1500</MinimumOrderAmount>
+            <MaximumOrderAmount>15000</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+
+            <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+            <MaximumAcquisitionAmount>500</MaximumAcquisitionAmount>
         </PhysicalItem>
         <PhysicalItem>
             <Id>
