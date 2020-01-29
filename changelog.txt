@@ -2,7 +2,7 @@
 2020-01-28 -- 7.9.3e (SE 1.193)
 
 Akimotoite was missing <MinimalPricePerUnit> et al, fixed. (Thanks Mattheus)
-Earthlikes planet ores spawn at 1x the default depts, yet still 5x the richness (depth after appearing).
+Earthlikes planet ores spawn at 1x the default depths, yet still 5x the richness (depth after appearing).
 I did this so that I wouldn't have messages literally once every two weeks saying "it doesn't work" or "I can't find gold", etc.
 If you want more challenge, all the other planet ore depths remain at 10x the depth, 10x the richness.
  ---> Other changes:
