@@ -1,4 +1,8 @@
 ﻿
+2020-02-22 -- 7.9.3f (SE 1.193.1)
+
+Removed old DiffuseXZ and NormalXZ entries from iron_01 and petzite accidentally leftover from a past overhaul
+
 2020-01-28 -- 7.9.3e (SE 1.193)
 
 Akimotoite was missing <MinimalPricePerUnit> et al, fixed. (Thanks Mattheus)

@@ -17,8 +17,6 @@
       <IsIndestructible>false</IsIndestructible>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
-      <DiffuseXZ>Textures\Voxels\Iron_01_ForAxisXZ_de.dds</DiffuseXZ>
-      <NormalXZ>Textures\Voxels\Iron_01_ForAxisXZ_ns.dds</NormalXZ>
       <SpecularPower>24</SpecularPower>
       <SpecularShininess>0.498</SpecularShininess>
 
@@ -43,8 +41,6 @@
       <IsIndestructible>false</IsIndestructible>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
-      <DiffuseXZ>Textures\Voxels\Iron_02_ForAxisXZ_de.dds</DiffuseXZ>
-      <NormalXZ>Textures\Voxels\Iron_02_ForAxisXZ_ns.dds</NormalXZ>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
 
@@ -927,8 +923,6 @@
       <IsIndestructible>false</IsIndestructible>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
-      <DiffuseXZ>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</DiffuseXZ>
-      <NormalXZ>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalXZ>
       <SpecularPower>9</SpecularPower>
       <SpecularShininess>1.435</SpecularShininess>
 
