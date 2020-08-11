@@ -11,6 +11,9 @@ Planet Ores & Deep Veins, Big Veins:
   G.E.W.P Wolfiy
   Jattenalle
 
+Big thanks for recent GitHub weather patch:
+  kynalvarus
+
 Special Thanks, in no special order, for your testing and feedback:
   jb_aero
   DieDae

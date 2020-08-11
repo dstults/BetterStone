@@ -1,9 +1,17 @@
 ﻿
-2020-02-22 -- 7.9.3f (SE 1.193.1)
+2020-08-10 -- 7.0.6 (SE 1.196) by kynalvarus
+
+Merged new dynamic weather changes from vanilla
+
+Micro changes by DranKof:
+Thumbnail update to reflect update to major SE patch
+The last two updates were erroneously written as 7.9.x instead of 7.0.x.
+
+2020-02-22 -- 7.0.3f (SE 1.193.1)
 
 Removed old DiffuseXZ and NormalXZ entries from iron_01 and petzite accidentally leftover from a past overhaul
 
-2020-01-28 -- 7.9.3e (SE 1.193)
+2020-01-28 -- 7.0.3e (SE 1.193)
 
 Akimotoite was missing <MinimalPricePerUnit> et al, fixed. (Thanks Mattheus)
 Earthlike planet ores spawn at 1x the default depths, yet still 5x the richness (depth after appearing).
