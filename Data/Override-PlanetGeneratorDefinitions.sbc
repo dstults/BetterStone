@@ -7,6 +7,7 @@
       <SubtypeId>EarthLike</SubtypeId>
     </Id>
 
+	<Difficulty>DifficultyEasy</Difficulty>
     <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
       <PostprocessingSteps>
         <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
@@ -36,7 +37,7 @@
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
       <Size>384</Size>
       <Scale>5</Scale>
-      <Slope Min="30" Max="80"/>
+      <Slope Min="30" Max="80" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -71,8 +72,8 @@
       <Ore Value="1" Type="Hapkeite_01" Start="10" Depth="15" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="4" Type="Olivine_01" Start="12" Depth="15" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="8" Type="Wadsleyite_01" Start="14" Depth="20" TargetColor="#616c83" ColorInfluence="15"/>
+     
 
-	  
       <!-- Fe 2-->
       <Ore Value="12" Type="Taenite_01" Start="25" Depth="25" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="16" Type="Iron_02" Start="28" Depth="25" TargetColor="#616c83" ColorInfluence="15"/>
@@ -117,7 +118,7 @@
       <!-- Ag 2-->
       <Ore Value="108" Type="Galena_01" Start="55" Depth="40" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="112" Type="Electrum_01" Start="58" Depth="45" TargetColor="#616c83" ColorInfluence="15"/>
-      <Ore Value="116" Type="Silver_01" Start="63" Depth="55" TargetColor="#616c83" ColorInfluence="15"/>
+      <Ore Value="116" Type="Silver_01" Start="63" Depth="55" TargetColor="#616c83" ColorInfluence="15" />
 
       <!-- Mg 1-->
       <Ore Value="120" Type="Olivine_01" Start="23" Depth="20" TargetColor="#616c83" ColorInfluence="15"/>
@@ -212,8 +213,8 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Earthlike" Frequency="0.8"/>
-      <MusicCategory Category="Calm" Frequency="0.2"/>
+      <MusicCategory Category="Earthlike" Frequency="0.8" />
+      <MusicCategory Category="Calm" Frequency="0.2" />
     </MusicCategories>
 
     <!-- Rules that define where materials are generated -->
@@ -713,7 +714,7 @@
           <Material>Snow</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -731,7 +732,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -751,7 +752,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -768,7 +769,7 @@
           <Material>Woods_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -786,7 +787,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassFoliage" Density="0.15"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -803,7 +804,7 @@
           <Material>Rocks_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -821,7 +822,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -838,7 +839,7 @@
           <Material>Grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -856,7 +857,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -873,7 +874,7 @@
           <Material>Grass_old</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -891,7 +892,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.3"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -908,7 +909,7 @@
           <Material>Sand_02</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -926,7 +927,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="EarthDesertArea" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -951,7 +952,7 @@
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestEdge" Density="0.3"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="EarthSnowArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -1394,8 +1395,8 @@
           </SunColor>
           <SunSpecularColor>
             <X>1</X>
-            <Y>0.97</Y>
-            <Z>0.611</Z>
+            <Y>0.984</Y>
+            <Z>0.843</Z>
           </SunSpecularColor>
       </AtmosphereSettings>
 
@@ -1490,7 +1491,7 @@
       <SpawnDelayMin>60000</SpawnDelayMin>
       <SpawnDelayMax>3600000</SpawnDelayMax>
       <SpawnDistMin>100</SpawnDistMin>
-      <SpawnDistMax>1000</SpawnDistMax>
+      <SpawnDistMax>400</SpawnDistMax>
       <WaveCountMin>1</WaveCountMin>
       <WaveCountMax>4</WaveCountMax>
     </AnimalSpawnInfo>
@@ -1502,14 +1503,14 @@
       <SpawnDelayMax>1800000</SpawnDelayMax>
       <SpawnDistMin>100</SpawnDistMin>
       <SpawnDistMax>300</SpawnDistMax>
-
       <WaveCountMin>2</WaveCountMin>
       <WaveCountMax>8</WaveCountMax>
     </NightAnimalSpawnInfo>
+
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-
+	
 	<!-- Earthlike Planet's Weather Settings -->
-
+	
 	<WeatherFrequencyMin>600</WeatherFrequencyMin>
 	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
 	<WeatherGenerators>
@@ -1784,6 +1785,8 @@
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Alien</SubtypeId>
     </Id>
+	
+	<Difficulty>DifficultyNormal</Difficulty>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
@@ -1817,7 +1820,7 @@
       <Texture>Data/PlanetDataFiles/Extra/material_detail_4</Texture>
       <Size>384</Size>
       <Scale>15</Scale>
-      <Slope Min="30" Max="80"/>
+      <Slope Min="30" Max="80" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -1867,7 +1870,7 @@
       <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="68" Type="Silicon_01" Start="270" Depth="90" TargetColor="#616c83" ColorInfluence="15"/>
 
-	  
+
       <!-- ORE Tier 2 -->
       <!-- Co 1-->
       <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30" TargetColor="#616c83" ColorInfluence="15"/>
@@ -1899,7 +1902,7 @@
       <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80" TargetColor="#616c83" ColorInfluence="15"/>
       <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100" TargetColor="#616c83" ColorInfluence="15"/>
 
-	  
+
       <!-- ORE Tier 3 -->
       <!-- U 1-->
       <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20" TargetColor="#616c83" ColorInfluence="15"/>
@@ -1986,9 +1989,9 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Alien" Frequency="0.75"/>
-      <MusicCategory Category="Mystery" Frequency="0.15"/>
-      <MusicCategory Category="Danger" Frequency="0.1"/>
+      <MusicCategory Category="Alien" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
     </MusicCategories>
 
     <!-- Rules that define where materials are generated -->
@@ -2467,8 +2470,8 @@
           <Material>AlienSnow</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockyterrain_snowtop_largestone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2486,7 +2489,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSnowFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="AlienIcelandArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2503,7 +2506,7 @@
           <Material>AlienOrangeGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2521,7 +2524,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienOrangeGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2538,8 +2541,8 @@
           <Material>AlienYellowGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="alienrockymountain_largestone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2557,7 +2560,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienYellowGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2574,7 +2577,7 @@
           <Material>AlienGreenGrass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2592,7 +2595,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienGreenGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2610,7 +2613,7 @@
           <Material>Soil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2629,7 +2632,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienRockGrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienForestArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2646,7 +2649,7 @@
           <Material>AlienSand</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -2664,7 +2667,7 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="AlienSandFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="AlienDesertArea" Density="0.002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -3196,11 +3199,10 @@
         <Animal Type="SpaceSpiderBlack"/>
       </Animals>
     </AnimalSpawnInfo>
-
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-
+	
 	<!-- Alien Planet's Weather Settings -->
-
+	
 	<WeatherFrequencyMin>600</WeatherFrequencyMin>
 	<WeatherFrequencyMax>1800</WeatherFrequencyMax>
 	<WeatherGenerators>
@@ -3498,6 +3500,8 @@
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Mars</SubtypeId>
     </Id>
+	
+	<Difficulty>DifficultyNormal</Difficulty>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
@@ -3640,10 +3644,10 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.7"/>
-      <MusicCategory Category="Mystery" Frequency="0.05"/>
-      <MusicCategory Category="Danger" Frequency="0.125"/>
-      <MusicCategory Category="Calm" Frequency="0.125"/>
+      <MusicCategory Category="Planet" Frequency="0.7" />
+      <MusicCategory Category="Mystery" Frequency="0.05" />
+      <MusicCategory Category="Danger" Frequency="0.125" />
+      <MusicCategory Category="Calm" Frequency="0.125" />
     </MusicCategories>
 
     <!-- Marz named for easier finding  -->
@@ -3728,7 +3732,7 @@
           <Material>MarsSoil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -3745,7 +3749,7 @@
           <Material>MarsRocks</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -3949,9 +3953,9 @@
 
     <HillParams Min = "-0.01" Max ="0.12"/>
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-
+	
 	<!-- Mars Planet's Weather Settings -->
-
+	
 	<WeatherFrequencyMin>1800</WeatherFrequencyMin>
 	<WeatherFrequencyMax>5400</WeatherFrequencyMax>
 	<WeatherGenerators>
@@ -4035,6 +4039,8 @@
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Moon</SubtypeId>
     </Id>
+	
+	<Difficulty>DifficultyHard</Difficulty>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
@@ -4068,7 +4074,7 @@
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
       <Size>256</Size>
       <Scale>2</Scale>
-      <Slope Min="30" Max="90"/>
+      <Slope Min="30" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -4237,7 +4243,7 @@
           <Material>MoonSoil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -4254,7 +4260,7 @@
           <Material>MoonRocks</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Moon" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -4271,7 +4277,7 @@
       <Ore Value="220" Type="Nickel_01" Start="30" Depth="70" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="240" Type="Silicon_01" Start="30" Depth="70" TargetColor="#FFFFFF" ColorInfluence="15"/>
 
-            <!-- Fe 1-->
+      <!-- Fe 1-->
       <Ore Value="1" Type="Hapkeite_01" Start="100" Depth="30" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="4" Type="Olivine_01" Start="120" Depth="30" TargetColor="#FFFFFF" ColorInfluence="15"/>
       <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40" TargetColor="#FFFFFF" ColorInfluence="15"/>
@@ -4385,10 +4391,10 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.75"/>
-      <MusicCategory Category="Mystery" Frequency="0.075"/>
-      <MusicCategory Category="Danger" Frequency="0.075"/>
-      <MusicCategory Category="Space" Frequency="0.15"/>
+      <MusicCategory Category="Planet" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.075" />
+      <MusicCategory Category="Danger" Frequency="0.075" />
+      <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
     <DefaultSurfaceMaterial Material="MoonRocks" MaxDepth="5"/>
@@ -4409,6 +4415,8 @@
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Europa</SubtypeId>
     </Id>
+	
+	<Difficulty>DifficultyHard</Difficulty>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
@@ -4442,7 +4450,7 @@
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
       <Size>384</Size>
       <Scale>5</Scale>
-      <Slope Min="30" Max="90"/>
+      <Slope Min="30" Max="90" />
       <Transition>10</Transition>
       <!-- <Transition>7.5</Transition> -->
     </SurfaceDetail>
@@ -4568,8 +4576,8 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.90"/>
-      <MusicCategory Category="Mystery" Frequency="0.1"/>
+      <MusicCategory Category="Planet" Frequency="0.90" />
+      <MusicCategory Category="Mystery" Frequency="0.1" />
     </MusicCategories>
 
     <!-- Eumoon definitions - name shortened for better navigation -->
@@ -4665,7 +4673,7 @@
           <Material>Ice</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -4682,7 +4690,7 @@
           <Material>Ice_02</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="SnowCoverageIronCore" ModifierId="Europa" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -4699,6 +4707,7 @@
     <Atmosphere>
       <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
+
     <AtmosphereSettings>
       <RayleighScattering>
         <X>17.1</X>
@@ -4727,9 +4736,9 @@
     <HillParams Min = "-0.03" Max ="0.06"/>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-
+	
 	<!-- Europa Planet's Weather Settings -->
-
+	
 	<WeatherFrequencyMin>300</WeatherFrequencyMin>
 	<WeatherFrequencyMax>600</WeatherFrequencyMax>
 	<GlobalWeather>true</GlobalWeather>
@@ -4758,6 +4767,8 @@
       <TypeId>PlanetGeneratorDefinition</TypeId>
       <SubtypeId>Titan</SubtypeId>
     </Id>
+	
+	<Difficulty>DifficultyHard</Difficulty>
     <!--!!!Important!! Read if you want to mod Planets! -->
     <!--Following tag switches off loading from certain color channels. Its performance measure in cases where channels are not used-->
     <!--Make sure you are not modding a switched off channel-->
@@ -4910,9 +4921,9 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Alien" Frequency="0.75"/>
-      <MusicCategory Category="Mystery" Frequency="0.15"/>
-      <MusicCategory Category="Danger" Frequency="0.1"/>
+      <MusicCategory Category="Alien" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.15" />
+      <MusicCategory Category="Danger" Frequency="0.1" />
     </MusicCategories>
 
     <!-- Titmoon definitions - name shortened for better navigation ;) -->
@@ -5111,7 +5122,7 @@
           <Material>MarsSoil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -5128,7 +5139,7 @@
           <Material>MarsRocks</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" GroupId="StoneCoverageIronCore" ModifierId="Mars" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -5146,6 +5157,7 @@
     <Atmosphere>
       <MaxWindSpeed>80</MaxWindSpeed>
     </Atmosphere>
+
     <!-- Titan Planet's Atmosphere settings-->
     <AtmosphereSettings>
       <RayleighScattering>
@@ -5311,9 +5323,9 @@
     </AnimalSpawnInfo>
 
     <MinimumSurfaceLayerDepth>5</MinimumSurfaceLayerDepth>
-
+  
   	<!-- Titan Moon Weather Settings -->
-
+	
 	<WeatherFrequencyMin>600</WeatherFrequencyMin>
 	<WeatherFrequencyMax>3600</WeatherFrequencyMax>
 	<WeatherGenerators>
@@ -5390,7 +5402,7 @@
 		</WeatherGenerator>
 	</WeatherGenerators>
   </Definition>
-
+  
   <!--Tutorial Planets -->
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
@@ -5444,91 +5456,91 @@
       <!--!INSERT ONLY IN BLUE CHANNEL on MaterialTexture -->
       <!-- Tier 1-->
       <!-- EASY START-->
-      <Ore Value="200" Type="Iron_02" Start="30" Depth="70"/>
-      <Ore Value="220" Type="Nickel_01" Start="30" Depth="70"/>
-      <Ore Value="240" Type="Silicon_01" Start="30" Depth="70"/>
+      <Ore Value="200" Type="Iron_02" Start="30" Depth="70" />
+      <Ore Value="220" Type="Nickel_01" Start="30" Depth="70" />
+      <Ore Value="240" Type="Silicon_01" Start="30" Depth="70" />
 
       <!-- Fe 1-->
-      <Ore Value="1" Type="Hapkeite_01" Start="100" Depth="30"/>
-      <Ore Value="4" Type="Olivine_01" Start="120" Depth="30"/>
-      <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40"/>
+      <Ore Value="1" Type="Hapkeite_01" Start="100" Depth="30" />
+      <Ore Value="4" Type="Olivine_01" Start="120" Depth="30" />
+      <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40" />
 
       <!-- Fe 2-->
-      <Ore Value="12" Type="Taenite_01" Start="250" Depth="50"/>
-      <Ore Value="16" Type="Iron_02" Start="280" Depth="50"/>
-      <Ore Value="20" Type="Iron_02" Start="310" Depth="80"/>
+      <Ore Value="12" Type="Taenite_01" Start="250" Depth="50" />
+      <Ore Value="16" Type="Iron_02" Start="280" Depth="50" />
+      <Ore Value="20" Type="Iron_02" Start="310" Depth="80" />
 
       <!-- Ni 1-->
-      <Ore Value="24" Type="Nickel_01" Start="100" Depth="40"/>
-      <Ore Value="28" Type="Taenite_01" Start="110" Depth="40"/>
-      <Ore Value="32" Type="Cohenite_01" Start="110" Depth="60"/>
+      <Ore Value="24" Type="Nickel_01" Start="100" Depth="40" />
+      <Ore Value="28" Type="Taenite_01" Start="110" Depth="40" />
+      <Ore Value="32" Type="Cohenite_01" Start="110" Depth="60" />
 
       <!-- Ni 2-->
-      <Ore Value="36" Type="Nickel_01" Start="240" Depth="50"/>
-      <Ore Value="40" Type="Kamacite_01" Start="270" Depth="50"/>
-      <Ore Value="44" Type="Heazlewoodite_01" Start="300" Depth="80"/>
+      <Ore Value="36" Type="Nickel_01" Start="240" Depth="50" />
+      <Ore Value="40" Type="Kamacite_01" Start="270" Depth="50" />
+      <Ore Value="44" Type="Heazlewoodite_01" Start="300" Depth="80" />
 
       <!-- Si 1-->
-      <Ore Value="48" Type="Akimotoite_01" Start="90" Depth="40"/>
-      <Ore Value="52" Type="Olivine_01" Start="130" Depth="40"/>
-      <Ore Value="56" Type="Quartz_01" Start="100" Depth="60"/>
+      <Ore Value="48" Type="Akimotoite_01" Start="90" Depth="40" />
+      <Ore Value="52" Type="Olivine_01" Start="130" Depth="40" />
+      <Ore Value="56" Type="Quartz_01" Start="100" Depth="60" />
 
       <!-- Si 2-->
-      <Ore Value="60" Type="Sinoite_01" Start="220" Depth="60"/>
-      <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70"/>
-      <Ore Value="68" Type="Silicon_01" Start="270" Depth="90"/>
+      <Ore Value="60" Type="Sinoite_01" Start="220" Depth="60" />
+      <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70" />
+      <Ore Value="68" Type="Silicon_01" Start="270" Depth="90" />
 
       <!-- ORE Tier 2 -->
       <!-- Co 1-->
-      <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30"/>
-      <Ore Value="76" Type="Cohenite_01" Start="220" Depth="40"/>
-      <Ore Value="80" Type="Cobalt_01" Start="260" Depth="60"/>
+      <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30" />
+      <Ore Value="76" Type="Cohenite_01" Start="220" Depth="40" />
+      <Ore Value="80" Type="Cobalt_01" Start="260" Depth="60" />
 
       <!-- Co 2-->
-      <Ore Value="84" Type="Kamacite_01" Start="520" Depth="50"/>
-      <Ore Value="88" Type="Cobalt_01" Start="550" Depth="60"/>
-      <Ore Value="92" Type="Cattierite_01" Start="620" Depth="90"/>
+      <Ore Value="84" Type="Kamacite_01" Start="520" Depth="50" />
+      <Ore Value="88" Type="Cobalt_01" Start="550" Depth="60" />
+      <Ore Value="92" Type="Cattierite_01" Start="620" Depth="90" />
 
       <!-- Ag 1-->
-      <Ore Value="96" Type="Silver_01" Start="210" Depth="30"/>
-      <Ore Value="100" Type="Petzite_01" Start="250" Depth="30"/>
-      <Ore Value="104" Type="Chlorargyrite_01" Start="310" Depth="50"/>
+      <Ore Value="96" Type="Silver_01" Start="210" Depth="30" />
+      <Ore Value="100" Type="Petzite_01" Start="250" Depth="30" />
+      <Ore Value="104" Type="Chlorargyrite_01" Start="310" Depth="50" />
 
        <!-- Ag 2-->
-      <Ore Value="108" Type="Galena_01" Start="550" Depth="80"/>
-      <Ore Value="112" Type="Electrum_01" Start="580" Depth="90"/>
-      <Ore Value="116" Type="Silver_01" Start="630" Depth="110"/>
+      <Ore Value="108" Type="Galena_01" Start="550" Depth="80" />
+      <Ore Value="112" Type="Electrum_01" Start="580" Depth="90" />
+      <Ore Value="116" Type="Silver_01" Start="630" Depth="110" />
 
       <!-- Mg 1-->
-      <Ore Value="120" Type="Olivine_01" Start="230" Depth="40"/>
-      <Ore Value="124" Type="Wadsleyite_01" Start="260" Depth="40"/>
-      <Ore Value="128" Type="Dolomite_01" Start="290" Depth="50"/>
+      <Ore Value="120" Type="Olivine_01" Start="230" Depth="40" />
+      <Ore Value="124" Type="Wadsleyite_01" Start="260" Depth="40" />
+      <Ore Value="128" Type="Dolomite_01" Start="290" Depth="50" />
 
       <!-- Mg 2-->
-      <Ore Value="132" Type="Akimotoite_01" Start="530" Depth="70"/>
-      <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80"/>
-      <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100"/>
+      <Ore Value="132" Type="Akimotoite_01" Start="530" Depth="70" />
+      <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80" />
+      <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100" />
 
       <!-- ORE Tier 3 -->
       <!-- U 1-->
-      <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20"/>
-      <Ore Value="148" Type="Carnotite_01" Start="350" Depth="30"/>
-      <Ore Value="152" Type="Autunite_01" Start="380" Depth="50"/>
+      <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20" />
+      <Ore Value="148" Type="Carnotite_01" Start="350" Depth="30" />
+      <Ore Value="152" Type="Autunite_01" Start="380" Depth="50" />
 
       <!-- U 2-->
-      <Ore Value="156" Type="Autunite_01" Start="800" Depth="80"/>
-      <Ore Value="160" Type="Uraninite_01" Start="890" Depth="90"/>
-      <Ore Value="164" Type="Uraniaurite_01" Start="960" Depth="110"/>
+      <Ore Value="156" Type="Autunite_01" Start="800" Depth="80" />
+      <Ore Value="160" Type="Uraninite_01" Start="890" Depth="90" />
+      <Ore Value="164" Type="Uraniaurite_01" Start="960" Depth="110" />
 
       <!-- Au 1-->
-      <Ore Value="168" Type="Pyrite_01" Start="400" Depth="10"/>
-      <Ore Value="172" Type="Pyrite_01" Start="420" Depth="20"/>
-      <Ore Value="176" Type="Porphyry_01" Start="450" Depth="30"/>
+      <Ore Value="168" Type="Pyrite_01" Start="400" Depth="10" />
+      <Ore Value="172" Type="Pyrite_01" Start="420" Depth="20" />
+      <Ore Value="176" Type="Porphyry_01" Start="450" Depth="30" />
 
       <!-- Au 2-->
-      <Ore Value="180" Type="Gold_01" Start="1000" Depth="40"/>
-      <Ore Value="184" Type="Electrum_01" Start="1070" Depth="50"/>
-      <Ore Value="188" Type="Gold_01" Start="1120" Depth="80"/>
+      <Ore Value="180" Type="Gold_01" Start="1000" Depth="40" />
+      <Ore Value="184" Type="Electrum_01" Start="1070" Depth="50" />
+      <Ore Value="188" Type="Gold_01" Start="1120" Depth="80" />
     </OreMappings>
 
     <SoundRules>
@@ -5592,8 +5604,8 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Earthlike" Frequency="0.8"/>
-      <MusicCategory Category="Calm" Frequency="0.2"/>
+      <MusicCategory Category="Earthlike" Frequency="0.8" />
+      <MusicCategory Category="Calm" Frequency="0.2" />
     </MusicCategories>
 
 
@@ -6101,7 +6113,7 @@
           <Material>Snow</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6119,8 +6131,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6156,7 +6168,7 @@
           <Material>Woods_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6174,8 +6186,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassFoliage" Density="0.15"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6192,7 +6204,7 @@
           <Material>Rocks_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6210,8 +6222,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6228,7 +6240,7 @@
           <Material>Grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6246,8 +6258,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6264,7 +6276,7 @@
           <Material>Grass_old</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6282,8 +6294,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.3"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6300,7 +6312,7 @@
           <Material>Sand_02</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6318,8 +6330,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -6344,8 +6356,8 @@
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestEdge" Density="0.3"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -7003,7 +7015,7 @@
       <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
       <Size>256</Size>
       <Scale>5</Scale>
-      <Slope Min="30" Max="90"/>
+      <Slope Min="30" Max="90" />
       <Transition>10</Transition>
     </SurfaceDetail>
 
@@ -7172,9 +7184,9 @@
           <Material>MoonSoil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.003"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.002"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0001"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.003" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0001" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -7191,9 +7203,9 @@
           <Material>MoonRocks</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.01"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0002"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_smallstone" Density="0.01" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_mediumstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="moonrocks_largestone" Density="0.0002" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -7206,101 +7218,101 @@
     <OreMappings>
       <!-- Tier 1 ! INSERT ONLY IN BLUE CHANNEL ! -->
       <!-- EASY START-->
-      <Ore Value="200" Type="Iron_02" Start="30" Depth="70"/>
-      <Ore Value="220" Type="Nickel_01" Start="30" Depth="70"/>
-      <Ore Value="240" Type="Silicon_01" Start="30" Depth="70"/>
+      <Ore Value="200" Type="Iron_02" Start="30" Depth="70" />
+      <Ore Value="220" Type="Nickel_01" Start="30" Depth="70" />
+      <Ore Value="240" Type="Silicon_01" Start="30" Depth="70" />
 
       <!-- Fe 1-->
-      <Ore Value="1" Type="Hapkeite_01" Start="10" Depth="30"/>
-      <Ore Value="4" Type="Olivine_01" Start="120" Depth="30"/>
-      <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40"/>
+      <Ore Value="1" Type="Hapkeite_01" Start="10" Depth="30" />
+      <Ore Value="4" Type="Olivine_01" Start="120" Depth="30" />
+      <Ore Value="8" Type="Wadsleyite_01" Start="140" Depth="40" />
 
       <!-- Fe 2-->
-      <Ore Value="12" Type="Taenite_01" Start="250" Depth="50"/>
-      <Ore Value="16" Type="Iron_02" Start="280" Depth="50"/>
-      <Ore Value="20" Type="Iron_02" Start="310" Depth="80"/>
+      <Ore Value="12" Type="Taenite_01" Start="250" Depth="50" />
+      <Ore Value="16" Type="Iron_02" Start="280" Depth="50" />
+      <Ore Value="20" Type="Iron_02" Start="310" Depth="80" />
 
       <!-- Ni 1-->
-      <Ore Value="24" Type="Nickel_01" Start="100" Depth="40"/>
-      <Ore Value="28" Type="Taenite_01" Start="110" Depth="40"/>
-      <Ore Value="32" Type="Cohenite_01" Start="110" Depth="60"/>
+      <Ore Value="24" Type="Nickel_01" Start="100" Depth="40" />
+      <Ore Value="28" Type="Taenite_01" Start="110" Depth="40" />
+      <Ore Value="32" Type="Cohenite_01" Start="110" Depth="60" />
 
       <!-- Ni 2-->
-      <Ore Value="36" Type="Nickel_01" Start="240" Depth="50"/>
-      <Ore Value="40" Type="Kamacite_01" Start="270" Depth="50"/>
-      <Ore Value="44" Type="Heazlewoodite_01" Start="300" Depth="80"/>
+      <Ore Value="36" Type="Nickel_01" Start="240" Depth="50" />
+      <Ore Value="40" Type="Kamacite_01" Start="270" Depth="50" />
+      <Ore Value="44" Type="Heazlewoodite_01" Start="300" Depth="80" />
 
       <!-- Si 1-->
-      <Ore Value="48" Type="Akimotoite_01" Start="90" Depth="40"/>
-      <Ore Value="52" Type="Olivine_01" Start="130" Depth="40"/>
-      <Ore Value="56" Type="Quartz_01" Start="100" Depth="60"/>
+      <Ore Value="48" Type="Akimotoite_01" Start="90" Depth="40" />
+      <Ore Value="52" Type="Olivine_01" Start="130" Depth="40" />
+      <Ore Value="56" Type="Quartz_01" Start="100" Depth="60" />
 
       <!-- Si 2-->
-      <Ore Value="60" Type="Sinoite_01" Start="220" Depth="60"/>
-      <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70"/>
-      <Ore Value="68" Type="Silicon_01" Start="270" Depth="90"/>
+      <Ore Value="60" Type="Sinoite_01" Start="220" Depth="60" />
+      <Ore Value="64" Type="Wadsleyite_01" Start="250" Depth="70" />
+      <Ore Value="68" Type="Silicon_01" Start="270" Depth="90" />
 
       <!-- ORE Tier 2 -->
       <!-- Co 1-->
-      <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30"/>
-      <Ore Value="76" Type="Cohenite_01" Start="220" Depth="40"/>
-      <Ore Value="80" Type="Cobalt_01" Start="260" Depth="60"/>
+      <Ore Value="72" Type="Glaucodot_01" Start="200" Depth="30" />
+      <Ore Value="76" Type="Cohenite_01" Start="220" Depth="40" />
+      <Ore Value="80" Type="Cobalt_01" Start="260" Depth="60" />
 
       <!-- Co 2-->
-      <Ore Value="84" Type="Kamacite_01" Start="520" Depth="50"/>
-      <Ore Value="88" Type="Cobalt_01" Start="550" Depth="60"/>
-      <Ore Value="92" Type="Cattierite_01" Start="620" Depth="90"/>
+      <Ore Value="84" Type="Kamacite_01" Start="520" Depth="50" />
+      <Ore Value="88" Type="Cobalt_01" Start="550" Depth="60" />
+      <Ore Value="92" Type="Cattierite_01" Start="620" Depth="90" />
 
       <!-- Ag 1-->
-      <Ore Value="96" Type="Silver_01" Start="210" Depth="30"/>
-      <Ore Value="100" Type="Petzite_01" Start="250" Depth="30"/>
-      <Ore Value="104" Type="Chlorargyrite_01" Start="310" Depth="50"/>
+      <Ore Value="96" Type="Silver_01" Start="210" Depth="30" />
+      <Ore Value="100" Type="Petzite_01" Start="250" Depth="30" />
+      <Ore Value="104" Type="Chlorargyrite_01" Start="310" Depth="50" />
 
        <!-- Ag 2-->
-      <Ore Value="108" Type="Galena_01" Start="550" Depth="80"/>
-      <Ore Value="112" Type="Electrum_01" Start="580" Depth="90"/>
-      <Ore Value="116" Type="Silver_01" Start="630" Depth="110"/>
+      <Ore Value="108" Type="Galena_01" Start="550" Depth="80" />
+      <Ore Value="112" Type="Electrum_01" Start="580" Depth="90" />
+      <Ore Value="116" Type="Silver_01" Start="630" Depth="110" />
 
       <!-- Mg 1-->
-      <Ore Value="120" Type="Olivine_01" Start="230" Depth="40"/>
-      <Ore Value="124" Type="Wadsleyite_01" Start="260" Depth="40"/>
-      <Ore Value="128" Type="Dolomite_01" Start="290" Depth="50"/>
+      <Ore Value="120" Type="Olivine_01" Start="230" Depth="40" />
+      <Ore Value="124" Type="Wadsleyite_01" Start="260" Depth="40" />
+      <Ore Value="128" Type="Dolomite_01" Start="290" Depth="50" />
 
       <!-- Mg 2-->
-      <Ore Value="132" Type="Akimotoite_01" Start="530" Depth="70"/>
-      <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80"/>
-      <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100"/>
+      <Ore Value="132" Type="Akimotoite_01" Start="530" Depth="70" />
+      <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80" />
+      <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100" />
 
       <!-- ORE Tier 3 -->
       <!-- U 1-->
-      <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20"/>
-      <Ore Value="148" Type="Carnotite_01" Start="350" Depth="30"/>
-      <Ore Value="152" Type="Autunite_01" Start="380" Depth="50"/>
+      <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20" />
+      <Ore Value="148" Type="Carnotite_01" Start="350" Depth="30" />
+      <Ore Value="152" Type="Autunite_01" Start="380" Depth="50" />
 
       <!-- U 2-->
-      <Ore Value="156" Type="Autunite_01" Start="800" Depth="80"/>
-      <Ore Value="160" Type="Uraninite_01" Start="890" Depth="90"/>
-      <Ore Value="164" Type="Uraniaurite_01" Start="960" Depth="110"/>
+      <Ore Value="156" Type="Autunite_01" Start="800" Depth="80" />
+      <Ore Value="160" Type="Uraninite_01" Start="890" Depth="90" />
+      <Ore Value="164" Type="Uraniaurite_01" Start="960" Depth="110" />
 
       <!-- Au 1-->
-      <Ore Value="168" Type="Pyrite_01" Start="400" Depth="10"/>
-      <Ore Value="172" Type="Pyrite_01" Start="420" Depth="20"/>
-      <Ore Value="176" Type="Porphyry_01" Start="450" Depth="30"/>
+      <Ore Value="168" Type="Pyrite_01" Start="400" Depth="10" />
+      <Ore Value="172" Type="Pyrite_01" Start="420" Depth="20" />
+      <Ore Value="176" Type="Porphyry_01" Start="450" Depth="30" />
 
       <!-- Au 2-->
-      <Ore Value="180" Type="Gold_01" Start="1000" Depth="40"/>
-      <Ore Value="184" Type="Electrum_01" Start="1070" Depth="50"/>
-      <Ore Value="188" Type="Gold_01" Start="1120" Depth="80"/>
+      <Ore Value="180" Type="Gold_01" Start="1000" Depth="40" />
+      <Ore Value="184" Type="Electrum_01" Start="1070" Depth="50" />
+      <Ore Value="188" Type="Gold_01" Start="1120" Depth="80" />
 
       <!-- Pt 1-->
-      <Ore Value="192" Type="Cooperite_01" Start="500" Depth="10"/>
-      <Ore Value="196" Type="Niggliite_01" Start="510" Depth="20"/>
-      <Ore Value="208" Type="Platinum_01" Start="530" Depth="40"/>
+      <Ore Value="192" Type="Cooperite_01" Start="500" Depth="10" />
+      <Ore Value="196" Type="Niggliite_01" Start="510" Depth="20" />
+      <Ore Value="208" Type="Platinum_01" Start="530" Depth="40" />
 
       <!-- Pt 2-->
-      <Ore Value="212" Type="Cooperite_01" Start="1100" Depth="50"/>
-      <Ore Value="217" Type="Niggliite_01" Start="1140" Depth="60"/>
-      <Ore Value="222" Type="Platinum_01" Start="1190" Depth="80"/>
+      <Ore Value="212" Type="Cooperite_01" Start="1100" Depth="50" />
+      <Ore Value="217" Type="Niggliite_01" Start="1140" Depth="60" />
+      <Ore Value="222" Type="Platinum_01" Start="1190" Depth="80" />
     </OreMappings>
 
     <!-- END Earthmoon definitions -->
@@ -7324,10 +7336,10 @@
     </SoundRules>
 
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.75"/>
-      <MusicCategory Category="Mystery" Frequency="0.075"/>
-      <MusicCategory Category="Danger" Frequency="0.075"/>
-      <MusicCategory Category="Space" Frequency="0.15"/>
+      <MusicCategory Category="Planet" Frequency="0.75" />
+      <MusicCategory Category="Mystery" Frequency="0.075" />
+      <MusicCategory Category="Danger" Frequency="0.075" />
+      <MusicCategory Category="Space" Frequency="0.15" />
     </MusicCategories>
 
     <DefaultSurfaceMaterial Material="MoonRocks" MaxDepth="5"/>
@@ -7579,9 +7591,9 @@
           <Material>MarsSoil</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_smallstone" Density="0.001"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_mediumstone" Density="0.002"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrocks_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_smallstone" Density="0.001" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrock_mediumstone" Density="0.002" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="marsrocks_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -7965,9 +7977,9 @@
 
     <!-- Music categories that will be played on this planet -->
     <MusicCategories>
-      <MusicCategory Category="Planet" Frequency="0.75"/>  <!-- 75% chance -->
-      <MusicCategory Category="Calm" Frequency="0.2"/>     <!-- 20% chance -->
-      <MusicCategory Category="Mystery" Frequency="0.05"/> <!--  5% chance -->
+      <MusicCategory Category="Planet" Frequency="0.75" />  <!-- 75% chance -->
+      <MusicCategory Category="Calm" Frequency="0.2" />     <!-- 20% chance -->
+      <MusicCategory Category="Mystery" Frequency="0.05" /> <!--  5% chance -->
     </MusicCategories>
 
 
@@ -8036,7 +8048,7 @@
           <Material>Snow</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8054,8 +8066,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8074,10 +8086,10 @@
           <Material>Grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8094,7 +8106,7 @@
           <Material>Woods_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8112,8 +8124,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassFoliage" Density="0.15"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8130,7 +8142,7 @@
           <Material>Rocks_grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8148,8 +8160,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="RockGrassFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.006" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.004" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8166,7 +8178,7 @@
           <Material>Grass</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8184,8 +8196,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassFoliage" Density="0.2"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8202,7 +8214,7 @@
           <Material>Grass_old</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8220,8 +8232,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="GrassOldFoliage" Density="0.3"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8238,7 +8250,7 @@
           <Material>Sand_02</Material>
         </Materials>
         <Items>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_largestone" Density="0.0005" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8256,8 +8268,8 @@
         </Materials>
         <Items>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SandFoliage" Density="0.1"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_smallstone" Density="0.004" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="desertrocks_mediumstone" Density="0.003" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -8282,8 +8294,8 @@
         <Items>
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="SnowForestEdge" Density="0.3"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="SnowBushForestEdge" Density="0.4"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008"/>
-          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006"/>
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_smallstone" Density="0.008" />
+          <Item TypeId="MyObjectBuilder_VoxelMapStorageDefinition" SubtypeId="stone_snowtop_mediumstone" Density="0.006" />
         </Items>
         <Rule>
           <Height Min="0" Max="0.7"/>
@@ -9152,7 +9164,7 @@
       <Ore Value="100" Type="Petzite_01" Start="250" Depth="30"/>
       <Ore Value="104" Type="Chlorargyrite_01" Start="310" Depth="50"/>
 
-       <!-- Ag 2-->
+      <!-- Ag 2-->
       <Ore Value="108" Type="Galena_01" Start="550" Depth="80"/>
       <Ore Value="112" Type="Electrum_01" Start="580" Depth="90"/>
       <Ore Value="116" Type="Silver_01" Start="630" Depth="110"/>
@@ -9167,7 +9179,7 @@
       <Ore Value="136" Type="Magnesium_01" Start="550" Depth="80"/>
       <Ore Value="140" Type="Magnesium_01" Start="590" Depth="100"/>
 
-	  
+
       <!-- ORE Tier 3 -->
       <!-- U 1-->
       <Ore Value="144" Type="Carnotite_01" Start="320" Depth="20"/>
@@ -9213,11 +9225,9 @@
           <Biome>0</Biome>
         </Biomes>
         <Materials>
-
           <Material>Soil</Material>
         </Materials>
         <Items>
-
           <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestLarge" Density="0.65"/>
           <Item TypeId="MyObjectBuilder_DestroyableItems" SubtypeId="WoodGrassBushForestEdge" Density="0.6"/>
           <!-- <Item TypeId="MyObjectBuilder_Trees" SubtypeId="WoodGrassForestLarge" Density="1"/> -->
