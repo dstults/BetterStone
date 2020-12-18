@@ -1,4 +1,13 @@
 ﻿
+2020-12-17 -- 7.0.7 (SE 1.197.072)
+
+Added Better Stone for Pertam - new desert planet
+Added Better Stone for Triton - DLC ice planet
+Merged vanilla "difficulty" (GUI thing that was added recently)
+Added dozens of arbitrary spaces to match changes in vanilla files
+Added colored icon for vanilla iron when it appears in trade stations
+Updated thumbnail to reflect update to major patch, yay!
+
 2020-08-10 -- 7.0.6 (SE 1.196) by kynalvarus
 
 Merged new dynamic weather changes from vanilla
