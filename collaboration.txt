@@ -11,10 +11,17 @@ Planet Ores & Deep Veins, Big Veins:
   G.E.W.P Wolfiy
   Jattenalle
 
+Big thanks for the massive server built around this mod:
+  Monica Lewinski
+
 Big thanks for recent GitHub weather patch:
   kynalvarus
 
+Thanks for good troubleshooting summaries:
+  Genjokoan
+
 Special Thanks, in no special order, for your testing and feedback:
+  Exilierator
   jb_aero
   DieDae
   BergeT

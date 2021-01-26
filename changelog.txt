@@ -1,4 +1,8 @@
 ﻿
+2020-01-26 -- 7.0.8 (SE XXXX)
+
+Thanks @ Exilierator: Added a couple missing uraniaurite voxel definitions
+
 2020-12-17 -- 7.0.7 (SE 1.197.072)
 
 Added Better Stone for Pertam - new desert planet

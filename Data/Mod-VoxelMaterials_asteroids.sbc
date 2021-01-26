@@ -880,7 +880,9 @@
       <MinedOre>[EI] Uraniaurite (U,Au)</MinedOre>
       <MinedOreRatio>1.9</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
+      <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <IsIndestructible>false</IsIndestructible>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       
