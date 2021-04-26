@@ -65,7 +65,7 @@
     <Entry Class="Solids" BlueprintSubtypeId="QuartzOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="AkimotoiteOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="WadsleyiteOreToIngot" />
-	<!-- START  [Survival Update] Vanilla ore solids delcarations: -->
+	<!-- START  [Survival Update] Vanilla ore solids declarations: -->
 	<Entry Class="Solids" BlueprintSubtypeId="StoneOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="MagnesiumOreToIngot" />
     <Entry Class="Solids" BlueprintSubtypeId="SiliconOreToIngot" />
