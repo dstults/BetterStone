@@ -38,7 +38,7 @@
         <SubtypeId>HapkeiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Hapkeite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_hapkeite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_hapkeite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Hapkeite (Fe,Si)" />
       </Prerequisites>
@@ -54,7 +54,7 @@
         <SubtypeId>HeazlewooditeOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Heazlewoodite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_heazlewoodite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_heazlewoodite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
       </Prerequisites>
@@ -70,7 +70,7 @@
         <SubtypeId>PorphyryOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Porphyry</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_porphyry.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_porphyry.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Porphyry (Au)" />
       </Prerequisites>
@@ -85,7 +85,7 @@
         <SubtypeId>DolomiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Dolomite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_dolomite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_dolomite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
       </Prerequisites>
@@ -100,7 +100,7 @@
         <SubtypeId>CattieriteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Cattierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_cattierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cattierite (Co)" />
       </Prerequisites>
@@ -115,7 +115,7 @@
         <SubtypeId>NiggliiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Niggliite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_niggliite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_niggliite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Niggliite (Pt)" />
       </Prerequisites>
@@ -130,7 +130,7 @@
         <SubtypeId>CarnotiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Carnotite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_carnotite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
       </Prerequisites>
@@ -146,7 +146,7 @@
         <SubtypeId>GlaucodotOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Glaucodot</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_glaucodot.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_glaucodot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Glaucodot (Fe,Co)" />
       </Prerequisites>
@@ -162,7 +162,7 @@
         <SubtypeId>SinoiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Sinoite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_sinoite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_sinoite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
       </Prerequisites>
@@ -178,7 +178,7 @@
         <SubtypeId>PyriteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Pyrite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_pyrite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_pyrite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Pyrite (Fe,Au)" />
       </Prerequisites>
@@ -194,7 +194,7 @@
         <SubtypeId>OlivineOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Olivine</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_olivine.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_olivine.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
       </Prerequisites>
@@ -211,7 +211,7 @@
         <SubtypeId>CooperiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Cooperite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_cooperite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cooperite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Cooperite (Ni,Pt)" />
       </Prerequisites>
@@ -227,7 +227,7 @@
         <SubtypeId>QuartzOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Quartz</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_quartz.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
       </Prerequisites>
@@ -243,7 +243,7 @@
         <SubtypeId>GalenaOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Galena</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_galena.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_galena.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Galena (Ag)" />
       </Prerequisites>
@@ -258,7 +258,7 @@
         <SubtypeId>ChlorargyriteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Chlorargyrite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_chlorargyrite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_chlorargyrite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Chlorargyrite (Ag)" />
       </Prerequisites>
@@ -274,7 +274,7 @@
         <SubtypeId>ElectrumOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Electrum</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_electrum.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Electrum (Au,Ag)" />
       </Prerequisites>
@@ -290,7 +290,7 @@
         <SubtypeId>SperryliteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Sperrylite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_sperrylite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Sperrylite (Pt)" />
       </Prerequisites>
@@ -305,7 +305,7 @@
         <SubtypeId>AutuniteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Autunite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_autunite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_autunite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Autunite (U)" />
       </Prerequisites>
@@ -320,7 +320,7 @@
         <SubtypeId>AkimotoiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Akimotoite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_akimotoite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_akimotoite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
       </Prerequisites>
@@ -336,7 +336,7 @@
         <SubtypeId>WadsleyiteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Wadsleyite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_wadsleyite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_wadsleyite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Wadsleyite (Si,Mg)" />
       </Prerequisites>
@@ -352,7 +352,7 @@
         <SubtypeId>TaeniteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Taenite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_taenite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_taenite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Taenite (Fe,Ni)" />
       </Prerequisites>
@@ -368,7 +368,7 @@
         <SubtypeId>CoheniteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Cohenite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_cohenite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cohenite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
       </Prerequisites>
@@ -384,7 +384,7 @@
         <SubtypeId>KamaciteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Kamacite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_kamacite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_kamacite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
       </Prerequisites>
@@ -401,7 +401,7 @@
         <SubtypeId>UraniauriteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Uraniaurite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_uraniaurite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_uraniaurite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
       </Prerequisites>
@@ -417,7 +417,7 @@
         <SubtypeId>PetziteOreToIngot</SubtypeId>
       </Id>
       <DisplayName>Refine Petzite</DisplayName>
-      <Icon>Textures\GUI\Icons\ingot\ore_petzite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_petzite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Petzite (Ag,Au)" />
       </Prerequisites>
