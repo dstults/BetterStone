@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushBS_IcyIronOre</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Iron (Fe)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.40" TypeId="Ore" SubtypeId="CrushedIron" />
+	    <Item Amount="0.50" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushBS_DenseIronOre</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_IronIngot</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\iron_ingot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Dense Iron (Fe+)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.9" TypeId="Ore" SubtypeId="CrushedIron" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushHapkeiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Hapkeite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_hapkeite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Hapkeite (Fe,Si)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
+	    <Item Amount="0.450" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushHeazlewooditeOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Heazlewoodite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_heazlewoodite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.400" TypeId="Ore" SubtypeId="CrushedNickel" />
+	    <Item Amount="0.150" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushPorphyryOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Porphyry</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_porphyry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Porphyry (Au)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.09" TypeId="Ore" SubtypeId="CrushedGold" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushDolomiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Dolomite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_dolomite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.019" TypeId="Ore" SubtypeId="Magnesium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushCattieriteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Cattierite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cattierite (Co)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.378" TypeId="Ore" SubtypeId="CrushedCobalt" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushNiggliiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Niggliite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_niggliite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Niggliite (Pt)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushCarnotiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Carnotite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.03" TypeId="Ore" SubtypeId="CrushedUranium" />
+	    <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushGlaucodotOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Glaucodot</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_glaucodot.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Glaucodot (Fe,Co)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.234" TypeId="Ore" SubtypeId="CrushedIron" />
+	    <Item Amount="0.280" TypeId="Ore" SubtypeId="CrushedCobalt" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushSinoiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Sinoite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_sinoite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.868" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	    <Item Amount="0.440" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushPyriteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Pyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_pyrite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Pyrite (Fe,Au)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.550" TypeId="Ore" SubtypeId="CrushedIron" />
+	    <Item Amount="0.025" TypeId="Ore" SubtypeId="CrushedGold" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushOlivineOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Olivine</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_olivine.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.180" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	    <Item Amount="0.016" TypeId="Ore" SubtypeId="Magnesium" />
+	    <Item Amount="0.350" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushCooperiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Cooperite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_cooperite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Cooperite (Ni,Pt)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.360" TypeId="Ore" SubtypeId="CrushedNickel" />
+	    <Item Amount="0.05" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushQuartzOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Quartz</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.490" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	    <Item Amount="1.120" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushGalenaOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Galena</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_galena.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Galena (Ag)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.21" TypeId="Ore" SubtypeId="CrushedSilver" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushChlorargyriteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Chlorargyrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_chlorargyrite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Chlorargyrite (Ag)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.39" TypeId="Ore" SubtypeId="CrushedSilver" />
+	    <Item Amount="0.002" TypeId="Ore" SubtypeId="Ice" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushElectrumOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Electrum</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Electrum (Au,Ag)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
+	    <Item Amount="0.112" TypeId="Ore" SubtypeId="CrushedGold" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushSperryliteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Sperrylite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Sperrylite (Pt)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushAutuniteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Autunite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_autunite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Autunite (U)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.06" TypeId="Ore" SubtypeId="CrushedUranium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushAkimotoiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Akimotoite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_akimotoite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.220" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	    <Item Amount="0.01" TypeId="Ore" SubtypeId="Magnesium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushWadsleyiteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Wadsleyite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_wadsleyite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[S] Wadsleyite (Si,Mg)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.300" TypeId="Ore" SubtypeId="CrushedSilicon" />
+	    <Item Amount="0.006" TypeId="Ore" SubtypeId="Magnesium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushTaeniteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Taenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_taenite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Taenite (Fe,Ni)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
+	    <Item Amount="0.200" TypeId="Ore" SubtypeId="CrushedNickel" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushCoheniteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Cohenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_cohenite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
+      </Prerequisites>
+      <Results>
+		<Item Amount="0.210" TypeId="Ore" SubtypeId="CrushedNickel" />
+		<Item Amount="0.182" TypeId="Ore" SubtypeId="CrushedCobalt" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushKamaciteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Kamacite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_kamacite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
+      </Prerequisites>
+      <Results>
+		<Item Amount="0.284" TypeId="Ore" SubtypeId="CrushedIron" />
+		<Item Amount="0.174" TypeId="Ore" SubtypeId="CrushedNickel" />
+		<Item Amount="0.140" TypeId="Ore" SubtypeId="CrushedCobalt" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushUraniauriteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Uraniaurite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_uraniaurite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
+      </Prerequisites>
+      <Results>
+		<Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedGold" />
+		<Item Amount="0.06" TypeId="Ore" SubtypeId="CrushedUranium" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CrushPetziteOre</SubtypeId>
+      </Id>
+      <DisplayName>Refine Petzite</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_petzite.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Petzite (Ag,Au)" />
+      </Prerequisites>
+      <Results>
+	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
+	    <Item Amount="0.112" TypeId="Ore" SubtypeId="CrushedGold" />
+	  </Results>
+      <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
