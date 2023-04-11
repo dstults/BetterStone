@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<!-- START Industrial Overhaul -->
+		
+			<!-- Ore Purification -->
+	
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushBS_IcyIronOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushBS_DenseIronOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushHapkeiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushHeazlewooditeOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPorphyryOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushDolomiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCattieriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushNiggliiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCarnotiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushGlaucodotOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushSinoiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPyriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushOlivineOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCooperiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushQuartzOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushGalenaOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushChlorargyriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushElectrumOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushSperryliteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushAutuniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushAkimotoiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushWadsleyiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushTaeniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCoheniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushKamaciteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushUraniauriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPetziteOre" />
+
+			<!-- END -->
+		
+
+	</BlueprintClassEntries>
+</Definitions>
