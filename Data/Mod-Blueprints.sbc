@@ -135,7 +135,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Uranium" />
+	    <Item Amount="0.001" TypeId="Ingot" SubtypeId="Uranium" />
 	    <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>3.1</BaseProductionTimeInSeconds>
@@ -152,7 +152,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.234" TypeId="Ingot" SubtypeId="Iron" />
-	    <Item Amount="0.200" TypeId="Ingot" SubtypeId="Cobalt" />
+	    <Item Amount="0.400" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>1.3</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -184,7 +184,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.550" TypeId="Ingot" SubtypeId="Iron" />
-	    <Item Amount="0.002" TypeId="Ingot" SubtypeId="Gold" />
+	    <Item Amount="0.001" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.25</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -280,7 +280,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.045" TypeId="Ingot" SubtypeId="Silver" />
-	    <Item Amount="0.009" TypeId="Ingot" SubtypeId="Gold" />
+	    <Item Amount="0.004" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.7</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -374,7 +374,7 @@
       </Prerequisites>
       <Results>
 		<Item Amount="0.210" TypeId="Ingot" SubtypeId="Nickel" />
-		<Item Amount="0.130" TypeId="Ingot" SubtypeId="Cobalt" />
+		<Item Amount="0.180" TypeId="Ingot" SubtypeId="Cobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.672</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -406,8 +406,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.006" TypeId="Ingot" SubtypeId="Gold" />
-		<Item Amount="0.004" TypeId="Ingot" SubtypeId="Uranium" />
+		<Item Amount="0.003" TypeId="Ingot" SubtypeId="Gold" />
+		<Item Amount="0.003" TypeId="Ingot" SubtypeId="Uranium" />
 	  </Results>
       <BaseProductionTimeInSeconds>2.2</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -423,7 +423,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.045" TypeId="Ingot" SubtypeId="Silver" />
-	    <Item Amount="0.009" TypeId="Ingot" SubtypeId="Gold" />
+	    <Item Amount="0.004" TypeId="Ingot" SubtypeId="Gold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.7</BaseProductionTimeInSeconds>
     </Blueprint>
