@@ -37,7 +37,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushHapkeiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Hapkeite</DisplayName>
+      <DisplayName>Crush Hapkeite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_hapkeite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Hapkeite (Fe,Si)" />
@@ -53,7 +53,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushHeazlewooditeOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Heazlewoodite</DisplayName>
+      <DisplayName>Crush Heazlewoodite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_heazlewoodite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
@@ -69,7 +69,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushPorphyryOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Porphyry</DisplayName>
+      <DisplayName>Crush Porphyry</DisplayName>
       <Icon>Textures\GUI\Icons\ore_porphyry.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Porphyry (Au)" />
@@ -84,7 +84,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushDolomiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Dolomite</DisplayName>
+      <DisplayName>Crush Dolomite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_dolomite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
@@ -99,7 +99,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushCattieriteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Cattierite</DisplayName>
+      <DisplayName>Crush Cattierite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cattierite (Co)" />
@@ -114,7 +114,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushNiggliiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Niggliite</DisplayName>
+      <DisplayName>Crush Niggliite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_niggliite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Niggliite (Pt)" />
@@ -129,7 +129,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushCarnotiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Carnotite</DisplayName>
+      <DisplayName>Crush Carnotite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
@@ -145,7 +145,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushGlaucodotOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Glaucodot</DisplayName>
+      <DisplayName>Crush Glaucodot</DisplayName>
       <Icon>Textures\GUI\Icons\ore_glaucodot.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Glaucodot (Fe,Co)" />
@@ -161,7 +161,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushSinoiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Sinoite</DisplayName>
+      <DisplayName>Crush Sinoite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_sinoite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
@@ -177,7 +177,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushPyriteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Pyrite</DisplayName>
+      <DisplayName>Crush Pyrite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_pyrite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Pyrite (Fe,Au)" />
@@ -193,7 +193,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushOlivineOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Olivine</DisplayName>
+      <DisplayName>Crush Olivine</DisplayName>
       <Icon>Textures\GUI\Icons\ore_olivine.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
@@ -210,7 +210,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushCooperiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Cooperite</DisplayName>
+      <DisplayName>Crush Cooperite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_cooperite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Cooperite (Ni,Pt)" />
@@ -226,7 +226,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushQuartzOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Quartz</DisplayName>
+      <DisplayName>Crush Quartz</DisplayName>
       <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
@@ -242,7 +242,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushGalenaOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Galena</DisplayName>
+      <DisplayName>Crush Galena</DisplayName>
       <Icon>Textures\GUI\Icons\ore_galena.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Galena (Ag)" />
@@ -257,7 +257,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushChlorargyriteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Chlorargyrite</DisplayName>
+      <DisplayName>Crush Chlorargyrite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_chlorargyrite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Chlorargyrite (Ag)" />
@@ -273,7 +273,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushElectrumOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Electrum</DisplayName>
+      <DisplayName>Crush Electrum</DisplayName>
       <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Electrum (Au,Ag)" />
@@ -289,7 +289,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushSperryliteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Sperrylite</DisplayName>
+      <DisplayName>Crush Sperrylite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Sperrylite (Pt)" />
@@ -304,7 +304,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushAutuniteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Autunite</DisplayName>
+      <DisplayName>Crush Autunite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_autunite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Autunite (U)" />
@@ -319,7 +319,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushAkimotoiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Akimotoite</DisplayName>
+      <DisplayName>Crush Akimotoite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_akimotoite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
@@ -335,7 +335,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushWadsleyiteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Wadsleyite</DisplayName>
+      <DisplayName>Crush Wadsleyite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_wadsleyite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Wadsleyite (Si,Mg)" />
@@ -351,7 +351,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushTaeniteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Taenite</DisplayName>
+      <DisplayName>Crush Taenite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_taenite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Taenite (Fe,Ni)" />
@@ -367,7 +367,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushCoheniteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Cohenite</DisplayName>
+      <DisplayName>Crush Cohenite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_cohenite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
@@ -383,7 +383,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushKamaciteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Kamacite</DisplayName>
+      <DisplayName>Crush Kamacite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_kamacite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
@@ -400,7 +400,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushUraniauriteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Uraniaurite</DisplayName>
+      <DisplayName>Crush Uraniaurite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_uraniaurite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
@@ -416,7 +416,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>CrushPetziteOre</SubtypeId>
       </Id>
-      <DisplayName>Refine Petzite</DisplayName>
+      <DisplayName>Crush Petzite</DisplayName>
       <Icon>Textures\GUI\Icons\ore_petzite.dds</Icon>
       <Prerequisites>
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Petzite (Ag,Au)" />
