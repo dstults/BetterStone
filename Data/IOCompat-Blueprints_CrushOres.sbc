@@ -135,7 +135,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.03" TypeId="Ore" SubtypeId="CrushedUranium" />
+	    <Item Amount="0.015" TypeId="Ore" SubtypeId="CrushedUranium" />
 	    <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
@@ -152,7 +152,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.234" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.280" TypeId="Ore" SubtypeId="CrushedCobalt" />
+	    <Item Amount="0.560" TypeId="Ore" SubtypeId="CrushedCobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -184,7 +184,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.550" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.025" TypeId="Ore" SubtypeId="CrushedGold" />
+	    <Item Amount="0.0125" TypeId="Ore" SubtypeId="CrushedGold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -280,7 +280,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
-	    <Item Amount="0.112" TypeId="Ore" SubtypeId="CrushedGold" />
+	    <Item Amount="0.033" TypeId="Ore" SubtypeId="CrushedGold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -374,7 +374,7 @@
       </Prerequisites>
       <Results>
 		<Item Amount="0.210" TypeId="Ore" SubtypeId="CrushedNickel" />
-		<Item Amount="0.182" TypeId="Ore" SubtypeId="CrushedCobalt" />
+		<Item Amount="0.250" TypeId="Ore" SubtypeId="CrushedCobalt" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -406,8 +406,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedGold" />
-		<Item Amount="0.06" TypeId="Ore" SubtypeId="CrushedUranium" />
+		<Item Amount="0.040" TypeId="Ore" SubtypeId="CrushedGold" />
+		<Item Amount="0.030" TypeId="Ore" SubtypeId="CrushedUranium" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -423,7 +423,7 @@
       </Prerequisites>
       <Results>
 	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
-	    <Item Amount="0.112" TypeId="Ore" SubtypeId="CrushedGold" />
+	    <Item Amount="0.056" TypeId="Ore" SubtypeId="CrushedGold" />
 	  </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
