@@ -123,6 +123,7 @@ for (const key of Object.keys(targetHashes)) {
 if (issuesFound === 0) {
 	console.log('Great! All files should be in sync.');
 } else {
+	console.log();
 	console.log(`Files needing synced: ${issuesFound}`);
 }
 
