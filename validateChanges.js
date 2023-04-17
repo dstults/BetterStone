@@ -172,7 +172,7 @@ const blueprints = mergeIntoCsv(
 	getDataFromBlueprintXml('vanilla', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
 	getDataFromBlueprintXml('mod', './Data/Mod-Blueprints.sbc'),
 );
-//fs.writeFileSync('./Tests/blueprints.csv', blueprints, 'utf8');
+fs.writeFileSync('./Tests/blueprints.csv', blueprints, 'utf8');
 
 const voxelMats = mergeIntoCsv(
 	getDataFromVoxelMatsXml('vanilla', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
