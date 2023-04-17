@@ -169,16 +169,16 @@ const getDataFromVoxelMatsXml = (src, path) => {
 if (!fs.existsSync('./Tests')) fs.mkdir('./Tests');
 
 const blueprints = mergeIntoCsv(
-	getDataFromBlueprintXml('vanilla', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
-	getDataFromBlueprintXml('mod', './Data/Mod-Blueprints.sbc'),
+	getDataFromBlueprintXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
+	getDataFromBlueprintXml('mod', '../Data/Mod-Blueprints.sbc'),
 );
-//fs.writeFileSync('./Tests/blueprints.csv', blueprints, 'utf8');
+fs.writeFileSync('./Tests/blueprints.csv', blueprints, 'utf8');
 
 const voxelMats = mergeIntoCsv(
-	getDataFromVoxelMatsXml('vanilla', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
-	getDataFromVoxelMatsXml('mod', './Data/Mod-VoxelMaterials_asteroids.sbc'),
-	getDataFromVoxelMatsXml('vanilla', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
-	getDataFromVoxelMatsXml('van+', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
-	getDataFromVoxelMatsXml('van+', '../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
+	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
+	getDataFromVoxelMatsXml('mod', '../Data/Mod-VoxelMaterials_asteroids.sbc'),
+	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
+	getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
+	getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
 );
 fs.writeFileSync('./Tests/voxelMats.csv', voxelMats, 'utf8');

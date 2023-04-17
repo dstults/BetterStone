@@ -202,7 +202,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[CM] Cattierite (Co)</MinedOre>
-      <MinedOreRatio>6</MinedOreRatio>
+      <MinedOreRatio>8</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
@@ -237,7 +237,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[PM] Niggliite (Pt)</MinedOre>
-      <MinedOreRatio>2.7</MinedOreRatio>
+      <MinedOreRatio>3</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>
@@ -376,7 +376,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[CM] Pyrite (Fe,Au)</MinedOre>
-      <MinedOreRatio>5.2</MinedOreRatio>
+      <MinedOreRatio>4.2</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <AsteroidGeneratorSpawnProbabilityMultiplier>2</AsteroidGeneratorSpawnProbabilityMultiplier>
@@ -852,7 +852,7 @@
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>[EI] Uraniaurite (U,Au)</MinedOre>
-      <MinedOreRatio>1.9</MinedOreRatio>
+      <MinedOreRatio>1.4</MinedOreRatio>
       <CanBeHarvested>true</CanBeHarvested>
       <SpawnsInAsteroids>true</SpawnsInAsteroids>
       <IsRare>true</IsRare>

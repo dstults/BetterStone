@@ -18,22 +18,22 @@ mod,PorphyryOreToIngot,0.3,[PM] Porphyry (Au) Ore: 1,Gold Ingot: 0.006
 mod,DolomiteOreToIngot,0.32,[S] Dolomite (Mg) Ore: 1,Magnesium Ingot: 0.007
 mod,CattieriteOreToIngot,2.3,[CM] Cattierite (Co) Ore: 1,Cobalt Ingot: 0.270
 mod,NiggliiteOreToIngot,2.8,[PM] Niggliite (Pt) Ore: 1,Platinum Ingot: 0.003
-mod,CarnotiteOreToIngot,3.1,[EI] Carnotite (U) Ore: 1,Uranium Ingot: 0.002 + Ice Ore: 0.572
-mod,GlaucodotOreToIngot,1.3,"[CM] Glaucodot (Fe,Co) Ore: 1",Iron Ingot: 0.234 + Cobalt Ingot: 0.200
+mod,CarnotiteOreToIngot,3.1,[EI] Carnotite (U) Ore: 1,Uranium Ingot: 0.001 + Ice Ore: 0.572
+mod,GlaucodotOreToIngot,1.3,"[CM] Glaucodot (Fe,Co) Ore: 1",Iron Ingot: 0.234 + Cobalt Ingot: 0.400
 mod,SinoiteOreToIngot,0.5,[S] Sinoite (Si) Ore: 1,Silicon Ingot: 0.620 + Ice Ore: 0.440
-mod,PyriteOreToIngot,0.25,"[CM] Pyrite (Fe,Au) Ore: 1",Iron Ingot: 0.550 + Gold Ingot: 0.002
+mod,PyriteOreToIngot,0.25,"[CM] Pyrite (Fe,Au) Ore: 1",Iron Ingot: 0.550 + Gold Ingot: 0.001
 mod,OlivineOreToIngot,1.9,"[S] Olivine (Si,Mg) Ore: 1",Silicon Ingot: 0.180 + Magnesium Ingot: 0.008 + Ice Ore: 0.350
 mod,CooperiteOreToIngot,3.2,"[PM] Cooperite (Ni,Pt) Ore: 1",Nickel Ingot: 0.360 + Platinum Ingot: 0.002
 mod,QuartzOreToIngot,0.9,[S] Quartz (Si) Ore: 1,Silicon Ingot: 0.490 + Ice Ore: 1.120
 mod,GalenaOreToIngot,0.5,[PM] Galena (Ag) Ore: 1,Silver Ingot: 0.035
 mod,ChlorargyriteOreToIngot,0.8,[PM] Chlorargyrite (Ag) Ore: 1,Silver Ingot: 0.064 + Ice Ore: 0.002
-mod,ElectrumOreToIngot,0.7,"[PM] Electrum (Au,Ag) Ore: 1",Silver Ingot: 0.045 + Gold Ingot: 0.009
+mod,ElectrumOreToIngot,0.7,"[PM] Electrum (Au,Ag) Ore: 1",Silver Ingot: 0.045 + Gold Ingot: 0.004
 mod,SperryliteOreToIngot,3.6,[PM] Sperrylite (Pt) Ore: 1,Platinum Ingot: 0.003
 mod,AutuniteOreToIngot,2.8,[EI] Autunite (U) Ore: 1,Uranium Ingot: 0.004
 mod,AkimotoiteOreToIngot,0.35,"[S] Akimotoite (Si,Mg) Ore: 1",Silicon Ingot: 0.220 + Magnesium Ingot: 0.005
 mod,WadsleyiteOreToIngot,0.55,"[S] Wadsleyite (Si,Mg) Ore: 1",Silicon Ingot: 0.300 + Magnesium Ingot: 0.003
 mod,TaeniteOreToIngot,1.025,"[CM] Taenite (Fe,Ni) Ore: 1",Iron Ingot: 0.350 + Nickel Ingot: 0.200
-mod,CoheniteOreToIngot,0.672,"[CM] Cohenite (Ni,Co) Ore: 1",Nickel Ingot: 0.210 + Cobalt Ingot: 0.130
+mod,CoheniteOreToIngot,0.672,"[CM] Cohenite (Ni,Co) Ore: 1",Nickel Ingot: 0.210 + Cobalt Ingot: 0.180
 mod,KamaciteOreToIngot,0.672,"[CM] Kamacite (Fe,Ni,Co) Ore: 1",Iron Ingot: 0.284 + Nickel Ingot: 0.174 + Cobalt Ingot: 0.100
-mod,UraniauriteOreToIngot,2.2,"[EI] Uraniaurite (U,Au) Ore: 1",Gold Ingot: 0.006 + Uranium Ingot: 0.004
-mod,PetziteOreToIngot,0.7,"[PM] Petzite (Ag,Au) Ore: 1",Silver Ingot: 0.045 + Gold Ingot: 0.009
+mod,UraniauriteOreToIngot,2.2,"[EI] Uraniaurite (U,Au) Ore: 1",Gold Ingot: 0.003 + Uranium Ingot: 0.003
+mod,PetziteOreToIngot,0.7,"[PM] Petzite (Ag,Au) Ore: 1",Silver Ingot: 0.045 + Gold Ingot: 0.004
