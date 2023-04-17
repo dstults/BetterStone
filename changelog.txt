@@ -1,4 +1,18 @@
-﻿2021-04-25 -- 7.0.9 (SE 1.198.024)
+﻿2023-04-17 -- v7.0.11 (SE 1.202.066 Automation Update)
+
+Rebalance to match vanilla changes -
+- Less gold, slightly less silver and uranium
+- More cobalt, platinum
+
+Patch additions -
+- Compatibility Patch with Industrial Overhaul
+- You can now crush and purify ores added by Better Stone
+
+2022-04-01 v7.0.10
+
+Blueprints now use their ore icons for their corresponding recipes
+
+2021-04-25 -- 7.0.9 (SE 1.198.024)
 
 Added barebones compatibility with Industrial Overhaul mod
 
