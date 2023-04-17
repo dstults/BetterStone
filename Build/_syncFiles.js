@@ -6,6 +6,9 @@ const fs = require('fs');
 const path = require('path');
 
 // Constants
+const args = process.argv.slice(2);
+const approveMode = args.length > 0 && args[0] === 'approve';
+
 const rootDir = path.join('..');
 const rootHashes = {};
 
@@ -86,7 +89,7 @@ for (const key of Object.keys(rootHashes)) {
 		console.log(`Target lacking file: ${key}`);
 		const newPath = path.join(targetDir, getRelativePath(rootHashes[key].path));
 		console.log('  ->', rootHashes[key].path, '->', newPath);
-		//fs.copyFileSync(rootHashes[key].path, newPath);
+		if (approveMode) fs.copyFileSync(rootHashes[key].path, newPath);
 		issuesFound++;
 		continue;
 	}
@@ -95,12 +98,12 @@ for (const key of Object.keys(rootHashes)) {
 			// reverse sync
 			console.log(`REVERSE: Need to update file from target to root: ${key}`);
 			console.log('  ->', targetHashes[key].path, '->', rootHashes[key].path);
-			//fs.copyFileSync(targetHashes[key].path, rootHashes[key].path);
+			if (approveMode) fs.copyFileSync(targetHashes[key].path, rootHashes[key].path);
 		} else {
 			// forward sync
 			console.log(`Need to update file from root to target: ${key}`);
 			console.log('  ->', rootHashes[key].path, '->', targetHashes[key].path);
-			//fs.copyFileSync(rootHashes[key].path, targetHashes[key].path);
+			if (approveMode) fs.copyFileSync(rootHashes[key].path, targetHashes[key].path);
 		}
 		delete targetHashes[key];
 		issuesFound++;
@@ -117,6 +120,7 @@ for (const key of Object.keys(rootHashes)) {
 for (const key of Object.keys(targetHashes)) {
 	console.log(`File for deletion: ${key}`);
 	console.log('  ->', targetHashes[key].path);
+	if (approveMode) fs.unlinkSync(targetHashes[key].path);
 	issuesFound++;
 }
 
