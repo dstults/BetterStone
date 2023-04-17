@@ -79,36 +79,53 @@ const lookupFiles = (base, hashes) => {
 lookupFiles(rootDir, rootHashes);
 getFilesInDirectory(targetDir, targetHashes);
 
+console.log();
+let issuesFound = 0;
 for (const key of Object.keys(rootHashes)) {
 	if (targetHashes[key] === undefined) {
 		console.log(`Target lacking file: ${key}`);
 		const newPath = path.join(targetDir, getRelativePath(rootHashes[key].path));
-		console.log('  Src:', rootHashes[key].path, '-> Tgt:', newPath);
-		fs.copyFileSync(rootHashes[key].path, newPath);
+		console.log('  ->', rootHashes[key].path, '->', newPath);
+		//fs.copyFileSync(rootHashes[key].path, newPath);
+		issuesFound++;
 		continue;
 	}
 	if (rootHashes[key].hash !== targetHashes[key].hash) {
 		if (key === 'modinfo.sbmi') {
 			// reverse sync
 			console.log(`REVERSE: Need to update file from target to root: ${key}`);
-			console.log('  Src:', targetHashes[key].path, '-> Tgt:', rootHashes[key].path);
-			fs.copyFileSync(targetHashes[key].path, rootHashes[key].path);
+			console.log('  ->', targetHashes[key].path, '->', rootHashes[key].path);
+			//fs.copyFileSync(targetHashes[key].path, rootHashes[key].path);
 		} else {
 			// forward sync
 			console.log(`Need to update file from root to target: ${key}`);
-			console.log('  Src:', rootHashes[key].path, '-> Tgt:', targetHashes[key].path);
-			fs.copyFileSync(rootHashes[key].path, targetHashes[key].path);
+			console.log('  ->', rootHashes[key].path, '->', targetHashes[key].path);
+			//fs.copyFileSync(rootHashes[key].path, targetHashes[key].path);
 		}
+		delete targetHashes[key];
+		issuesFound++;
 		continue;
 	}
-	if (rootHashes[key].hash !== targetHashes[key]) {
+	if (rootHashes[key].hash === targetHashes[key].hash) {
 		//console.log(`FILE OK: ${key}`);
+		delete targetHashes[key];
 		continue;
 	}
 	throw new Error(`Unhandled exception: ${key}`);
 };
 
+for (const key of Object.keys(targetHashes)) {
+	console.log(`File for deletion: ${key}`);
+	console.log('  ->', targetHashes[key].path);
+	issuesFound++;
+}
+
+if (issuesFound === 0) {
+	console.log('Great! All files should be in sync.');
+} else {
+	console.log(`Files needing synced: ${issuesFound}`);
+}
+
 console.log();
-console.log('File sync successful!');
 console.log(`Note to self: Don't forget to run _validateChanges.js before patching.`);
 console.log();
