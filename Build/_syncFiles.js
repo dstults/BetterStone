@@ -108,3 +108,7 @@ for (const key of Object.keys(rootHashes)) {
 	throw new Error(`Unhandled exception: ${key}`);
 };
 
+console.log();
+console.log('File sync successful!');
+console.log(`Note to self: Don't forget to run _validateChanges.js before patching.`);
+console.log();
