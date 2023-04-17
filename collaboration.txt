@@ -2,25 +2,32 @@
 Core:
   DranKof
 
-Names & Localization: ÑPÑuÑÇÑuÑrÑÄÑt:
-  Russian - DrKirk
-  FateFighter
+Patches:
 
-Planet Ores & Deep Veins, Big Veins:
-  Fatsack
-  G.E.W.P Wolfiy
-  Jattenalle
+  Industrial I/O Crushed ore blueprints -
+   - Enigma
 
-Big thanks for the massive server built around this mod:
-  Monica Lewinski
+  Planet Ores & Deep Veins, Big Veins -
+   - Fatsack
+   - G.E.W.P Wolfiy
+   - Jattenalle
 
-Big thanks for recent GitHub weather patch:
-  kynalvarus
+  Weather patch -
+   - kynalvarus
 
-Thanks for good troubleshooting summaries:
-  Genjokoan
+Side mods:
+  Names & Localization: ÑPÑuÑÇÑuÑrÑÄÑt:
+   - Russian - DrKirk
+   - FateFighter
+
+Big thanks for the server hosting, troubleshooting, assisted support in channel:
+  - Kaito
+  - Monica Lewinski
+  - Genjokoan
+
 
 Special Thanks, in no special order, for your testing and feedback:
+  humbalion
   Exilierator
   jb_aero
   DieDae
@@ -33,7 +40,7 @@ Special Thanks, in no special order, for your testing and feedback:
   Deadok
   SpaceGeek
   MacQuarrie
-  K¸lmking
+  KÅEmking
   LaGG-3-8
   Bretcaneron
   d_valroth
