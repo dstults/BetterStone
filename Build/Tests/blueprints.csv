@@ -1,6 +1,6 @@
 Source,SubtypeId,BaseProductionTimeInSeconds,Prerequisites,Results
 vanilla,StoneOreToIngot,10,Stone Ore: 1000,Stone Ingot: 14 + Iron Ingot: 30 + Nickel Ingot: 2.4 + Silicon Ingot: 4.0
-vanilla,StoneOreToIngotBasic,1,Stone Ore: 100,Stone Ingot: 1.4 + Iron Ingot: 3 + Nickel Ingot: 0.24 + Silicon Ingot: 0.4
+vanilla,Position0010_StoneOreToIngotBasic,1,Stone Ore: 100,Stone Ingot: 1.4 + Iron Ingot: 3 + Nickel Ingot: 0.24 + Silicon Ingot: 0.4
 vanilla,IronOreToIngot,0.05,Iron Ore: 1,Iron Ingot: 0.7
 vanilla,NickelOreToIngot,0.66,Nickel Ore: 1,Nickel Ingot: 0.4
 vanilla,CobaltOreToIngot,3,Cobalt Ore: 1,Cobalt Ingot: 0.3
