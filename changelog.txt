@@ -1,4 +1,8 @@
-﻿2023-04-17 -- v7.0.11 (SE 1.202.066 Automation Update)
+﻿2024-04-06 -- v7.0.12 (SE 1.203.630 Anniversary Update)
+
+Replace the sky textures back in for Triton and Pertam
+
+2023-04-17 -- v7.0.11 (SE 1.202.066 Automation Update)
 
 Rebalance to match vanilla changes -
 - Less gold, slightly less silver and uranium
