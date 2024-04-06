@@ -9,12 +9,12 @@ const path = require('path');
 const args = process.argv.slice(2);
 const approveMode = args.length > 0 && args[0] === 'approve';
 
-const rootDir = path.join('..');
-const rootHashes = {};
+const gitDir = path.join('..');
+const gitHashes = {};
 
 const appdata = process.env.APPDATA || (process.platform === 'darwin' ? process.env.HOME + '/Library/Preferences' : process.env.HOME + "/.local/share");
-const targetDir = path.join(appdata, 'SpaceEngineers', 'mods', 'Better Stone');
-const targetHashes = {};
+const deployDir = path.join(appdata, 'SpaceEngineers', 'mods', 'Better Stone');
+const deployHashes = {};
 
 // List of files to merge: this will need updated if additional files/directories are added
 const fileLookupList = [
@@ -79,48 +79,48 @@ const lookupFiles = (base, hashes) => {
 	}
 };
 
-lookupFiles(rootDir, rootHashes);
-getFilesInDirectory(targetDir, targetHashes);
+lookupFiles(gitDir, gitHashes);
+getFilesInDirectory(deployDir, deployHashes);
 
 console.log();
 let issuesFound = 0;
-for (const key of Object.keys(rootHashes)) {
-	if (targetHashes[key] === undefined) {
-		console.log(`Target lacking file: ${key}`);
-		const newPath = path.join(targetDir, getRelativePath(rootHashes[key].path));
-		console.log('  ->', rootHashes[key].path, '->', newPath);
-		if (approveMode) fs.copyFileSync(rootHashes[key].path, newPath);
+for (const key of Object.keys(gitHashes)) {
+	if (deployHashes[key] === undefined) {
+		console.log(`Deploy dir lacking file: ${key}`);
+		const newPath = path.join(deployDir, getRelativePath(gitHashes[key].path));
+		console.log('  ->', gitHashes[key].path, '->', newPath);
+		if (approveMode) fs.copyFileSync(gitHashes[key].path, newPath);
 		issuesFound++;
 		continue;
 	}
-	if (rootHashes[key].hash !== targetHashes[key].hash) {
+	if (gitHashes[key].hash !== deployHashes[key].hash) {
 		if (key === 'modinfo.sbmi') {
 			// reverse sync
-			console.log(`REVERSE: Need to update file from target to root: ${key}`);
-			console.log('  ->', targetHashes[key].path, '->', rootHashes[key].path);
-			if (approveMode) fs.copyFileSync(targetHashes[key].path, rootHashes[key].path);
+			console.log(`REVERSE: Need to update file from deploy dir to git dir: ${key}`);
+			console.log('  ->', deployHashes[key].path, '->', gitHashes[key].path);
+			if (approveMode) fs.copyFileSync(deployHashes[key].path, gitHashes[key].path);
 		} else {
 			// forward sync
-			console.log(`Need to update file from root to target: ${key}`);
-			console.log('  ->', rootHashes[key].path, '->', targetHashes[key].path);
-			if (approveMode) fs.copyFileSync(rootHashes[key].path, targetHashes[key].path);
+			console.log(`Need to update file from git dir to deploy dir: ${key}`);
+			console.log('  ->', gitHashes[key].path, '->', deployHashes[key].path);
+			if (approveMode) fs.copyFileSync(gitHashes[key].path, deployHashes[key].path);
 		}
-		delete targetHashes[key];
+		delete deployHashes[key];
 		issuesFound++;
 		continue;
 	}
-	if (rootHashes[key].hash === targetHashes[key].hash) {
+	if (gitHashes[key].hash === deployHashes[key].hash) {
 		//console.log(`FILE OK: ${key}`);
-		delete targetHashes[key];
+		delete deployHashes[key];
 		continue;
 	}
 	throw new Error(`Unhandled exception: ${key}`);
 };
 
-for (const key of Object.keys(targetHashes)) {
+for (const key of Object.keys(deployHashes)) {
 	console.log(`File for deletion: ${key}`);
-	console.log('  ->', targetHashes[key].path);
-	if (approveMode) fs.unlinkSync(targetHashes[key].path);
+	console.log('  ->', deployHashes[key].path);
+	if (approveMode) fs.unlinkSync(deployHashes[key].path);
 	issuesFound++;
 }
 
