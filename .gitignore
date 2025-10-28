@@ -4,5 +4,4 @@
 
 # JS ignores
 node_modules/
-package.json
 package-lock.json
