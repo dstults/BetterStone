@@ -1,0 +1,4652 @@
+{
+	"Alien": [
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		}
+	],
+	"EarthLike": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "3",
+			"Depth": "35",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "3",
+			"Depth": "35",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "3",
+			"Depth": "35",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "12",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "14",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "25",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "28",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "31",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "10",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "11",
+			"Depth": "20",
+			"TargetColor": "#b7340a",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "11",
+			"Depth": "30",
+			"TargetColor": "#b7340a",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "24",
+			"Depth": "25",
+			"TargetColor": "#b7340a",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "27",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "30",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "9",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "13",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "10",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "22",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "25",
+			"Depth": "35",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "27",
+			"Depth": "45",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "20",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "22",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "26",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "52",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "55",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "62",
+			"Depth": "45",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "21",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "25",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "31",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "55",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "58",
+			"Depth": "45",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "63",
+			"Depth": "55",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "23",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "26",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "29",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "13",
+			"Depth": "35",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "15",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "19",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Petzite_01",
+			"Start": "22",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Porphyry_01",
+			"Start": "25",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Dolomite_01",
+			"Start": "28",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Quartz_01",
+			"Start": "80",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Glaucodot_01",
+			"Start": "89",
+			"Depth": "45",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Porphyry_01",
+			"Start": "96",
+			"Depth": "55",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "30",
+			"Depth": "5",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "32",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "35",
+			"Depth": "15",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "100",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "107",
+			"Depth": "25",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "112",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		}
+	],
+	"EarthLikeModExample": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "3",
+			"Depth": "7"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "3",
+			"Depth": "7"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "3",
+			"Depth": "7"
+		},
+		{
+			"Value": "1",
+			"Type": "Iron_02",
+			"Start": "10",
+			"Depth": "3"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "10",
+			"Depth": "4"
+		},
+		{
+			"Value": "48",
+			"Type": "Silicon_01",
+			"Start": "9",
+			"Depth": "4"
+		},
+		{
+			"Value": "72",
+			"Type": "Cobalt_01",
+			"Start": "20",
+			"Depth": "3"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "21",
+			"Depth": "3"
+		},
+		{
+			"Value": "120",
+			"Type": "Magnesium_01",
+			"Start": "23",
+			"Depth": "4"
+		},
+		{
+			"Value": "144",
+			"Type": "Uraninite_01",
+			"Start": "32",
+			"Depth": "2"
+		},
+		{
+			"Value": "168",
+			"Type": "Gold_01",
+			"Start": "40",
+			"Depth": "1"
+		}
+	],
+	"EarthLikeTutorial": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "30"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80"
+		}
+	],
+	"Europa": [
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "192",
+			"Type": "Cooperite_01",
+			"Start": "500",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "196",
+			"Type": "Niggliite_01",
+			"Start": "510",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "208",
+			"Type": "Platinum_01",
+			"Start": "530",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "212",
+			"Type": "Cooperite_01",
+			"Start": "1100",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "217",
+			"Type": "Niggliite_01",
+			"Start": "1140",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "222",
+			"Type": "Platinum_01",
+			"Start": "1190",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		}
+	],
+	"Mars": [
+		{
+			"Value": "50",
+			"Type": "Ice",
+			"Start": "20",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		}
+	],
+	"MarsTutorial": [
+		{
+			"Value": "50",
+			"Type": "Ice",
+			"Start": "20",
+			"Depth": "50"
+		},
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "30"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80"
+		}
+	],
+	"Moon": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "192",
+			"Type": "Cooperite_01",
+			"Start": "500",
+			"Depth": "10",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "196",
+			"Type": "Niggliite_01",
+			"Start": "510",
+			"Depth": "20",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "208",
+			"Type": "Platinum_01",
+			"Start": "530",
+			"Depth": "40",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "212",
+			"Type": "Cooperite_01",
+			"Start": "1100",
+			"Depth": "50",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "217",
+			"Type": "Niggliite_01",
+			"Start": "1140",
+			"Depth": "60",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "222",
+			"Type": "Platinum_01",
+			"Start": "1190",
+			"Depth": "80",
+			"TargetColor": "#FFFFFF",
+			"ColorInfluence": "15"
+		}
+	],
+	"MoonTutorial": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "30"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80"
+		},
+		{
+			"Value": "192",
+			"Type": "Cooperite_01",
+			"Start": "500",
+			"Depth": "10"
+		},
+		{
+			"Value": "196",
+			"Type": "Niggliite_01",
+			"Start": "510",
+			"Depth": "20"
+		},
+		{
+			"Value": "208",
+			"Type": "Platinum_01",
+			"Start": "530",
+			"Depth": "40"
+		},
+		{
+			"Value": "212",
+			"Type": "Cooperite_01",
+			"Start": "1100",
+			"Depth": "50"
+		},
+		{
+			"Value": "217",
+			"Type": "Niggliite_01",
+			"Start": "1140",
+			"Depth": "60"
+		},
+		{
+			"Value": "222",
+			"Type": "Platinum_01",
+			"Start": "1190",
+			"Depth": "80"
+		}
+	],
+	"Pertam": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "250",
+			"Type": "Cobalt_01",
+			"Start": "30",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "360",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "440",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "144",
+			"Type": "Petzite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "148",
+			"Type": "Porphyry_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "152",
+			"Type": "Dolomite_01",
+			"Start": "380",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "156",
+			"Type": "Quartz_01",
+			"Start": "800",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "160",
+			"Type": "Glaucodot_01",
+			"Start": "890",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "164",
+			"Type": "Porphyry_01",
+			"Start": "960",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "20",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "800",
+			"Depth": "40",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "900",
+			"Depth": "50",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1100",
+			"Depth": "60",
+			"TargetColor": "#000000",
+			"ColorInfluence": "200"
+		}
+	],
+	"SystemTestMap": [
+		{
+			"Value": "50",
+			"Type": "Ice",
+			"Start": "20",
+			"Depth": "50"
+		},
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "30"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80"
+		},
+		{
+			"Value": "192",
+			"Type": "Cooperite_01",
+			"Start": "500",
+			"Depth": "10"
+		},
+		{
+			"Value": "196",
+			"Type": "Niggliite_01",
+			"Start": "510",
+			"Depth": "20"
+		},
+		{
+			"Value": "202",
+			"Type": "Platinum_01",
+			"Start": "530",
+			"Depth": "40"
+		},
+		{
+			"Value": "204",
+			"Type": "Platinum_01",
+			"Start": "1100",
+			"Depth": "50"
+		},
+		{
+			"Value": "208",
+			"Type": "Platinum_01",
+			"Start": "1140",
+			"Depth": "60"
+		},
+		{
+			"Value": "212",
+			"Type": "Cooperite_01",
+			"Start": "1190",
+			"Depth": "80"
+		}
+	],
+	"Titan": [
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "10",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "144",
+			"Type": "Carnotite_01",
+			"Start": "320",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "148",
+			"Type": "Carnotite_01",
+			"Start": "350",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "152",
+			"Type": "Autunite_01",
+			"Start": "380",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "156",
+			"Type": "Autunite_01",
+			"Start": "800",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "160",
+			"Type": "Uraninite_01",
+			"Start": "890",
+			"Depth": "90",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "164",
+			"Type": "Uraniaurite_01",
+			"Start": "960",
+			"Depth": "110",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "192",
+			"Type": "Cooperite_01",
+			"Start": "500",
+			"Depth": "10",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "196",
+			"Type": "Niggliite_01",
+			"Start": "510",
+			"Depth": "20",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "208",
+			"Type": "Platinum_01",
+			"Start": "530",
+			"Depth": "40",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "212",
+			"Type": "Cooperite_01",
+			"Start": "1100",
+			"Depth": "50",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "217",
+			"Type": "Niggliite_01",
+			"Start": "1140",
+			"Depth": "60",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		},
+		{
+			"Value": "222",
+			"Type": "Platinum_01",
+			"Start": "1190",
+			"Depth": "80",
+			"TargetColor": "#616c83",
+			"ColorInfluence": "15"
+		}
+	],
+	"Triton": [
+		{
+			"Value": "200",
+			"Type": "Iron_02",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "220",
+			"Type": "Nickel_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "240",
+			"Type": "Silicon_01",
+			"Start": "30",
+			"Depth": "70"
+		},
+		{
+			"Value": "1",
+			"Type": "Hapkeite_01",
+			"Start": "100",
+			"Depth": "30"
+		},
+		{
+			"Value": "4",
+			"Type": "Olivine_01",
+			"Start": "120",
+			"Depth": "30"
+		},
+		{
+			"Value": "8",
+			"Type": "Wadsleyite_01",
+			"Start": "140",
+			"Depth": "40"
+		},
+		{
+			"Value": "12",
+			"Type": "Taenite_01",
+			"Start": "250",
+			"Depth": "50"
+		},
+		{
+			"Value": "16",
+			"Type": "Iron_02",
+			"Start": "280",
+			"Depth": "50"
+		},
+		{
+			"Value": "20",
+			"Type": "Iron_02",
+			"Start": "310",
+			"Depth": "80"
+		},
+		{
+			"Value": "24",
+			"Type": "Nickel_01",
+			"Start": "100",
+			"Depth": "40"
+		},
+		{
+			"Value": "28",
+			"Type": "Taenite_01",
+			"Start": "110",
+			"Depth": "40"
+		},
+		{
+			"Value": "32",
+			"Type": "Cohenite_01",
+			"Start": "110",
+			"Depth": "60"
+		},
+		{
+			"Value": "36",
+			"Type": "Nickel_01",
+			"Start": "240",
+			"Depth": "50"
+		},
+		{
+			"Value": "40",
+			"Type": "Kamacite_01",
+			"Start": "270",
+			"Depth": "50"
+		},
+		{
+			"Value": "44",
+			"Type": "Heazlewoodite_01",
+			"Start": "300",
+			"Depth": "80"
+		},
+		{
+			"Value": "48",
+			"Type": "Akimotoite_01",
+			"Start": "90",
+			"Depth": "40"
+		},
+		{
+			"Value": "52",
+			"Type": "Olivine_01",
+			"Start": "130",
+			"Depth": "40"
+		},
+		{
+			"Value": "56",
+			"Type": "Quartz_01",
+			"Start": "100",
+			"Depth": "60"
+		},
+		{
+			"Value": "60",
+			"Type": "Sinoite_01",
+			"Start": "220",
+			"Depth": "60"
+		},
+		{
+			"Value": "64",
+			"Type": "Wadsleyite_01",
+			"Start": "250",
+			"Depth": "70"
+		},
+		{
+			"Value": "68",
+			"Type": "Silicon_01",
+			"Start": "270",
+			"Depth": "90"
+		},
+		{
+			"Value": "72",
+			"Type": "Glaucodot_01",
+			"Start": "200",
+			"Depth": "30"
+		},
+		{
+			"Value": "76",
+			"Type": "Cohenite_01",
+			"Start": "220",
+			"Depth": "40"
+		},
+		{
+			"Value": "80",
+			"Type": "Cobalt_01",
+			"Start": "260",
+			"Depth": "60"
+		},
+		{
+			"Value": "84",
+			"Type": "Kamacite_01",
+			"Start": "520",
+			"Depth": "50"
+		},
+		{
+			"Value": "88",
+			"Type": "Cobalt_01",
+			"Start": "550",
+			"Depth": "60"
+		},
+		{
+			"Value": "92",
+			"Type": "Cattierite_01",
+			"Start": "620",
+			"Depth": "90"
+		},
+		{
+			"Value": "96",
+			"Type": "Silver_01",
+			"Start": "210",
+			"Depth": "30"
+		},
+		{
+			"Value": "100",
+			"Type": "Petzite_01",
+			"Start": "250",
+			"Depth": "30"
+		},
+		{
+			"Value": "104",
+			"Type": "Chlorargyrite_01",
+			"Start": "310",
+			"Depth": "50"
+		},
+		{
+			"Value": "108",
+			"Type": "Galena_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "112",
+			"Type": "Electrum_01",
+			"Start": "580",
+			"Depth": "90"
+		},
+		{
+			"Value": "116",
+			"Type": "Silver_01",
+			"Start": "630",
+			"Depth": "110"
+		},
+		{
+			"Value": "120",
+			"Type": "Olivine_01",
+			"Start": "230",
+			"Depth": "40"
+		},
+		{
+			"Value": "124",
+			"Type": "Wadsleyite_01",
+			"Start": "260",
+			"Depth": "40"
+		},
+		{
+			"Value": "128",
+			"Type": "Dolomite_01",
+			"Start": "290",
+			"Depth": "50"
+		},
+		{
+			"Value": "132",
+			"Type": "Akimotoite_01",
+			"Start": "530",
+			"Depth": "70"
+		},
+		{
+			"Value": "136",
+			"Type": "Magnesium_01",
+			"Start": "550",
+			"Depth": "80"
+		},
+		{
+			"Value": "140",
+			"Type": "Magnesium_01",
+			"Start": "590",
+			"Depth": "100"
+		},
+		{
+			"Value": "144",
+			"Type": "Petzite_01",
+			"Start": "320",
+			"Depth": "20"
+		},
+		{
+			"Value": "148",
+			"Type": "Porphyry_01",
+			"Start": "350",
+			"Depth": "30"
+		},
+		{
+			"Value": "152",
+			"Type": "Dolomite_01",
+			"Start": "380",
+			"Depth": "50"
+		},
+		{
+			"Value": "156",
+			"Type": "Quartz_01",
+			"Start": "800",
+			"Depth": "80"
+		},
+		{
+			"Value": "160",
+			"Type": "Glaucodot_01",
+			"Start": "890",
+			"Depth": "90"
+		},
+		{
+			"Value": "164",
+			"Type": "Porphyry_01",
+			"Start": "960",
+			"Depth": "110"
+		},
+		{
+			"Value": "168",
+			"Type": "Pyrite_01",
+			"Start": "400",
+			"Depth": "10"
+		},
+		{
+			"Value": "172",
+			"Type": "Pyrite_01",
+			"Start": "420",
+			"Depth": "20"
+		},
+		{
+			"Value": "176",
+			"Type": "Porphyry_01",
+			"Start": "450",
+			"Depth": "30"
+		},
+		{
+			"Value": "180",
+			"Type": "Gold_01",
+			"Start": "1000",
+			"Depth": "40"
+		},
+		{
+			"Value": "184",
+			"Type": "Electrum_01",
+			"Start": "1070",
+			"Depth": "50"
+		},
+		{
+			"Value": "188",
+			"Type": "Gold_01",
+			"Start": "1120",
+			"Depth": "80"
+		}
+	]
+}
