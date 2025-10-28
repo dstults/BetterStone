@@ -34,13 +34,25 @@ const stringifySimpleTilingLegacy = (ent) => {
 	return `old:${f1d}/${f2d}/${f1s}/${f2s}`;
 };
 
+// Sort for consistent ordering
+const sortData = (data) => {
+	return data.sort((a, b) => {
+		if (a.Source !== b.Source) return a.Source.localeCompare(b.Source);
+		if (a.TypeId && b.TypeId && a.TypeId !== b.TypeId) return a.TypeId.localeCompare(b.TypeId);
+		return a.SubtypeId.localeCompare(b.SubtypeId);
+	});
+};
+
 const mergeIntoCsv = (...data) => {
 	const allData = [];
 	data.forEach(d => allData.push(...d));
 
+	// Sort the data before processing
+	const sortedData = sortData(allData);
+
 	// Discover the columns in the current file
 	const columns = [];
-	for (const item of allData) {
+	for (const item of sortedData) {
 		for (const key of Object.keys(item)) {
 			if (key === '_comment') continue;
 			if (!columns.includes(key)) columns.push(key);
@@ -56,7 +68,7 @@ const mergeIntoCsv = (...data) => {
 	const rows = [];
 	rows.push(finalColumns.join(','));
 
-	for (const item of allData) {
+	for (const item of sortedData) {
 		const row = [];
 		for (const column of finalColumns) {
 			const value = typeof item[column] === 'string' && item[column].includes(',') ? `"${item[column]}"` : item[column] || '';
@@ -67,6 +79,16 @@ const mergeIntoCsv = (...data) => {
 
 	rows.push(''); // final newline
 	return rows.join('\n');
+};
+
+const mergeIntoJson = (...data) => {
+	const allData = [];
+	data.forEach(d => allData.push(...d));
+
+	// Sort the data before outputting
+	const sortedData = sortData(allData);
+
+	return JSON.stringify(sortedData, null, '\t');
 };
 
 // Interpret blueprints sbc data
@@ -174,20 +196,36 @@ const getDataFromVoxelMatsXml = (src, path) => {
 	return mapped;
 };
 
-if (!fs.existsSync('./Tests')) fs.mkdir('./Tests');
+if (!fs.existsSync('./Tests')) fs.mkdirSync('./Tests');
 
-const blueprints = mergeIntoCsv(
+const blueprintsData = [
 	getDataFromBlueprintXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
 	getDataFromBlueprintXml('mod', '../Data/Mod-Blueprints.sbc'),
-);
-fs.writeFileSync('./Tests/blueprints.csv', blueprints, 'utf8');
+];
 
-const voxelMats = mergeIntoCsv(
+const blueprintsCsv = mergeIntoCsv(...blueprintsData);
+fs.writeFileSync('./Tests/blueprints.csv', blueprintsCsv, 'utf8');
+
+const blueprintsJson = mergeIntoJson(...blueprintsData);
+fs.writeFileSync('./Tests/blueprints.json', blueprintsJson, 'utf8');
+
+const voxelMatsData = [
 	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
 	getDataFromVoxelMatsXml('mod', '../Data/Mod-VoxelMaterials_asteroids.sbc'),
 	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
 	// Apex update: triton+pertam was merged with main file
 	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
 	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
-);
-fs.writeFileSync('./Tests/voxelMats.csv', voxelMats, 'utf8');
+];
+
+const voxelMatsCsv = mergeIntoCsv(...voxelMatsData);
+fs.writeFileSync('./Tests/voxelMats.csv', voxelMatsCsv, 'utf8');
+
+const voxelMatsJson = mergeIntoJson(...voxelMatsData);
+fs.writeFileSync('./Tests/voxelMats.json', voxelMatsJson, 'utf8');
+
+console.log('Files generated successfully!');
+console.log('- blueprints.csv');
+console.log('- blueprints.json');
+console.log('- voxelMats.csv');
+console.log('- voxelMats.json');
