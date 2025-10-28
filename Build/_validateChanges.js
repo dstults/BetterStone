@@ -43,44 +43,6 @@ const sortData = (data) => {
 	});
 };
 
-const mergeIntoCsv = (...data) => {
-	const allData = [];
-	data.forEach(d => allData.push(...d));
-
-	// Sort the data before processing
-	const sortedData = sortData(allData);
-
-	// Discover the columns in the current file
-	const columns = [];
-	for (const item of sortedData) {
-		for (const key of Object.keys(item)) {
-			if (key === '_comment') continue;
-			if (!columns.includes(key)) columns.push(key);
-		}
-	}
-
-	// Sort them to make sure that it's clearer what got added or removed (vs. just changed order)
-	// Keep key columns first, then sort the rest alphabetically
-	const keyColumns = KEY_COLUMNS.filter(k => columns.includes(k));
-	const otherColumns = columns.filter(k => !KEY_COLUMNS.includes(k)).sort();
-	const finalColumns = [...keyColumns, ...otherColumns];
-
-	const rows = [];
-	rows.push(finalColumns.join(','));
-
-	for (const item of sortedData) {
-		const row = [];
-		for (const column of finalColumns) {
-			const value = typeof item[column] === 'string' && item[column].includes(',') ? `"${item[column]}"` : item[column] || '';
-			row.push(value);
-		}
-		rows.push(row.join(','));
-	}
-
-	rows.push(''); // final newline
-	return rows.join('\n');
-};
-
 const mergeIntoJson = (...data) => {
 	const allData = [];
 	data.forEach(d => allData.push(...d));
@@ -203,9 +165,6 @@ const blueprintsData = [
 	getDataFromBlueprintXml('mod', '../Data/Mod-Blueprints.sbc'),
 ];
 
-const blueprintsCsv = mergeIntoCsv(...blueprintsData);
-fs.writeFileSync('./Tests/blueprints.csv', blueprintsCsv, 'utf8');
-
 const blueprintsJson = mergeIntoJson(...blueprintsData);
 fs.writeFileSync('./Tests/blueprints.json', blueprintsJson, 'utf8');
 
@@ -218,14 +177,9 @@ const voxelMatsData = [
 	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
 ];
 
-const voxelMatsCsv = mergeIntoCsv(...voxelMatsData);
-fs.writeFileSync('./Tests/voxelMats.csv', voxelMatsCsv, 'utf8');
-
 const voxelMatsJson = mergeIntoJson(...voxelMatsData);
 fs.writeFileSync('./Tests/voxelMats.json', voxelMatsJson, 'utf8');
 
 console.log('Files generated successfully!');
-console.log('- blueprints.csv');
 console.log('- blueprints.json');
-console.log('- voxelMats.csv');
 console.log('- voxelMats.json');
