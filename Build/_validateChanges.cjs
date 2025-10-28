@@ -46,7 +46,8 @@ const mergeIntoJson = (data) => {
 
 	// Standardize column ordering here and other shared formatting fixes
 	for (const d of data) {
-		if (d.SubtypeId === 'Akimotoite_01') { console.log(d); process.exit(); }
+		// Debug: Hunting data mis-parsing
+		//if (d.SubtypeId === 'Akimotoite_01') { console.debug(d); process.exit(); }
 		const obj = {};
 		for (const column of KEY_COLUMNS) {
 			if (d[column]) obj[column] = d[column];
@@ -137,7 +138,6 @@ const getDataFromVoxelMatsXml = (src, path) => {
 		'Far2Distance',
 		'Far2Scale',
 		'Far3Distance',
-		'Far3Color',
 		'ExtDetailScale',
 		'Scale',
 		'SpecularPower',
