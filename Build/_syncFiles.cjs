@@ -1,5 +1,8 @@
 'use strict';
 
+// This syncs files that are modified here to the Space Engineers mods directory
+//   so that we can test any changes
+
 // Imports
 const crypto = require('crypto');
 const fs = require('fs');
@@ -79,7 +82,10 @@ const lookupFiles = (base, hashes) => {
 	}
 };
 
+// Get the hashes of targeted files in git
 lookupFiles(gitDir, gitHashes);
+
+// Get the hahes of targeted files in the local test copy before launching game
 getFilesInDirectory(deployDir, deployHashes);
 
 console.log();
@@ -125,7 +131,7 @@ for (const key of Object.keys(deployHashes)) {
 }
 
 if (issuesFound === 0) {
-	console.log('Great! All files should be in sync.');
+	console.log('Great! All files were already in sync.');
 } else {
 	console.log();
 	console.log(`Files needing synced: ${issuesFound}`);
