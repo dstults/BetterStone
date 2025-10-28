@@ -178,7 +178,8 @@ const voxelMats = mergeIntoCsv(
 	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
 	getDataFromVoxelMatsXml('mod', '../Data/Mod-VoxelMaterials_asteroids.sbc'),
 	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
-	getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
-	getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
+	// Apex update: triton+pertam was merged with main file
+	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
+	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
 );
 fs.writeFileSync('./Tests/voxelMats.csv', voxelMats, 'utf8');
