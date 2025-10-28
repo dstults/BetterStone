@@ -8,6 +8,7 @@ const fs = require('fs');
 
 // Constants
 const alertText = '!!!!!!!!!!!!!!!!!!!!!!!!!!!!';
+const KEY_COLUMNS = ['Source', 'TypeId', 'SubtypeId'];
 
 // Shared Helpers
 const stringifyRecipeItem = (ent) => `${ent.SubtypeId} ${ent.TypeId}: ${ent.Amount}`;
@@ -37,6 +38,7 @@ const mergeIntoCsv = (...data) => {
 	const allData = [];
 	data.forEach(d => allData.push(...d));
 
+	// Discover the columns in the current file
 	const columns = [];
 	for (const item of allData) {
 		for (const key of Object.keys(item)) {
@@ -45,12 +47,18 @@ const mergeIntoCsv = (...data) => {
 		}
 	}
 
+	// Sort them to make sure that it's clearer what got added or removed (vs. just changed order)
+	// Keep key columns first, then sort the rest alphabetically
+	const keyColumns = KEY_COLUMNS.filter(k => columns.includes(k));
+	const otherColumns = columns.filter(k => !KEY_COLUMNS.includes(k)).sort();
+	const finalColumns = [...keyColumns, ...otherColumns];
+
 	const rows = [];
-	rows.push(columns.join(','));
+	rows.push(finalColumns.join(','));
 
 	for (const item of allData) {
 		const row = [];
-		for (const column of columns) {
+		for (const column of finalColumns) {
 			const value = typeof item[column] === 'string' && item[column].includes(',') ? `"${item[column]}"` : item[column] || '';
 			row.push(value);
 		}
@@ -73,7 +81,7 @@ const getDataFromBlueprintXml = (src, path) => {
 
 	const mapped = filtered.map(bp => {
 		const prereqFmt = stringifyRecipeItem(bp.Prerequisites.Item._attributes);
-		const resultsArray = bp.Result ? [bp.Result._attributes] : bp.Results.Item._attributes ? [bp.Results.Item._attributes]: bp.Results.Item.map(i => i._attributes);
+		const resultsArray = bp.Result ? [bp.Result._attributes] : bp.Results.Item._attributes ? [bp.Results.Item._attributes] : bp.Results.Item.map(i => i._attributes);
 		const resultsFmt = resultsArray.map(r => stringifyRecipeItem(r)).join(' + ');
 
 		return {
@@ -92,7 +100,7 @@ const getDataFromBlueprintXml = (src, path) => {
 const getDataFromVoxelMatsXml = (src, path) => {
 	const xml = fs.readFileSync(path, 'utf8')
 	const jo = JSON.parse(xmlParser.xml2json(xml, { compact: true, spaces: 2 }));
-	
+
 	const filtered = jo.Definitions.VoxelMaterials.VoxelMaterial.filter(i => true);
 
 	const ignoreKeys = [
@@ -128,7 +136,7 @@ const getDataFromVoxelMatsXml = (src, path) => {
 		// 	console.log(mat);
 		// 	process.exit();
 		// }
-	
+
 		const obj = {
 			Source: src,
 			TypeId: mat.Id.TypeId._text,
