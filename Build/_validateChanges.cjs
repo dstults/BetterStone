@@ -190,7 +190,7 @@ const blueprintsData = [
 ].sort(dataSorter);
 
 const blueprintsJson = mergeIntoJson(blueprintsData);
-fs.writeFileSync('./Tests/blueprints.json', blueprintsJson, 'utf8');
+fs.writeFileSync('./tests/blueprints.json', blueprintsJson, 'utf8');
 
 const voxelMatsData = [
 	...getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
@@ -202,7 +202,7 @@ const voxelMatsData = [
 ].sort(dataSorter);
 
 const voxelMatsJson = mergeIntoJson(voxelMatsData);
-fs.writeFileSync('./Tests/voxelMats.json', voxelMatsJson, 'utf8');
+fs.writeFileSync('./tests/voxelMats.json', voxelMatsJson, 'utf8');
 
 console.log('Files generated successfully!');
 console.log('- blueprints.json');

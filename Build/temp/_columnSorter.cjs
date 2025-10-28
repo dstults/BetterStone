@@ -53,8 +53,8 @@ const sortCsvColumns = (inputPath, outputPath) => {
 };
 
 // Sort your CSVs
-sortCsvColumns('./Tests/blueprints.csv', './Tests/blueprints-sorted.csv');
-sortCsvColumns('./Tests/voxelMats.csv', './Tests/voxelMats-sorted.csv');
+sortCsvColumns('../tests/blueprints.csv', '../tests/blueprints-sorted.csv');
+sortCsvColumns('../tests/voxelMats.csv', '../tests/voxelMats-sorted.csv');
 
 console.log();
 console.log('Done! Check the *-sorted.csv files!');

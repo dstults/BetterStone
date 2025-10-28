@@ -89,6 +89,7 @@ lookupFiles(gitDir, gitHashes);
 getFilesInDirectory(deployDir, deployHashes);
 
 console.log();
+console.log('Looking for any out of sync files...');
 let issuesFound = 0;
 for (const key of Object.keys(gitHashes)) {
 	if (deployHashes[key] === undefined) {
@@ -130,11 +131,14 @@ for (const key of Object.keys(deployHashes)) {
 	issuesFound++;
 }
 
+console.log();
 if (issuesFound === 0) {
 	console.log('Great! All files were already in sync.');
-} else {
-	console.log();
+} else if (!approveMode) {
 	console.log(`Files needing synced: ${issuesFound}`);
+	console.log(`Run with "approve" to approve.`);
+} else if (approveMode) {
+	console.log(`Files synced: ${issuesFound} !`);
 }
 
 console.log();
