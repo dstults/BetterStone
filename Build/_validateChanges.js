@@ -35,22 +35,51 @@ const stringifySimpleTilingLegacy = (ent) => {
 };
 
 // Sort for consistent ordering
-const sortData = (data) => {
-	return data.sort((a, b) => {
-		if (a.Source !== b.Source) return a.Source.localeCompare(b.Source);
-		if (a.TypeId && b.TypeId && a.TypeId !== b.TypeId) return a.TypeId.localeCompare(b.TypeId);
-		return a.SubtypeId.localeCompare(b.SubtypeId);
-	});
+const dataSorter = (a, b) => {
+	if (a.Source !== b.Source) return a.Source.localeCompare(b.Source);
+	if (a.TypeId && b.TypeId && a.TypeId !== b.TypeId) return a.TypeId.localeCompare(b.TypeId);
+	return a.SubtypeId.localeCompare(b.SubtypeId);
 };
 
-const mergeIntoJson = (...data) => {
+const mergeIntoJson = (data) => {
 	const allData = [];
-	data.forEach(d => allData.push(...d));
 
-	// Sort the data before outputting
-	const sortedData = sortData(allData);
+	// Standardize column ordering here and other shared formatting fixes
+	for (const d of data) {
+		if (d.SubtypeId === 'Akimotoite_01') { console.log(d); process.exit(); }
+		const obj = {};
+		for (const column of KEY_COLUMNS) {
+			if (d[column]) obj[column] = d[column];
+		}
+		for (const column of Object.keys(d).sort()) {
+			// Ignore any of these
+			if (KEY_COLUMNS.includes(column)) continue;
+			if (column === '_comment') continue;
+			if (d[column] === null || d[column] === undefined) continue;
 
-	return JSON.stringify(sortedData, null, '\t');
+			// Skip empty strings
+			if (typeof d[column] === 'string') {
+				const trimmed = d[column].trim();
+				if (trimmed === '') continue;
+				obj[column] = trimmed;
+			} else {
+				obj[column] = d[column];
+			}
+
+			// Coerce booleans
+			if (obj[column] === 'true') obj[column] = true;
+			if (obj[column] === 'false') obj[column] = false;
+
+			// Coerce numbers if they're actually numbers
+			if (typeof obj[column] === 'string' && !isNaN(obj[column])) {
+				obj[column] = Number(obj[column]);
+			}
+		}
+		obj._ = '_'; // Prevent final-line diffs
+		allData.push(obj);
+	}
+
+	return JSON.stringify(allData, null, '\t');
 };
 
 // Interpret blueprints sbc data
@@ -116,11 +145,6 @@ const getDataFromVoxelMatsXml = (src, path) => {
 	];
 
 	const mapped = filtered.map(mat => {
-		// if (mat.Id.SubtypeId._text === 'debug_name_here') {
-		// 	console.log(mat);
-		// 	process.exit();
-		// }
-
 		const obj = {
 			Source: src,
 			TypeId: mat.Id.TypeId._text,
@@ -161,23 +185,23 @@ const getDataFromVoxelMatsXml = (src, path) => {
 if (!fs.existsSync('./Tests')) fs.mkdirSync('./Tests');
 
 const blueprintsData = [
-	getDataFromBlueprintXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
-	getDataFromBlueprintXml('mod', '../Data/Mod-Blueprints.sbc'),
-];
+	...getDataFromBlueprintXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/Blueprints.sbc'),
+	...getDataFromBlueprintXml('mod', '../Data/Mod-Blueprints.sbc'),
+].sort(dataSorter);
 
-const blueprintsJson = mergeIntoJson(...blueprintsData);
+const blueprintsJson = mergeIntoJson(blueprintsData);
 fs.writeFileSync('./Tests/blueprints.json', blueprintsJson, 'utf8');
 
 const voxelMatsData = [
-	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
-	getDataFromVoxelMatsXml('mod', '../Data/Mod-VoxelMaterials_asteroids.sbc'),
-	getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
+	...getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_asteroids.sbc'),
+	...getDataFromVoxelMatsXml('mod', '../Data/Mod-VoxelMaterials_asteroids.sbc'),
+	...getDataFromVoxelMatsXml('vanilla', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterials_planetary.sbc'),
 	// Apex update: triton+pertam was merged with main file
 	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsTriton.sbc'),
 	//getDataFromVoxelMatsXml('van+', '../../../SteamLibrary/steamapps/common/SpaceEngineers/Content/Data/VoxelMaterialsPertam.sbc'),
-];
+].sort(dataSorter);
 
-const voxelMatsJson = mergeIntoJson(...voxelMatsData);
+const voxelMatsJson = mergeIntoJson(voxelMatsData);
 fs.writeFileSync('./Tests/voxelMats.json', voxelMatsJson, 'utf8');
 
 console.log('Files generated successfully!');
