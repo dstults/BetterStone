@@ -46,7 +46,7 @@ const parseCSV = (csvText) => {
 for (const fileName of ['blueprints', 'voxelMats']) {
 
 	// Read and parse CSV
-	const csvContent = fs.readFileSync(`./Tests/${fileName}.csv`, 'utf8');
+	const csvContent = fs.readFileSync(`../tests/${fileName}.csv`, 'utf8');
 	const data = parseCSV(csvContent);
 
 	// Sort for consistent ordering
@@ -69,8 +69,8 @@ for (const fileName of ['blueprints', 'voxelMats']) {
 	const jsonOutput = JSON.stringify(sorted, null, '\t');
 
 	// Write to file
-	fs.writeFileSync(`./Tests/${fileName}.json`, jsonOutput, 'utf8');
+	fs.writeFileSync(`../tests/${fileName}.json`, jsonOutput, 'utf8');
 
 	console.log(`Converted ${sorted.length} rows from CSV to JSON`);
-	console.log(`Output saved to ./Tests/${fileName}.json`);
+	console.log(`Output saved to ../tests/${fileName}.json`);
 }

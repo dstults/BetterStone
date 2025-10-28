@@ -4,7 +4,7 @@
 
 const fs = require('fs');
 
-for (const file of ['../Tests/blueprints.json', '../Tests/voxelMats.json']) {
+for (const file of ['../tests/blueprints.json', '../tests/voxelMats.json']) {
 	const text = fs.readFileSync(file, 'utf8');
 	const arr = JSON.parse(text);
 	for (const obj of arr) {

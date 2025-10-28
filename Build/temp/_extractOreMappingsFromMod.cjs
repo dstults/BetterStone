@@ -8,12 +8,12 @@ const xmlParser = require('xml-js');
 const fs = require('fs');
 
 const MOD_FILES = [
-	'../Data/Override-Pertam.sbc',
-	'../Data/Override-PlanetGeneratorDefinitions.sbc',
-	'../Data/Override-Triton.sbc',
+	'../../Data/Override-Pertam.sbc',
+	'../../Data/Override-PlanetGeneratorDefinitions.sbc',
+	'../../Data/Override-Triton.sbc',
 ];
 
-// Map planet "def.Id.SubtypeId" to value
+// Save the modded ore mappings here
 const oreMappings = {};
 
 const getDataFromDefinitionsFile = (path) => {
@@ -45,8 +45,11 @@ const getDataFromDefinitionsFile = (path) => {
 
 for (const modFile of MOD_FILES) getDataFromDefinitionsFile(modFile);
 
+// Alphabetize and write to file
 const sortedOreMappings = {};
 const sortedKeys = Object.keys(oreMappings).sort();
 for (const key of sortedKeys) sortedOreMappings[key] = oreMappings[key];
-console.log(oreMappings);
-fs.writeFileSync('./data/ORE_MAPPINGS.json', JSON.stringify(sortedOreMappings, null, '\t'), 'utf8');
+//console.log(oreMappings);
+fs.writeFileSync('../data/ORE_MAPPINGS.json', JSON.stringify(sortedOreMappings, null, '\t'), 'utf8');
+
+console.log('Wrote file to ../data/ORE_MAPPINGS.json');
