@@ -17,7 +17,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\Silicon_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Silicon_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -37,7 +38,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\EarthIce_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\EarthIce_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -59,7 +61,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -81,7 +84,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -103,7 +107,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\MarsRocks_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MarsRocks_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -125,7 +130,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 9,
 		"SpecularShininess": 1.435,
-		"VoxelHandPreview": "Textures\\Voxels\\RocksDesert_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\RocksDesert_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -147,7 +153,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyMountain_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyMountain_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -169,7 +176,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -189,7 +197,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 9,
 		"SpecularShininess": 1.435,
-		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -209,7 +218,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -230,7 +240,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Silver_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Silver_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -253,7 +264,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -274,7 +286,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -293,7 +306,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.498,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -313,7 +327,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 8,
 		"SpecularShininess": 0.23,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -336,7 +351,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -358,7 +374,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 9,
 		"SpecularShininess": 1.435,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -380,7 +397,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 19,
 		"SpecularShininess": 0.72,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -402,7 +420,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 9,
 		"SpecularShininess": 1.435,
-		"VoxelHandPreview": "Textures\\Voxels\\MoonSoil_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MoonSoil_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -424,7 +443,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -445,7 +465,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -466,7 +487,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 14,
 		"SpecularShininess": 1.084,
-		"VoxelHandPreview": "Textures\\Voxels\\Ice_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Ice_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -488,7 +510,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_05_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_05_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -508,7 +531,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 9,
 		"SpecularShininess": 1.435,
-		"VoxelHandPreview": "Textures\\Voxels\\Platinum_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Platinum_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -529,7 +553,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 19,
 		"SpecularShininess": 0.72,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -553,7 +578,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 21,
 		"SpecularShininess": 0.632,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
@@ -573,7 +599,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 12,
 		"SpecularShininess": 0.36,
-		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -607,7 +634,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -637,7 +665,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienGreenGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -672,7 +701,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -704,7 +734,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienIce_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -738,7 +769,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienOrangeGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienOrangeGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -768,7 +800,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienOrangeGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienOrangeGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -802,7 +835,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -832,7 +866,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -862,7 +897,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyMountain_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyMountain_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -895,7 +931,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyTerrain_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienRockyTerrain_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -930,7 +967,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienSand_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienSand_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -965,7 +1003,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienSnow_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienSnow_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -995,7 +1034,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienSoil_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienSoil_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1029,7 +1069,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1059,7 +1100,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\AlienYellowGrass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1085,7 +1127,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/3/4/4",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Cobalt_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Cobalt_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1126,7 +1169,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\CrackedSoil_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\CrackedSoil_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1142,7 +1186,8 @@
 		"NormalGlossXZnY": "Textures\\Voxels\\DebugTexture_ng.dds",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\DebugTexture_cm.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\DebugTexture_cm.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1176,7 +1221,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 64,
-		"VoxelHandPreview": "Textures\\Voxels\\RocksDesert_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\RocksDesert_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1220,7 +1266,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1264,7 +1311,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1308,7 +1356,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\DustyRocks_v03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1336,7 +1385,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "7/3/7/6",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Gold_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1374,7 +1424,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Grass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1408,7 +1459,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Grass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1430,7 +1482,8 @@
 		"NormalGlossXZnY": "Textures\\Voxels\\Grass_02_ng.dds",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Grass_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Grass_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1464,7 +1517,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Grass_old_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Grass_old_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1494,7 +1548,8 @@
 		"Scale": 2,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Grass_old_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Grass_old_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1532,7 +1587,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\IceEuropa_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\IceEuropa_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1564,7 +1620,8 @@
 		"Scale": 2,
 		"ScaleMultiplier": 4,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Ice_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Ice_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1601,7 +1658,8 @@
 		"Scale": 500,
 		"ScaleMultiplier": 4,
 		"SpawnsInAsteroids": true,
-		"VoxelHandPreview": "Textures\\Voxels\\EarthIce_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\EarthIce_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1635,7 +1693,8 @@
 		"SimpleTilingSetup": "4/4/4/4",
 		"SpawnsInAsteroids": false,
 		"TilingScale": 64,
-		"VoxelHandPreview": "Textures\\Voxels\\Ice_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Ice_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1673,7 +1732,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 36,
-		"VoxelHandPreview": "Textures\\Voxels\\IceEuropa2_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\IceEuropa2_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1702,7 +1762,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "4/2/5/4",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1732,7 +1793,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "4/2/5/4",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Iron_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1760,7 +1822,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/2/4/3",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Magnesium_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Magnesium_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1776,7 +1839,8 @@
 		"NormalGlossXZnY": "Textures\\Voxels\\MarsRocks_01_ForAxisXZ_ng.dds",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\MarsRocks_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MarsRocks_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1794,7 +1858,8 @@
 		"NormalGlossXZnY": "Textures\\Voxels\\MarsSoil_01_ForAxisXZ_ng.dds",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\MarsSoil_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MarsSoil_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1820,7 +1885,8 @@
 		"SimpleTilingSetup": "-",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\MoonRocks_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MoonRocks_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1846,7 +1912,8 @@
 		"SimpleTilingSetup": "-",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\MoonSoil_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MoonSoil_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1875,7 +1942,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/3/4/5",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Nickel_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Nickel_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1916,7 +1984,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\PertamSand_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Pertam\\PertamSand_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1944,7 +2013,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/2/3/3",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Platinum_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Platinum_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -1977,7 +2047,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 16,
-		"VoxelHandPreview": "Textures\\Voxels\\Rocks_Grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Rocks_Grass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2014,7 +2085,8 @@
 		"ScaleMultiplier": 4,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Sand_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Sand_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2043,7 +2115,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/2/4/3.2",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Silicon_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Silicon_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2072,7 +2145,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "6/3/4/4",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Silver_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Silver_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2103,7 +2177,8 @@
 		"SpawnsInAsteroids": true,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\MoonRocks_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\MoonRocks_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2139,7 +2214,8 @@
 		"Scale": 500,
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Snow_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Snow_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2176,7 +2252,8 @@
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
 		"TilingScale": 32,
-		"VoxelHandPreview": "Textures\\Voxels\\Soil_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Soil_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2208,7 +2285,8 @@
 		"SimpleTilingSetup": "4/-/-/4",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\EarthStone_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\EarthStone_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2233,7 +2311,8 @@
 		"SpawnsFromMeteorites": true,
 		"SpawnsInAsteroids": true,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2256,7 +2335,8 @@
 		"ScaleMultiplier": 6,
 		"SimpleTilingSetup": "2/2/6/4",
 		"TilingScale": 32,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_02_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_02_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2287,7 +2367,8 @@
 		"ScaleMultiplier": 6,
 		"SimpleTilingSetup": "-/-/-/4",
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_03_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2318,7 +2399,8 @@
 		"ScaleMultiplier": 4,
 		"SimpleTilingSetup": "old:25/500/30/100",
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_04_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2352,7 +2434,8 @@
 		"Scale": 500,
 		"ScaleMultiplier": 6,
 		"SimpleTilingSetup": "-/-/-/4",
-		"VoxelHandPreview": "Textures\\Voxels\\Stone_05_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Stone_05_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2381,7 +2464,8 @@
 		"SpawnsInAsteroids": false,
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
-		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonBlend_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonBlend_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2414,7 +2498,8 @@
 		"SpawnsInAsteroids": false,
 		"SpecularPower": 240,
 		"SpecularShininess": 364,
-		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonIce_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonIce_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2448,7 +2533,8 @@
 		"SpecularPower": 24,
 		"SpecularShininess": 0.364,
 		"TilingScale": 20,
-		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonStone_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Triton\\TritonStone_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2476,7 +2562,8 @@
 		"ScaleMultiplier": 5,
 		"SimpleTilingSetup": "5/2/5/7",
 		"TilingScale": 24,
-		"VoxelHandPreview": "Textures\\Voxels\\Uraninite_01_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Uraninite_01_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2515,7 +2602,8 @@
 		"SimpleTilingSetup": "4/2/-/4",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
@@ -2550,6 +2638,7 @@
 		"SimpleTilingSetup": "4/2/-/4",
 		"SpawnsFromMeteorites": false,
 		"SpawnsInAsteroids": false,
-		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds"
+		"VoxelHandPreview": "Textures\\Voxels\\Woods_grass_Thumbnail.dds",
+		"_": "_"
 	}
 ]

@@ -56,4 +56,6 @@ const sortCsvColumns = (inputPath, outputPath) => {
 sortCsvColumns('./Tests/blueprints.csv', './Tests/blueprints-sorted.csv');
 sortCsvColumns('./Tests/voxelMats.csv', './Tests/voxelMats-sorted.csv');
 
-console.log('\nDone! Compare the -sorted.csv files with your new data.');
+console.log();
+console.log('Done! Check the *-sorted.csv files!');
+console.log();

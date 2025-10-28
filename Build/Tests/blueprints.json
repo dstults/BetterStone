@@ -4,265 +4,303 @@
 		"SubtypeId": "AkimotoiteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.35,
 		"Prerequisites": "[S] Akimotoite (Si,Mg) Ore: 1",
-		"Results": "Silicon Ingot: 0.220 + Magnesium Ingot: 0.005"
+		"Results": "Silicon Ingot: 0.220 + Magnesium Ingot: 0.005",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "AutuniteOreToIngot",
 		"BaseProductionTimeInSeconds": 2.8,
 		"Prerequisites": "[EI] Autunite (U) Ore: 1",
-		"Results": "Uranium Ingot: 0.004"
+		"Results": "Uranium Ingot: 0.004",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "BS_DenseIronOreToIngot",
 		"BaseProductionTimeInSeconds": 0.06,
 		"Prerequisites": "[CM] Dense Iron (Fe+) Ore: 1",
-		"Results": "Iron Ingot: 0.9"
+		"Results": "Iron Ingot: 0.9",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "BS_IcyIronOreToIngot",
 		"BaseProductionTimeInSeconds": 0.06,
 		"Prerequisites": "[CM] Iron (Fe) Ore: 1",
-		"Results": "Iron Ingot: 0.40 + Ice Ore: 0.50"
+		"Results": "Iron Ingot: 0.40 + Ice Ore: 0.50",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "CarnotiteOreToIngot",
 		"BaseProductionTimeInSeconds": 3.1,
 		"Prerequisites": "[EI] Carnotite (U) Ore: 1",
-		"Results": "Uranium Ingot: 0.001 + Ice Ore: 0.572"
+		"Results": "Uranium Ingot: 0.001 + Ice Ore: 0.572",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "CattieriteOreToIngot",
 		"BaseProductionTimeInSeconds": 2.3,
 		"Prerequisites": "[CM] Cattierite (Co) Ore: 1",
-		"Results": "Cobalt Ingot: 0.270"
+		"Results": "Cobalt Ingot: 0.270",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "ChlorargyriteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.8,
 		"Prerequisites": "[PM] Chlorargyrite (Ag) Ore: 1",
-		"Results": "Silver Ingot: 0.064 + Ice Ore: 0.002"
+		"Results": "Silver Ingot: 0.064 + Ice Ore: 0.002",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "CoheniteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.672,
 		"Prerequisites": "[CM] Cohenite (Ni,Co) Ore: 1",
-		"Results": "Nickel Ingot: 0.210 + Cobalt Ingot: 0.180"
+		"Results": "Nickel Ingot: 0.210 + Cobalt Ingot: 0.180",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "CooperiteOreToIngot",
 		"BaseProductionTimeInSeconds": 3.2,
 		"Prerequisites": "[PM] Cooperite (Ni,Pt) Ore: 1",
-		"Results": "Nickel Ingot: 0.360 + Platinum Ingot: 0.002"
+		"Results": "Nickel Ingot: 0.360 + Platinum Ingot: 0.002",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "DolomiteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.32,
 		"Prerequisites": "[S] Dolomite (Mg) Ore: 1",
-		"Results": "Magnesium Ingot: 0.007"
+		"Results": "Magnesium Ingot: 0.007",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "ElectrumOreToIngot",
 		"BaseProductionTimeInSeconds": 0.7,
 		"Prerequisites": "[PM] Electrum (Au,Ag) Ore: 1",
-		"Results": "Silver Ingot: 0.045 + Gold Ingot: 0.004"
+		"Results": "Silver Ingot: 0.045 + Gold Ingot: 0.004",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "GalenaOreToIngot",
 		"BaseProductionTimeInSeconds": 0.5,
 		"Prerequisites": "[PM] Galena (Ag) Ore: 1",
-		"Results": "Silver Ingot: 0.035"
+		"Results": "Silver Ingot: 0.035",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "GlaucodotOreToIngot",
 		"BaseProductionTimeInSeconds": 1.3,
 		"Prerequisites": "[CM] Glaucodot (Fe,Co) Ore: 1",
-		"Results": "Iron Ingot: 0.234 + Cobalt Ingot: 0.400"
+		"Results": "Iron Ingot: 0.234 + Cobalt Ingot: 0.400",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "HapkeiteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.32,
 		"Prerequisites": "[S] Hapkeite (Fe,Si) Ore: 1",
-		"Results": "Iron Ingot: 0.350 + Silicon Ingot: 0.450"
+		"Results": "Iron Ingot: 0.350 + Silicon Ingot: 0.450",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "HeazlewooditeOreToIngot",
 		"BaseProductionTimeInSeconds": 1.2,
 		"Prerequisites": "[CM] Heazlewoodite (Ni) Ore: 1",
-		"Results": "Nickel Ingot: 0.400 + Ice Ore: 0.150"
+		"Results": "Nickel Ingot: 0.400 + Ice Ore: 0.150",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "KamaciteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.672,
 		"Prerequisites": "[CM] Kamacite (Fe,Ni,Co) Ore: 1",
-		"Results": "Iron Ingot: 0.284 + Nickel Ingot: 0.174 + Cobalt Ingot: 0.100"
+		"Results": "Iron Ingot: 0.284 + Nickel Ingot: 0.174 + Cobalt Ingot: 0.100",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "NiggliiteOreToIngot",
 		"BaseProductionTimeInSeconds": 2.8,
 		"Prerequisites": "[PM] Niggliite (Pt) Ore: 1",
-		"Results": "Platinum Ingot: 0.003"
+		"Results": "Platinum Ingot: 0.003",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "OlivineOreToIngot",
 		"BaseProductionTimeInSeconds": 1.9,
 		"Prerequisites": "[S] Olivine (Si,Mg) Ore: 1",
-		"Results": "Silicon Ingot: 0.180 + Magnesium Ingot: 0.008 + Ice Ore: 0.350"
+		"Results": "Silicon Ingot: 0.180 + Magnesium Ingot: 0.008 + Ice Ore: 0.350",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "PetziteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.7,
 		"Prerequisites": "[PM] Petzite (Ag,Au) Ore: 1",
-		"Results": "Silver Ingot: 0.045 + Gold Ingot: 0.004"
+		"Results": "Silver Ingot: 0.045 + Gold Ingot: 0.004",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "PorphyryOreToIngot",
 		"BaseProductionTimeInSeconds": 0.3,
 		"Prerequisites": "[PM] Porphyry (Au) Ore: 1",
-		"Results": "Gold Ingot: 0.006"
+		"Results": "Gold Ingot: 0.006",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "PyriteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.25,
 		"Prerequisites": "[CM] Pyrite (Fe,Au) Ore: 1",
-		"Results": "Iron Ingot: 0.550 + Gold Ingot: 0.001"
+		"Results": "Iron Ingot: 0.550 + Gold Ingot: 0.001",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "QuartzOreToIngot",
 		"BaseProductionTimeInSeconds": 0.9,
 		"Prerequisites": "[S] Quartz (Si) Ore: 1",
-		"Results": "Silicon Ingot: 0.490 + Ice Ore: 1.120"
+		"Results": "Silicon Ingot: 0.490 + Ice Ore: 1.120",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "SinoiteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.5,
 		"Prerequisites": "[S] Sinoite (Si) Ore: 1",
-		"Results": "Silicon Ingot: 0.620 + Ice Ore: 0.440"
+		"Results": "Silicon Ingot: 0.620 + Ice Ore: 0.440",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "SperryliteOreToIngot",
 		"BaseProductionTimeInSeconds": 3.6,
 		"Prerequisites": "[PM] Sperrylite (Pt) Ore: 1",
-		"Results": "Platinum Ingot: 0.003"
+		"Results": "Platinum Ingot: 0.003",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "TaeniteOreToIngot",
 		"BaseProductionTimeInSeconds": 1.025,
 		"Prerequisites": "[CM] Taenite (Fe,Ni) Ore: 1",
-		"Results": "Iron Ingot: 0.350 + Nickel Ingot: 0.200"
+		"Results": "Iron Ingot: 0.350 + Nickel Ingot: 0.200",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "UraniauriteOreToIngot",
 		"BaseProductionTimeInSeconds": 2.2,
 		"Prerequisites": "[EI] Uraniaurite (U,Au) Ore: 1",
-		"Results": "Gold Ingot: 0.003 + Uranium Ingot: 0.003"
+		"Results": "Gold Ingot: 0.003 + Uranium Ingot: 0.003",
+		"_": "_"
 	},
 	{
 		"Source": "mod",
 		"SubtypeId": "WadsleyiteOreToIngot",
 		"BaseProductionTimeInSeconds": 0.55,
 		"Prerequisites": "[S] Wadsleyite (Si,Mg) Ore: 1",
-		"Results": "Silicon Ingot: 0.300 + Magnesium Ingot: 0.003"
+		"Results": "Silicon Ingot: 0.300 + Magnesium Ingot: 0.003",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "CobaltOreToIngot",
 		"BaseProductionTimeInSeconds": 3,
 		"Prerequisites": "Cobalt Ore: 1",
-		"Results": "Cobalt Ingot: 0.3"
+		"Results": "Cobalt Ingot: 0.3",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "GoldOreToIngot",
 		"BaseProductionTimeInSeconds": 0.4,
 		"Prerequisites": "Gold Ore: 1",
-		"Results": "Gold Ingot: 0.01"
+		"Results": "Gold Ingot: 0.01",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "IronOreToIngot",
 		"BaseProductionTimeInSeconds": 0.05,
 		"Prerequisites": "Iron Ore: 1",
-		"Results": "Iron Ingot: 0.7"
+		"Results": "Iron Ingot: 0.7",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "MagnesiumOreToIngot",
 		"BaseProductionTimeInSeconds": 0.5,
 		"Prerequisites": "Magnesium Ore: 1",
-		"Results": "Magnesium Ingot: 0.007"
+		"Results": "Magnesium Ingot: 0.007",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "NickelOreToIngot",
 		"BaseProductionTimeInSeconds": 0.66,
 		"Prerequisites": "Nickel Ore: 1",
-		"Results": "Nickel Ingot: 0.4"
+		"Results": "Nickel Ingot: 0.4",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "PlatinumOreToIngot",
 		"BaseProductionTimeInSeconds": 3,
 		"Prerequisites": "Platinum Ore: 1",
-		"Results": "Platinum Ingot: 0.005"
+		"Results": "Platinum Ingot: 0.005",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "Position0010_StoneOreToIngotBasic",
 		"BaseProductionTimeInSeconds": 1,
 		"Prerequisites": "Stone Ore: 100",
-		"Results": "Stone Ingot: 1.4 + Iron Ingot: 3 + Nickel Ingot: 0.24 + Silicon Ingot: 0.4"
+		"Results": "Stone Ingot: 1.4 + Iron Ingot: 3 + Nickel Ingot: 0.24 + Silicon Ingot: 0.4",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "SiliconOreToIngot",
 		"BaseProductionTimeInSeconds": 0.6,
 		"Prerequisites": "Silicon Ore: 1",
-		"Results": "Silicon Ingot: 0.7"
+		"Results": "Silicon Ingot: 0.7",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "SilverOreToIngot",
 		"BaseProductionTimeInSeconds": 1,
 		"Prerequisites": "Silver Ore: 1",
-		"Results": "Silver Ingot: 0.1"
+		"Results": "Silver Ingot: 0.1",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "StoneOreToIngot",
 		"BaseProductionTimeInSeconds": 10,
 		"Prerequisites": "Stone Ore: 1000",
-		"Results": "Stone Ingot: 14 + Iron Ingot: 30 + Nickel Ingot: 2.4 + Silicon Ingot: 4.0"
+		"Results": "Stone Ingot: 14 + Iron Ingot: 30 + Nickel Ingot: 2.4 + Silicon Ingot: 4.0",
+		"_": "_"
 	},
 	{
 		"Source": "vanilla",
 		"SubtypeId": "UraniumOreToIngot",
 		"BaseProductionTimeInSeconds": 4,
 		"Prerequisites": "Uranium Ore: 1",
-		"Results": "Uranium Ingot: 0.01"
+		"Results": "Uranium Ingot: 0.01",
+		"_": "_"
 	}
 ]
