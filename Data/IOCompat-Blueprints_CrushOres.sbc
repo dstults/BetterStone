@@ -12,9 +12,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Iron (Fe)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.40" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.50" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.40" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.50" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -28,8 +28,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Dense Iron (Fe+)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.9" TypeId="Ore" SubtypeId="CrushedIron" />
-	  </Results>
+        <Item Amount="0.9" TypeId="Ore" SubtypeId="CrushedIron" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -43,9 +43,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Hapkeite (Fe,Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.450" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	  </Results>
+        <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.450" TypeId="Ore" SubtypeId="CrushedSilicon" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -59,9 +59,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Heazlewoodite (Ni)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.400" TypeId="Ore" SubtypeId="CrushedNickel" />
-	    <Item Amount="0.150" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.400" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="0.150" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -75,8 +75,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Porphyry (Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.09" TypeId="Ore" SubtypeId="CrushedGold" />
-	  </Results>
+        <Item Amount="0.09" TypeId="Ore" SubtypeId="CrushedGold" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -90,8 +90,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Dolomite (Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.019" TypeId="Ore" SubtypeId="Magnesium" />
-	  </Results>
+        <Item Amount="0.019" TypeId="Ore" SubtypeId="Magnesium" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -105,8 +105,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cattierite (Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.378" TypeId="Ore" SubtypeId="CrushedCobalt" />
-	  </Results>
+        <Item Amount="0.378" TypeId="Ore" SubtypeId="CrushedCobalt" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -120,8 +120,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Niggliite (Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
-	  </Results>
+        <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -135,9 +135,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Carnotite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.015" TypeId="Ore" SubtypeId="CrushedUranium" />
-	    <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.015" TypeId="Ore" SubtypeId="CrushedUranium" />
+        <Item Amount="0.572" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -151,9 +151,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Glaucodot (Fe,Co)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.234" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.560" TypeId="Ore" SubtypeId="CrushedCobalt" />
-	  </Results>
+        <Item Amount="0.234" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.560" TypeId="Ore" SubtypeId="CrushedCobalt" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -167,9 +167,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Sinoite (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.868" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	    <Item Amount="0.440" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.868" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="0.440" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -183,9 +183,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Pyrite (Fe,Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.550" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.0125" TypeId="Ore" SubtypeId="CrushedGold" />
-	  </Results>
+        <Item Amount="0.550" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.0125" TypeId="Ore" SubtypeId="CrushedGold" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -199,10 +199,10 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Olivine (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.180" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	    <Item Amount="0.016" TypeId="Ore" SubtypeId="Magnesium" />
-	    <Item Amount="0.350" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.180" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="0.016" TypeId="Ore" SubtypeId="Magnesium" />
+        <Item Amount="0.350" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -216,9 +216,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Cooperite (Ni,Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.360" TypeId="Ore" SubtypeId="CrushedNickel" />
-	    <Item Amount="0.05" TypeId="Ore" SubtypeId="CrushedPlatinum" />
-	  </Results>
+        <Item Amount="0.360" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="0.05" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -232,9 +232,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Quartz (Si)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.490" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	    <Item Amount="1.120" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.490" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="1.120" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -248,8 +248,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Galena (Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.21" TypeId="Ore" SubtypeId="CrushedSilver" />
-	  </Results>
+        <Item Amount="0.21" TypeId="Ore" SubtypeId="CrushedSilver" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -263,9 +263,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Chlorargyrite (Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.39" TypeId="Ore" SubtypeId="CrushedSilver" />
-	    <Item Amount="0.002" TypeId="Ore" SubtypeId="Ice" />
-	  </Results>
+        <Item Amount="0.39" TypeId="Ore" SubtypeId="CrushedSilver" />
+        <Item Amount="0.002" TypeId="Ore" SubtypeId="Ice" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -279,9 +279,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Electrum (Au,Ag)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
-	    <Item Amount="0.033" TypeId="Ore" SubtypeId="CrushedGold" />
-	  </Results>
+        <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
+        <Item Amount="0.033" TypeId="Ore" SubtypeId="CrushedGold" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -295,8 +295,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Sperrylite (Pt)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
-	  </Results>
+        <Item Amount="0.075" TypeId="Ore" SubtypeId="CrushedPlatinum" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -310,8 +310,8 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Autunite (U)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.06" TypeId="Ore" SubtypeId="CrushedUranium" />
-	  </Results>
+        <Item Amount="0.06" TypeId="Ore" SubtypeId="CrushedUranium" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -325,9 +325,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Akimotoite (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.220" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	    <Item Amount="0.01" TypeId="Ore" SubtypeId="Magnesium" />
-	  </Results>
+        <Item Amount="0.220" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="0.01" TypeId="Ore" SubtypeId="Magnesium" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -341,9 +341,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[S] Wadsleyite (Si,Mg)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.300" TypeId="Ore" SubtypeId="CrushedSilicon" />
-	    <Item Amount="0.006" TypeId="Ore" SubtypeId="Magnesium" />
-	  </Results>
+        <Item Amount="0.300" TypeId="Ore" SubtypeId="CrushedSilicon" />
+        <Item Amount="0.006" TypeId="Ore" SubtypeId="Magnesium" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -357,9 +357,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Taenite (Fe,Ni)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
-	    <Item Amount="0.200" TypeId="Ore" SubtypeId="CrushedNickel" />
-	  </Results>
+        <Item Amount="0.350" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.200" TypeId="Ore" SubtypeId="CrushedNickel" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -373,9 +373,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Cohenite (Ni,Co)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.210" TypeId="Ore" SubtypeId="CrushedNickel" />
-		<Item Amount="0.250" TypeId="Ore" SubtypeId="CrushedCobalt" />
-	  </Results>
+        <Item Amount="0.210" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="0.250" TypeId="Ore" SubtypeId="CrushedCobalt" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -389,10 +389,10 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[CM] Kamacite (Fe,Ni,Co)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.284" TypeId="Ore" SubtypeId="CrushedIron" />
-		<Item Amount="0.174" TypeId="Ore" SubtypeId="CrushedNickel" />
-		<Item Amount="0.140" TypeId="Ore" SubtypeId="CrushedCobalt" />
-	  </Results>
+        <Item Amount="0.284" TypeId="Ore" SubtypeId="CrushedIron" />
+        <Item Amount="0.174" TypeId="Ore" SubtypeId="CrushedNickel" />
+        <Item Amount="0.140" TypeId="Ore" SubtypeId="CrushedCobalt" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -406,9 +406,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[EI] Uraniaurite (U,Au)" />
       </Prerequisites>
       <Results>
-		<Item Amount="0.040" TypeId="Ore" SubtypeId="CrushedGold" />
-		<Item Amount="0.030" TypeId="Ore" SubtypeId="CrushedUranium" />
-	  </Results>
+        <Item Amount="0.040" TypeId="Ore" SubtypeId="CrushedGold" />
+        <Item Amount="0.030" TypeId="Ore" SubtypeId="CrushedUranium" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
@@ -422,9 +422,9 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="[PM] Petzite (Ag,Au)" />
       </Prerequisites>
       <Results>
-	    <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
-	    <Item Amount="0.056" TypeId="Ore" SubtypeId="CrushedGold" />
-	  </Results>
+        <Item Amount="0.27" TypeId="Ore" SubtypeId="CrushedSilver" />
+        <Item Amount="0.056" TypeId="Ore" SubtypeId="CrushedGold" />
+      </Results>
       <BaseProductionTimeInSeconds>0.06</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>

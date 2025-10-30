@@ -142,5 +142,5 @@ if (issuesFound === 0) {
 }
 
 console.log();
-console.log(`Note to self: Don't forget to run _validateChanges.js before patching.`);
+console.log(`Note to self: Don't forget to run _validateChanges.cjs before patching.`);
 console.log();

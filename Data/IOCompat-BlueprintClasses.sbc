@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<!-- START Industrial Overhaul -->
+
+			<!-- Common Metals -->
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="BS_IcyIronOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="BS_DenseIronOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="HeazlewooditeOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="CattieriteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="PyriteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="TaeniteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="CoheniteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="KamaciteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="GlaucodotOreToIngot" />
+
+			<!-- Solids -->
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="HapkeiteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="DolomiteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="SinoiteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="OlivineOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="QuartzOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="AkimotoiteOreToIngot" />
+			<Entry Class="SmelterIngots" BlueprintSubtypeId="WadsleyiteOreToIngot" />
+
+			<!-- Precious Metals -->
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="ElectrumOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="PorphyryOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="SperryliteOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="NiggliiteOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="GalenaOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="ChlorargyriteOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="CooperiteOreToIngot" />
+			<Entry Class="RefineryIngots" BlueprintSubtypeId="PetziteOreToIngot" />
+
+			<!-- Energetic Ingots -->
+			<Entry Class="CentrifugeIngots" BlueprintSubtypeId="UraniauriteOreToIngot" />
+			<Entry Class="CentrifugeIngots" BlueprintSubtypeId="CarnotiteOreToIngot" />
+			<Entry Class="CentrifugeIngots" BlueprintSubtypeId="AutuniteOreToIngot" />
+
+			<!-- Ore Purification -->
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushBS_IcyIronOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushBS_DenseIronOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushHapkeiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushHeazlewooditeOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPorphyryOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushDolomiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCattieriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushNiggliiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCarnotiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushGlaucodotOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushSinoiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPyriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushOlivineOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCooperiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushQuartzOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushGalenaOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushChlorargyriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushElectrumOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushSperryliteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushAutuniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushAkimotoiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushWadsleyiteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushTaeniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushCoheniteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushKamaciteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushUraniauriteOre" />
+			<Entry Class="Crusher" BlueprintSubtypeId="CrushPetziteOre" />
+
+		<!-- END -->
+	</BlueprintClassEntries>
+</Definitions>
